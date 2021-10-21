@@ -1,0 +1,45 @@
+name: "GELOS"
+description: "Grupo de Extensão Livre & Open Source - ICMC USP"
+url: "https://geos.misterio.me"
+
+sass:
+  style: compact
+
+# Permalink dos posts
+permalink: /:year/:month/:day/:title:output_ext
+
+# Incluir páginas dentro de _pages
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+# Definir variáveis para páginas
+defaults:
+  # Fazer páginas usarem o layout default
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  # Fazer posts usarem o layout post
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+  # Posts dentro da pasta notícias terão a categoria notícias
+  -
+    scope:
+      path: "_posts/noticias"
+    values:
+      category: "noticias"
+  # Posts dentro da pasta evento terão a categoria eventos
+  -
+    scope:
+      path: "_posts/eventos"
+    values:
+      category: "eventos"

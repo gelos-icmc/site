@@ -1,0 +1,96 @@
+---
+---
+
+// Tema claro
+:root {
+  // Cor dos links
+  --color-blossom: #674ea3;
+  // Cor de hover
+  --color-fade: #3b476e;
+
+  // Cor do fundo
+  --color-bg: #eee;
+  // Cor do fundo alternativo (código, etc)
+  --color-bg-alt: #ccc;
+
+  // Cor do texto base
+  --color-text: #111;
+}
+
+@media (prefers-color-scheme: dark) {
+  // Tema escuro
+  :root {
+    // Cor dos links
+    --color-blossom: #9174f2;
+    // Cor de hover
+    --color-fade: #9499ff;
+
+    // Cor do fundo
+    --color-bg: #222;
+    // Cor do fundo alternativo (código, etc)
+    --color-bg-alt: #444;
+
+    // Cor do texto base
+    --color-text: #ccc;
+  }
+}
+
+// Tamanho do texto base
+$font-size-base: 1.8rem;
+
+// Fonte(s) do corpo
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+// Fontes dos cabeçalhos
+$font-family-heading: $font-family-base;
+
+@import "sakura";
+
+// Lista de páginas na navegação
+nav ul {
+  padding-left: 0;
+  // Tira bolinhas
+  list-style: none;
+
+  // Dispõe na horizontal
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+
+  // Página atual (tira aparência de link)
+  [aria-current="page"] {
+    color: var(--color-text);
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none;
+  }
+}
+
+// Imagens com texto (pessoas, por exemplo)
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  img {
+    border-color: var(--color-blossom);
+    border-style: solid;
+  }
+}
+
+// Título principal (GELOS)
+.title {
+  font-size: $font-size-base * 1.5;
+}
+
+// Lista de destaques (coloca em flexbox)
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+
+  // Espaça entre eles
+  article {
+    margin-right: 1em;
+    flex: 300px;
+  }
+}

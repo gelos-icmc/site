@@ -1,0 +1,12 @@
+---
+title: Home
+---
+
+<h1>Grupo de Extensão Livre e Open Source</h1>
+
+<hr />
+
+<h2>Últimas postagens</h2>
+{% for post in site.posts %}
+{% include listagem-post.html element="h3" %}
+{% endfor %}

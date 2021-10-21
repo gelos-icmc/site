@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p>
+  <small>
+    {{ page.date | date: "%d/%m/%y" }}
+
+    {% if page.author %}
+      | <strong>{{ page.author }}</strong>
+    {% endif %}
+
+    {% if page.category %}
+      | <a href="/{{ page.category }}">{{ page.category }}</a>
+    {% endif %}
+  </small>
+</p>
+
+{{ content }}
