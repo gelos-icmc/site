@@ -12,3 +12,5 @@ Computação](https://icmc.usp.br) da [Universidade de São Paulo](https://usp.b
 O GELOS é um braço do **Centro de Competência em Open Source** (**CCOS**), instituição do ICMC/USP.
 
 ## Um breve histórico
+
+[empty].
