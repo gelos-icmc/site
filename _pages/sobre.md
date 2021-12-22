@@ -8,6 +8,7 @@ O **Grupo de Extensão Livre & Open Source** (**GELOS**) é um grupo de extensã
 Computação](https://icmc.usp.br) da [Universidade de São Paulo](https://usp.br).
 
 ## GELOS e o CCOS
+
 O GELOS é um braço do **Centro de Competência em Open Source** (**CCOS**), instituição do ICMC/USP.
 
 ## Um breve histórico
