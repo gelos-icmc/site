@@ -6,3 +6,5 @@
   link: noticias
 - name: Eventos
   link: eventos
+- name: Documentos
+  link: documentos

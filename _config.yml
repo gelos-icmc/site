@@ -8,7 +8,7 @@ sass:
 # Permalink dos posts
 permalink: /:year/:month/:day/:title:output_ext
 
-# Incluir páginas dentro de _pages
+# Incluir páginas
 collections:
   pages:
     output: true
@@ -31,15 +31,21 @@ defaults:
     values:
       layout: "post"
 
-  # Posts dentro da pasta notícias terão a categoria notícias
+  # Posts dentro da pasta noticias terão a categoria notícias
   -
     scope:
       path: "_posts/noticias"
     values:
       category: "noticias"
-  # Posts dentro da pasta evento terão a categoria eventos
+  # Posts dentro da pasta eventos terão a categoria eventos
   -
     scope:
       path: "_posts/eventos"
     values:
       category: "eventos"
+  # Posts dentro da pasta documentos terão a categoria documentos
+  -
+    scope:
+      path: "_posts/documentos"
+    values:
+      category: "documentos"
