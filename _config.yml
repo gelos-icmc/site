@@ -6,7 +6,7 @@ sass:
   style: compact
 
 # Permalink dos posts
-permalink: /:year/:month/:day/:title:output_ext
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Incluir páginas
 collections:
