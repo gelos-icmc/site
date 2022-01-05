@@ -17,6 +17,6 @@ O Centro de Competência em Open Source (CCOS/ICMC), já com uma tradição de 1
 - NAPSoL
 - ...
 
-No entanto, no ano de 2021 não haviam grupos focados em Open Source na região de [São Carloss]() os quais o Centro pudesse apoiar. Nasce então o GELOS, idealizado pelos então diretores do CCOS, [Monaco]() e [Elisa](), junto ao profº. [Simões], que junto aos alunos de graduação do ICMC...
+No entanto, até o ano de 2021 não haviam grupos focados em Open Source na região de São Carlos os quais o Centro pudesse apoiar. Nasce então o GELOS, grupo de extensão mentorado pelos professores [Monaco](https://www.icmc.usp.br/pessoas?id=1678183), [Elisa](https://www.icmc.usp.br/pessoas?id=211665), e [Simões](https://www.icmc.usp.br/pessoas?id=9662297).
 
-[empty].
+Ainda em sua infância, o grupo busca atuar em várias frentes: servir como um polo de estudo para os alunos, estimulando a cultura livre e open source dentro da USP, e exportando esse conhecimento para São Carlos e além.
