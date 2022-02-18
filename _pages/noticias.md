@@ -1,9 +1,10 @@
 ---
 title: Notícias
-description: Últimas notícias do GELOS
+description: Novidades e links interessantes compartilhados pelo grupo
 ---
 
-# Notícias
+# {{ page.title }}
+{{ page.description }}
 
 {% for post in site.categories.noticias %}
 {% include listagem-post.html %}

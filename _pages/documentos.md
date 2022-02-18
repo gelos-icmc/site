@@ -1,9 +1,10 @@
 ---
 title: Documentos
-description: Últimos documentos do GELOS
+description: Atas das reuniões, arquivos internos para transparência, etc
 ---
 
-# Documentos
+# {{ page.title }}
+{{ page.description }}
 
 {% for post in site.categories.documentos %}
 {% include listagem-post.html %}

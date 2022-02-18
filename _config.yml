@@ -37,12 +37,12 @@ defaults:
       path: "_posts/noticias"
     values:
       category: "noticias"
-  # Posts dentro da pasta eventos terão a categoria eventos
+  # Posts dentro da pasta relatorios terão a categoria relatorios
   -
     scope:
-      path: "_posts/eventos"
+      path: "_posts/relatorios"
     values:
-      category: "eventos"
+      category: "relatorios"
   # Posts dentro da pasta documentos terão a categoria documentos
   -
     scope:
