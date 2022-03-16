@@ -34,7 +34,6 @@ ou [matrix](https://matrix.gelos.club)) e você está dentro!
 
 Somos vinculados ao Centro de Competência em Open Source (CCOS/ICMC), já com
 uma tradição de 10 anos na área, que participou de vários projetos no passado:
-passado:
 - Sanca Livre
 - Pyladies
 - NAPSoL

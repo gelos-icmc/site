@@ -1,6 +1,6 @@
 ---
 title: Documentos
-description: Atas das reuniões, arquivos internos para transparência, etc
+description: Arquivos internos para transparência, material visual, etc
 ---
 
 # {{ page.title }}
