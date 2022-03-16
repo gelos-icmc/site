@@ -1,13 +1,13 @@
 - name: Home
-  link:
+  link: /
 - name: Sobre
-  link: sobre
+  link: /sobre
 - name: Notícias
-  link: noticias
+  link: /noticias
 - name: Documentos
-  link: documentos
+  link: /documentos
 - name: Relatórios
-  link: relatorios
+  link: /relatorios
 - name: Telegram
   link: https://telegram.gelos.club
 - name: Matrix
