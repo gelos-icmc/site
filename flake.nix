@@ -9,7 +9,7 @@
   outputs = { self, nixpkgs, utils }: {
     # Exportar como overlay
     overlay = final: prev: {
-      geos-site = final.callPackage ./default.nix { };
+      gelos-site = final.callPackage ./default.nix { };
     };
   } //
   utils.lib.eachDefaultSystem (system:
@@ -17,8 +17,8 @@
     let pkgs = import nixpkgs { inherit system; overlays = [ self.overlay ]; };
     in rec {
       # Exportar como package
-      packages.geos-site = pkgs.geos-site;
-      defaultPackage = packages.geos-site;
+      packages.gelos-site = pkgs.gelos-site;
+      defaultPackage = packages.gelos-site;
 
       devShell = pkgs.mkShell {
         inputsFrom = [ defaultPackage ];
