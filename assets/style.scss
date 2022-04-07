@@ -94,3 +94,13 @@ figure {
     flex: 300px;
   }
 }
+footer nav.contatos {
+  text-align: center;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      margin-right: 4%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+- name: Instagram
+  type: Instagram
+  url: https://instagram.com/gelos.icmc/
+
+- name: Linkedin
+  type: Linkedin
+  url: https://www.linkedin.com/company/gelos-icmc/
+
+- name: Youtube
+  type: Youtube
+  url: https://youtube.gelos.club
