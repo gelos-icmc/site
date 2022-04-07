@@ -1,6 +1,6 @@
 # GELOS - Site institucional
 
-Esse repositório contém o site institucional do [**GELOS** (**Grupo de Extensão Livre & Open Source**)](https://gelos.misterio.me).
+Esse repositório contém o site institucional do [**GELOS** (**Grupo de Extensão em Livre & Open Source**)](https://gelos.misterio.me).
 
 ## Como contribuir
 
