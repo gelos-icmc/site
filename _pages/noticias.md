@@ -1,6 +1,7 @@
 ---
 title: Notícias
 description: Novidades e links interessantes compartilhados pelo grupo
+permalink: /noticias/
 ---
 
 # {{ page.title }}

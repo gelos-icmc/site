@@ -1,6 +1,7 @@
 ---
 title: Relatórios
 description: Atualizações semanais do GELOS
+permalink: /relatorios/
 ---
 
 # {{ page.title }}

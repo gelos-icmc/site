@@ -1,6 +1,7 @@
 ---
 title: Documentos
 description: Arquivos internos para transparência, material visual, etc
+permalink: /documentos/
 ---
 
 # {{ page.title }}
