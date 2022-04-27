@@ -38,3 +38,15 @@ uma tradição de 10 anos na área, que participou de vários projetos no passad
 - Sanca Livre
 - Pyladies
 - NAPSoL
+
+## Gerência
+
+Apesar da estrutura horizontal, por motivos burocráticos e organizacional temos
+definidos alguns cargos de coordenação. Os atuais gestores são:
+- **Coordenador**: [Gabriel Fontes](https://misterio.me)
+- **Vice-coordenador**: Carlos Henrique Melara
+- **Gerente de Projetos**: Arthur Kuwahara
+- **Gerente de Comunicação**: Lucas Caetano Procópio
+- **Gerente Técnico**: Guilherme Ramos Paixão
+- **Gerente Administrativo**: Silmar Pereira Junior
+- **Gerente de Recursos Humanos**: Deandreson Alves de Souza
