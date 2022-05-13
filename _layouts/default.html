@@ -8,21 +8,21 @@
       name="description"
       content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
     />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-    <link rel="stylesheet" href="/assets/style.css" />
-    <link rel="icon" href="/assets/favicon.svg">
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <link rel="stylesheet" href="{% link assets/style.scss %}" />
+    <link rel="icon" href="{% link assets/favicon.svg %}">
   </head>
   <body>
 
     <header>
       <nav>
         <span class="title">
-          <a aria-label="GELOS" href="/">{% include icones/logo.svg %}</a>
+          <a aria-label="GELOS" href="/{{ site.baseurl }}">{% include icones/logo.svg %}</a>
         </span>
         <ul>
           {% for item in site.data.navegacao %}
           <li>
-            <a {% if page.title == item.name %} aria-current="page" {% endif %} href="{{ item.link }}">
+            <a {% if page.title == item.name %} aria-current="page" {% endif %} href="{{ item.link | relative_url }}">
               {{ item.name }}
             </a>
           </li>

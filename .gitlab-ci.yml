@@ -1,17 +1,48 @@
 image: nixos/nix:latest
-
 variables:
-  NIX_PATH: "nixpkgs=channel:nixos-unstable"
-  NIX_CONFIG: "experimental-features = nix-command flakes"
+  NIX_PATH: 'nixpkgs=channel:nixos-unstable'
+  NIX_CONFIG: 'experimental-features = nix-command flakes'
 
-pages:
+stages:
+  - build
+  - deploy
+
+.rules: &rules
+  - if: $CI_COMMIT_REF_NAME == 'main'
+    variables:
+      BASEURL: ''
+      ENV_NAME: 'production'
+      ENV_URL: 'https://gelos.club'
+  - if: $CI_COMMIT_REF_NAME != 'main'
+    variables:
+      BASEURL: '$CI_COMMIT_REF_NAME'
+      ENV_NAME: 'review/$CI_COMMIT_REF_NAME'
+      ENV_URL: 'https://review.gelos.club/$CI_COMMIT_REF_NAME'
+
+build:
+  stage: build
+  rules:
+    - *rules
   before_script:
     - nix-env -iA nixpkgs.git
   script:
+    - 'echo "baseurl: $BASEURL" >> _config.yml'
     - nix build
-    - cp -r result/public .
+    - tar -C result/public -cvz . > site.tar.gz
   artifacts:
+    name: '$ENV_NAME'
     paths:
-      - public
+      - site.tar.gz
+    expire_in: 5 days
+
+deploy:
+  stage: deploy
   rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - *rules
+  environment:
+    name: '$ENV_NAME'
+    url: '$ENV_URL'
+  before_script:
+    - nix-env -iA nixpkgs.hut
+  script:
+    - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL --not-found "/404" site.tar.gz

@@ -1,6 +1,7 @@
 name: "GELOS"
 description: "Grupo de Extensão em Livre & Open Source - ICMC USP"
-url: "https://geos.misterio.me"
+url: "https://gelos.club"
+baseurl: "IRINEUUUU"
 
 sass:
   style: compact

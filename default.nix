@@ -1,4 +1,4 @@
-{ stdenv, jekyll }:
+{ stdenv, jekyll, lib, baseurl ? null }:
 
 stdenv.mkDerivation {
   name = "gelos-site";
@@ -9,7 +9,7 @@ stdenv.mkDerivation {
   buildInputs = [ jekyll ];
 
   buildPhase = ''
-    jekyll build
+    jekyll build ${lib.optionalString (baseurl != null) "--baseurl ${baseurl}"}
   '';
   installPhase = ''
     mkdir -p $out
