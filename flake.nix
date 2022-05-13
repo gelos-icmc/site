@@ -6,39 +6,45 @@
     utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, utils }:
-    let
-      overlay = final: prev: {
+
+  outputs = { self, nixpkgs, utils }: {
+    overlays = rec {
+      gelos-site = final: _prev: {
         gelos-site = final.callPackage ./default.nix { };
+        gelos-site-serve = final.writeShellScriptBin "serve" ''
+          echo "Serving on localhost:8000"
+          ${final.webfs}/bin/webfsd -F -f index.html -r ${gelos-site}/public
+        '';
       };
-      overlays = [ overlay ];
+      default = gelos-site;
+    };
+  } // (utils.lib.eachDefaultSystem (system:
+    let
+      pkgs = import nixpkgs { inherit system; overlays = [ self.overlays.default ]; };
     in
     {
-      inherit overlay overlays;
-    } //
-    utils.lib.eachDefaultSystem (system:
-      # Importar overlay
-      let
-        pkgs = import nixpkgs { inherit system overlays; };
-      in
-      rec {
-        # Exportar como package
-        defaultPackage = packages.gelos-site;
-        packages.gelos-site = pkgs.gelos-site;
-        packages.serve = pkgs.writeShellScriptBin "serve" ''
-          echo "Serving on localhost:8000"
-          ${pkgs.webfs}/bin/webfsd  -F -f index.html -r ${packages.gelos-site}/public
-        '';
+      packages = rec {
+        inherit (pkgs) gelos-site gelos-site-serve;
+        default = gelos-site;
+      };
 
-        defaultApp = apps.gelos-site;
-        apps.gelos-site = {
+      apps = rec {
+        gelos-site-serve = pkgs.mkApp {
           type = "app";
-          program = "${packages.serve}/bin/serve";
+          program = "${pkgs.gelos-site-serve}/bin/serve";
         };
+        default = gelos-site-serve;
+      };
 
-        devShell = pkgs.mkShell {
-          inputsFrom = [ defaultPackage ];
+      devShells = rec {
+        gelos-site = pkgs.mkShell {
+          inputsFrom = [ pkgs.gelos-site ];
+          buildInputs = with pkgs; [
+            nodePackages.prettier
+          ];
         };
-      }
-    );
+        default = gelos-site;
+      };
+    }
+  ));
 }
