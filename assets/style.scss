@@ -104,3 +104,28 @@ footer nav.contatos {
     }
   }
 }
+
+fieldset {
+  border: 0;
+  border-top: 1px solid var(--color-fade);
+  margin-top: 2em;
+  legend {
+    font-weight: bold;
+    font-size: 110%;
+  }
+}
+
+button {
+  margin-top: 1.5em;
+  margin-bottom: 2.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 12px 25px;
+  border-radius: 5px;
+}
+
+// Precisamos de classe pois CSS não tem seletor pai
+label.required:before {
+  content:" *";
+  color: red;
+}
