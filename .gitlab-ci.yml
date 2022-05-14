@@ -8,6 +8,9 @@ stages:
   - deploy
 
 .rules: &rules
+  # Não rodar pipeline pro push na branch se tiver um MR aberto nela (pipeline duplicado)
+  - if: '$CI_COMMIT_BRANCH && $CI_PIPELINE_SOURCE == "push" && $CI_OPEN_MERGE_REQUESTS'
+    when: never
   - if: $CI_COMMIT_REF_NAME == 'main'
     variables:
       BASEURL: ''
