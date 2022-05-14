@@ -11,25 +11,35 @@ stages:
   # Não rodar pipeline pro push na branch se tiver um MR aberto nela (pipeline duplicado)
   - if: '$CI_COMMIT_BRANCH && $CI_PIPELINE_SOURCE == "push" && $CI_OPEN_MERGE_REQUESTS'
     when: never
+  # Se estiver na main
   - if: $CI_COMMIT_REF_NAME == 'main'
     variables:
+      # Deploy na raíz
       BASEURL: ''
-      ENV_NAME: 'production'
       ENV_URL: 'gelos.club'
+      # Ambiente de produção
+      ENV_NAME: 'production'
+  # Se estiver em outra branch
   - if: $CI_COMMIT_REF_NAME != 'main'
     variables:
+      # Deploy em um subdiretório do review.gelos.club
       BASEURL: '$CI_COMMIT_REF_NAME'
-      ENV_NAME: 'review/$CI_COMMIT_REF_NAME'
       ENV_URL: 'review.gelos.club'
+      # Ambiente de review
+      ENV_NAME: 'review/$CI_COMMIT_REF_NAME'
 
 build:
   stage: build
   rules:
     - *rules
   script:
+    # Caso tenha um subdiretório, avisar o jekyll
     - 'echo "baseurl: $BASEURL" >> _config.yml'
+    # Compilar o site
     - nix build
+    # Empacotar
     - tar -C result/public -cvz . > site.tar.gz
+  # Passar site pra próxima etapa
   artifacts:
     name: '$ENV_NAME'
     paths:
@@ -41,9 +51,13 @@ deploy:
   rules:
     - *rules
   environment:
+    # O nome do ambiente será o definido nas regras lá em cima
     name: '$ENV_NAME'
+    # A URL vai ser o dominio + subdiretorio
     url: 'https://$ENV_URL/$BASEURL'
   before_script:
+    # Instalar CLI do sourcehut
     - 'nix profile install nixpkgs#hut'
   script:
+    # Deploy com dominio e subdiretório especificados, marcar que 404.html é a página de 404, da tarball site.tar.gz
     - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" --not-found "/404.html" site.tar.gz
