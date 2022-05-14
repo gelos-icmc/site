@@ -20,7 +20,7 @@ stages:
     variables:
       BASEURL: '$CI_COMMIT_REF_NAME'
       ENV_NAME: 'review/$CI_COMMIT_REF_NAME'
-      ENV_URL: 'review.gelos.club/$CI_COMMIT_REF_NAME'
+      ENV_URL: 'review.gelos.club'
 
 build:
   stage: build
@@ -42,8 +42,8 @@ deploy:
     - *rules
   environment:
     name: '$ENV_NAME'
-    url: 'https://$ENV_URL'
+    url: 'https://$ENV_URL/$BASEURL'
   before_script:
     - 'nix profile install nixpkgs#hut'
   script:
-    - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL --not-found "/404" site.tar.gz
+    - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" --not-found "/404" site.tar.gz
