@@ -75,3 +75,4 @@ deploy_stop:
   script:
     - tar -czf empty.tar.gz -T /dev/null
     - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" empty.tar.gz
+  when: manual
