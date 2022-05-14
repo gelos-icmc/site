@@ -12,12 +12,12 @@ stages:
     variables:
       BASEURL: ''
       ENV_NAME: 'production'
-      ENV_URL: 'https://gelos.club'
+      ENV_URL: 'gelos.club'
   - if: $CI_COMMIT_REF_NAME != 'main'
     variables:
       BASEURL: '$CI_COMMIT_REF_NAME'
       ENV_NAME: 'review/$CI_COMMIT_REF_NAME'
-      ENV_URL: 'https://review.gelos.club/$CI_COMMIT_REF_NAME'
+      ENV_URL: 'review.gelos.club/$CI_COMMIT_REF_NAME'
 
 build:
   stage: build
@@ -41,7 +41,7 @@ deploy:
     - *rules
   environment:
     name: '$ENV_NAME'
-    url: '$ENV_URL'
+    url: 'https://$ENV_URL'
   before_script:
     - nix-channel --add https://nixos.org/channels/nixos-unstable nixos
     - nix-channel --update
