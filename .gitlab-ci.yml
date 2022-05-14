@@ -43,7 +43,8 @@ deploy:
     name: '$ENV_NAME'
     url: '$ENV_URL'
   before_script:
-    - nix-env -iA nixpkgs.hut
+    - nix-channel --add https://nixos.org/channels/nixos-unstable nixos
     - nix-channel --update
+    - nix-env -iA nixos.hut
   script:
     - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL --not-found "/404" site.tar.gz
