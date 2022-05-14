@@ -26,8 +26,6 @@ build:
   stage: build
   rules:
     - *rules
-  before_script:
-    - 'nix profile install nixpkgs#git'
   script:
     - 'echo "baseurl: $BASEURL" >> _config.yml'
     - nix build
