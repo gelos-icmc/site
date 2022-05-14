@@ -46,4 +46,4 @@ deploy:
   before_script:
     - 'nix profile install nixpkgs#hut'
   script:
-    - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" --not-found "/404" site.tar.gz
+    - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" --not-found "/404.html" site.tar.gz
