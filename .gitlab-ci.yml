@@ -44,5 +44,6 @@ deploy:
     url: '$ENV_URL'
   before_script:
     - nix-env -iA nixpkgs.hut
+    - nix-channel --update
   script:
     - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL --not-found "/404" site.tar.gz
