@@ -72,6 +72,8 @@ deploy_stop:
     name: '$ENV_NAME'
     url: 'https://$ENV_URL/$BASEURL'
     action: stop
+  before_script:
+    - 'nix profile install nixpkgs#hut'
   script:
     - tar -czf empty.tar.gz -T /dev/null
     - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" empty.tar.gz
