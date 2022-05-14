@@ -55,9 +55,22 @@ deploy:
     name: '$ENV_NAME'
     # A URL vai ser o dominio + subdiretorio
     url: 'https://$ENV_URL/$BASEURL'
+    # Quando fechar o MR (ou parar o ambiente manualmente), executar deploy_stop
+    on_stop: deploy_stop
   before_script:
     # Instalar CLI do sourcehut
     - 'nix profile install nixpkgs#hut'
   script:
     # Deploy com dominio e subdiretório especificados, marcar que 404.html é a página de 404, da tarball site.tar.gz
     - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" --not-found "/404.html" site.tar.gz
+
+deploy_stop:
+  rules:
+    - *rules
+  environment:
+    name: '$ENV_NAME'
+    url: 'https://$ENV_URL/$BASEURL'
+    action: stop
+  script:
+    - tar -czf empty.tar.gz -T /dev/null
+    - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" empty.tar.gz
