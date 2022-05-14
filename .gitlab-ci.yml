@@ -65,6 +65,7 @@ deploy:
     - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" --not-found "/404.html" site.tar.gz
 
 deploy_stop:
+  stage: deploy
   rules:
     - *rules
   environment:
