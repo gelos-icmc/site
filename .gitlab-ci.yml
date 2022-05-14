@@ -61,8 +61,8 @@ deploy:
     # Instalar CLI do sourcehut
     - 'nix profile install nixpkgs#hut'
   script:
-    # Deploy com dominio e subdiretório especificados, marcar que 404.html é a página de 404, da tarball site.tar.gz
-    - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" --not-found "/404.html" site.tar.gz
+    # Deploy com dominio e subdiretório especificados da tarball site.tar.gz
+    - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL -s "/$BASEURL" site.tar.gz
 
 deploy_stop:
   stage: deploy
