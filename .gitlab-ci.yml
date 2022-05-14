@@ -27,7 +27,7 @@ build:
   rules:
     - *rules
   before_script:
-    - nix-env -iA nixpkgs.git
+    - 'nix profile install nixpkgs#git'
   script:
     - 'echo "baseurl: $BASEURL" >> _config.yml'
     - nix build
@@ -46,8 +46,6 @@ deploy:
     name: '$ENV_NAME'
     url: 'https://$ENV_URL'
   before_script:
-    - nix-channel --add https://nixos.org/channels/nixos-unstable nixos
-    - nix-channel --update
-    - nix-env -iA nixos.hut
+    - 'nix profile install nixpkgs#hut'
   script:
     - hut --config $SOURCEHUT_OAUTH pages publish -d $ENV_URL --not-found "/404" site.tar.gz
