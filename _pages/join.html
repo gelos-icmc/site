@@ -1,6 +1,6 @@
 ---
 title: Formulário de Interesse
-permalink: /join
+permalink: /join/
 ---
 
 <h1>Junte-se ao GELOS!</h1>
@@ -37,7 +37,8 @@ permalink: /join
 
     <label>
       Curso (caso curse ou já esteja formado):
-      <input name="curso" placeholder="Sistemas de Informação" />
+      <!-- Matemática pra evitar brigas entre BCC e BSI -->
+      <input name="curso" placeholder="Bacharelado em Matemática" />
     </label>
 
     <label>
@@ -174,7 +175,6 @@ permalink: /join
       <textarea
         name="fav-soft-just"
         placeholder="É muito massa mano"
-        required
       ></textarea>
     </label>
 
@@ -217,7 +217,11 @@ permalink: /join
           estará contribuindo :)
         </small>
       </p>
-      <textarea name="you-contribute" required></textarea>
+      <textarea
+        name="you-contribute"
+        placeholder="Vou fazer bolo de paçoca pro coffee break (mt bom mds obrigado Tomieiro)"
+        required
+      ></textarea>
     </label>
 
     <label>
@@ -225,7 +229,11 @@ permalink: /join
       <p>
         <small> Afinal, a contribuição deve ser mútua :) </small>
       </p>
-      <textarea name="we-contribute" required></textarea>
+      <textarea
+        name="we-contribute"
+        placeholder="Vai me ajudar a criar consciência de classe e tomar os meios de produção"
+        required
+      ></textarea>
     </label>
   </fieldset>
   <fieldset>
@@ -244,7 +252,7 @@ permalink: /join
     <ol>
       <li>
         Em <strong>nenhuma hipótese</strong> usaremos estes dados para te
-        descriminar;
+        discriminar;
       </li>
       <li>
         Em <strong>nenhuma hipótese</strong> divulgaremos estes dados
