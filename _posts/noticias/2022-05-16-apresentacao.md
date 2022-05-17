@@ -10,7 +10,7 @@ Junto com nossos maravilhosos professores **Elisa e Monaco**, do
 como funciona, nossos projetos, nossos membros, como você pode nos ajudar, e
 como podemos ajudar você!
 
-A apresentação será na **quarta** (16/05/2022), das **17 às 18**, no **auditório
+A apresentação será na **quarta** (18/05/2022), das **17 às 18**, no **auditório
 Prof. Favaro** (sala 4-111).
 
 ## Algumas infos
@@ -27,7 +27,7 @@ e **adorariamos ter a sua ajuda**!
 
 **Se você ainda está começando nessa jornada, o GELOS também é pra você**!
 Temos membros muito amigáveis e que podem te ajudar a aprender sobre os mais
-diferentes assuntos: licensas de software, contribuir e desenvolver com git de
+diferentes assuntos: licenças de software, contribuir e desenvolver com git de
 forma eficiente, personalizar seu linux, ser um monstro da programação com vim,
 desenhar e editar imagens com GIMP e Krita, e muito, muito mais. **Conte com a
 gente**!
