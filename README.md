@@ -48,8 +48,8 @@ página. A primeira opção de idioma deve ser o português. As páginas podem t
 versões internacionalizadas.
 
 Como as **chaves** (nome de campos) e **variáveis** do jekyll são em inglês, as
-nossas também estão em **inglês**. Os valores destas devem seguir o idioma das
-páginas em que aparecem (na medida do possível).
+nossas também estão em **inglês**. Os conteúdos (valores) nelas devem seguir o
+idioma das páginas em que aparecem (na medida do possível).
 
 Para páginas **acessadas programaticamente** (JSON, por exemplo), a URL e
 conteúdo (na medida do possível) devem usar o mesmo idioma. A primeira opção de
