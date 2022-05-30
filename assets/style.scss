@@ -129,3 +129,21 @@ label.required:before {
   content:" *";
   color: red;
 }
+
+ul.attendance {
+  padding-left: 0;
+  // Tirar bolinhas
+  list-style: none;
+
+  // Dispõe na horizontal, sem espaçamento adicional
+  li {
+    display: contents;
+    // Separar por vírgulas, e ponto no fim.
+    &::after {
+      content: ",";
+    }
+    &:last-child:after {
+      content: ".";
+    }
+  }
+}

@@ -1,18 +1,22 @@
 <article>
-  <{{ include.element | default: "h2" }}>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </{{ include.element | default: "h2"  }}>
-  <small>
-    {{ post.date | date: "%d/%m/%y" }}
+  <p>
+    <{{ include.element | default: "h2" }}>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </{{ include.element | default: "h2"  }}>
+    <small>
+      {{ post.date | date: "%d/%m/%y" }}
 
-    {% if post.author %}
-      | <strong>{{ post.author }}</strong>
-    {% endif %}
+      {% if post.author %}
+        | <strong>{{ site.data.people[post.author].name }}</strong>
+      {% endif %}
 
-    {% if post.category %}
-      | <a href="{{ post.category | prepend:'/' | relative_url }}">{{ post.category }}</a>
-    {% endif %}
-  </small>
-  {{ post.excerpt }}
+      {% if post.category %}
+        | <a href="{{ post.category | prepend:'/' | relative_url }}">{{ post.category }}</a>
+      {% endif %}
+    </small>
+  </p>
+  <p>
+    {{ post.excerpt }}
+  </p>
   <p><a href="{{ post.url | relative_url }}">Ler mais...</a></p>
 </article>

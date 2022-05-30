@@ -41,6 +41,8 @@
           inputsFrom = [ pkgs.gelos-site ];
           buildInputs = with pkgs; [
             nodePackages.prettier
+            ruby
+            rubyPackages.solargraph
           ];
         };
         default = gelos-site;
