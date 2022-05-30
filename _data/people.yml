@@ -4,7 +4,7 @@
 # O formato é:
 #
 # <identificador>:
-#   name: <nome ou pseudonimo, para aparecer nas atas>
+#   nome: <nome ou pseudonimo, para aparecer nas atas>
 #   nusp: [número usp, opcional pra facilitar contagem de horas]
 #   gitlab: [usuário do gitlab, opcional]
 #   email: [endereço de email, opcional]
@@ -12,7 +12,7 @@
 # O identificador deve ser único, e facilmente reconhecivel como a pessoa (pra
 # ser rapido escrever na ata).
 #
-# O name aparecerá bonitinho no site, seja nas atas ou como autor de posts.
+# O nome aparecerá bonitinho no site, seja nas atas ou como autor de posts.
 # Talvez eventualmente exista uma página de pessoas.
 # Não precisa ser nome real! Pode ser pseudônimo.
 #

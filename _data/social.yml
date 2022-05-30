@@ -1,3 +1,15 @@
+- name: contato@gelos.club
+  type: E-mail
+  url: mailto:contato@gelos.club
+
+- name: Telegram
+  type: Telegram
+  url: https://telegram.gelos.club/
+
+- name: Matrix
+  type: Matrix
+  url: https://matrix.gelos.club/
+
 - name: Instagram
   type: Instagram
   url: https://instagram.com/gelos.icmc/
