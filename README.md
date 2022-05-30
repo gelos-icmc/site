@@ -56,8 +56,6 @@ conteúdo (na medida do possível) devem usar o mesmo idioma. A primeira opção
 idioma deve ser **inglês**, visto que nesses endpoints os nomes dos campos (que
 estão em inglẽs) são expostos.
 
-## Convenção de idioma
-
 ## Estrutura do repositório
 
 ### Conteúdo
