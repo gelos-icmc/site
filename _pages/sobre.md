@@ -46,7 +46,7 @@ definidos alguns cargos de coordenação. Os atuais gestores são:
 - **Coordenador**: [Gabriel Fontes](https://misterio.me)
 - **Vice-coordenador**: Carlos Henrique Melara
 - **Gerente de Projetos**: Arthur Kuwahara
-- **Gerente de Comunicação**: Lucas Caetano Procópio
-- **Gerente Técnico**: Guilherme Ramos Paixão
+- **Gerente de Comunicação**: Júlio Casemiro
+- **Gerente Técnico**: [Guilherme Ramos Costa Paixão](https://guip.dev)
 - **Gerente Administrativo**: Silmar Pereira Junior
 - **Gerente de Recursos Humanos**: Deandreson Alves de Souza
