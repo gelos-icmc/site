@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.title %}{{ page.title }} - {% endif %}GELOS</title>
+    <meta
+      name="description"
+      content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+    />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <link rel="stylesheet" href="{% link assets/style.scss %}" />
+    <link rel="icon" href="{% link assets/favicon.svg %}">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <span class="title">
+          <a aria-label="GELOS" href="/{{ site.baseurl }}">{% include icones/logo.svg %}</a>
+        </span>
+        <ul>
+          {% for item in site.data.navigation %}
+          <li>
+            <a {% if page.title == item.name %} aria-current="page" {% endif %} href="{{ item.link | relative_url }}">
+              {{ item.name }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <hr />
+      <address>
+        <small>
+          Grupo de Extensão em Livre & Open Source
+          <br />
+          <a href="https://icmc.usp.br">Instituto de Ciências Matemáticas e de Computação</a>
+          <br />
+          Av. Trabalhador São-carlense, 400.
+          São Carlos, SP
+        </small>
+      </address>
+
+      <p>
+        <small>
+          Copyleft GELOS, 2021 -
+          <a href="https://gitlab.com/gelos-usp/gelos-institucional">código fonte</a>
+        </small>
+      </p>
+
+      <hr />
+
+      <nav>
+        <ul>
+          {% for social in site.data.social %}
+          <li><a href="{{ social.url }}" target="_blank" rel="noreferrer noopener">{{ social.type }}</a></li>
+          {% endfor %}
+        </ul>
+      <nav>
+
+    </footer>
+  </body>
+</html>

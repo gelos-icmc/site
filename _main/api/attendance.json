@@ -1,0 +1,15 @@
+---
+# vim: ft=liquid
+---
+[
+    {%- for post in site.reports %}
+    {
+        "name": "{{ post.title }}",
+        "attendees": [
+            {%- for attendee in post.attendees -%}
+            "{{ attendee }}"{% unless forloop.last %},{% endunless %}
+            {%- endfor -%}
+        ]
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+]

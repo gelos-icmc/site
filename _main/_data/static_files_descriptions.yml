@@ -1,0 +1,5 @@
+# Informações adicionais opcionais sobre arquivos no assets/static
+
+bittorrent.pdf: "Slides da palestra sobre BitTorrent, em PDF"
+bittorrent.odp: "Slides da palestra sobre BitTorrent, em ODP (Libre Office)"
+apresentacao_gelos.pdf: "Slides de introdução ao GELOS"

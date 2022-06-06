@@ -1,15 +1,22 @@
-{ stdenv, jekyll, lib, baseurl ? null }:
+{ stdenv, ruby, bundlerEnv, lib, baseurl ? null }:
 
+let
+  gems = bundlerEnv {
+    name = "gelos-site-env";
+    inherit ruby;
+    gemdir = ./.;
+  };
+in
 stdenv.mkDerivation {
   name = "gelos-site";
   src = ./.;
 
-  JEKYLL_ENV = "production" ;
+  JEKYLL_ENV = "production";
 
-  buildInputs = [ jekyll ];
+  buildInputs = [ gems ruby ];
 
   buildPhase = ''
-    jekyll build ${lib.optionalString (baseurl != null) "--baseurl ${baseurl}"}
+    ${gems}/bin/bundle exec jekyll build ${lib.optionalString (baseurl != null) "--baseurl ${baseurl}"}
   '';
   installPhase = ''
     mkdir -p $out

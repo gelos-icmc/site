@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+- name: Sobre
+  link: /sobre
+- name: Notícias
+  link: /noticias
+
+- name: Relatórios
+  link: /relatorios
+- name: Arquivos
+  link: /arquivos

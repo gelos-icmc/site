@@ -1,0 +1,4 @@
+---
+# vim: ft=liquid
+---
+{{ site.data.people | neat_json }}

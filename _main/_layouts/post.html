@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p>
+  <small>
+    {{ page.date | date: "%d/%m/%y" }}
+
+    {% if page.author %}
+      | <strong>{{ site.data.people[page.author].name }}</strong>
+    {% endif %}
+
+    | <a href="/noticias">Notícias</a>
+  </small>
+</p>
+
+{{ content }}
