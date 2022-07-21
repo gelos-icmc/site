@@ -7,7 +7,7 @@ name: Fulano da Silva
 # Apenas name é obrigatório, tudo abaixo disso é opcional
 # Fique a vontade para criar campos novos!
 nusp: 12345678
-gitlab: fulano
+github: fulano
 email: fulano@usp.com
 site: fulano.com.br
 ```
@@ -17,5 +17,5 @@ de `name` colocar. Você pode adicionar outros membros caso precise incluir num
 relatório, nesse caso coloque apenas o nome/pseudônimo (consulte a pessoa pra
 ver qual ela prefere).
 
-Você pode editar aqui pela interface do gitlab, ou clonar o repositório usando
-`git`. Nos dois casos, abra um MR e um mantenedor irá aprovar logo mais.
+Você pode editar aqui pela interface do github, ou clonar o repositório usando
+`git`. Nos dois casos, abra um PR e um mantenedor irá aprovar logo mais.

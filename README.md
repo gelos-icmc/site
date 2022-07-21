@@ -9,11 +9,11 @@ em Livre & Open Source**)](https://gelos.misterio.me).
 Basta clonar o repositório, adicionar (ou modificar) **páginas ou posts**
 dentro de `_pages` e `_posts`. Abra um Merge Request para sua mudança.
 
-É possível fazer modificações simples direto da interface do gitlab.
+É possível fazer modificações simples direto da interface do github.
 
 ### Assuntos mais complexos
 
-Para MRs mais complicados, é importante baixar o
+Para PRs mais complicados, é importante baixar o
 [jekyll](https://jekyllrb.com/) e testar o site durante o processo.
 
 Basta instalar e usar os comandos usuais (`jekyll build` ou `jekyll serve`)
@@ -80,7 +80,6 @@ estão em inglẽs) são expostos.
   estilização principal (que importa arquivos da `_sass`).
 
 ### Configurações e CI/CD
-- `.gitlab-ci.yml`: Manifesto para compilar e lançar o site automaticamente.
 - `_config.yml`: Configurações do site.
 - `default.nix`, `flake.nix` e `flake.lock`: Tooling e definições de
 - distribuição, feitas com o gerenciador de pacotes nix.
