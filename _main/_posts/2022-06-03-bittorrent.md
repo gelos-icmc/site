@@ -1,6 +1,6 @@
 ---
 title: Apresentação Sobre o BitTorrent
-author: gui
+author: Guilherme
 ---
 
 O protocolo BitTorrent é um dos protocolos de transferência de arquivos mais utilizados no mundo, estando já a algum tempo como [aplicação de maior tráfego de *upstream*](https://torrentfreak.com/bittorrent-is-still-the-king-of-upstream-internet-traffic-but-for-how-long-220304/).
