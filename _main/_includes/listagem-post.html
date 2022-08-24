@@ -7,7 +7,7 @@
       {{ post.date | date: "%d/%m/%y" }}
 
       {% if post.author %}
-        | <strong>{{ site.data.people[post.author].name }}</strong>
+        | <strong>{{ post.author }}</strong>
       {% endif %}
 
       {% if post.category %}

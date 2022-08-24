@@ -1,6 +1,6 @@
 ---
 title: FLISoL São Carlos - Histórico
-author: charles
+author: Charles
 ---
 
 Estamos nos preparando para realizar o [FLISoL 2022 em São

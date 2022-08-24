@@ -7,7 +7,7 @@ layout: default
     {{ page.date | date: "%d/%m/%y" }}
 
     {% if page.author %}
-      | <strong>{{ site.data.people[page.author].name }}</strong>
+      | <strong>{{ page.author }}</strong>
     {% endif %}
 
     | <a href="/noticias">Notícias</a>

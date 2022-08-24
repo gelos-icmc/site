@@ -24,22 +24,6 @@ obter uma shell com tudo que você precisa.
 
 ## Convenções
 
-### Pessoas
-
-É desejável que o nome do autor seja colocado em todos os **posts**, é
-**obrigatório** que o nome do autor e dos presentes seja colocado em **posts**
-do tipo **relatório** (atas de reuniões, eventos que fizemos, por exemplo).
-
-Esses campos não são meramente texto: eles pedem o **identificador** de uma
-pessoa listada em `_data/people.yml`.
-
-Isso existe para manter consistência nos nomes e ajudar pedidos de certificado
-de horas. Todos os dados são completamente transparentes, e podem ser editados
-ou removidos ao critério de seus donos.
-
-Quase todos os campos são opcionais. As únicas nescessidades são um
-identificador e um nome (pode ser real ou pseudônimo).
-
 ### Idioma
 
 Para páginas **navegadas por humanos** (HTML), a URL (decidido pelo nome do
