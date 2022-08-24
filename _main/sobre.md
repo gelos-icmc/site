@@ -24,11 +24,15 @@ membros"* para projetos.
 
 ## Como participar?
 Não  temos um processo seletivo estrito, basta entrar em um dos nossos
-grupinhos ou participar de alguma das nossas reuniões.  Se você quer estar
-envolvido em qualquer grau, você pode se considerar um membro.
+grupinhos e dizer "oi". Te explicaremos sobre os projetos em andamento e
+as nossas reuniões. Caso você participe de alguma maneira, você pode se
+considerar um membro!
 
 Basta entrar em um dos nossos canais ([telegram](https://telegram.gelos.club)
 ou [matrix](https://matrix.gelos.club)) e você está dentro!
+
+Para fins oficiais (horas extracurriculares, relatórios, etc), são listados os
+membros que participaram ativamente de algum projeto naquele dado semestre.
 
 ## GELOS e o CCOS
 
@@ -49,3 +53,8 @@ definidos alguns cargos de coordenação. Os atuais gestores são:
 - **Gerente Técnico**: [Guilherme Ramos Costa Paixão](https://guip.dev)
 - **Gerente Administrativo**: Silmar Pereira Junior
 - **Gerente de Recursos Humanos**: Deandreson Alves de Souza
+
+Como mencionamos, o GELOS existe para apoiar projetos que os membros idealizam.
+Isso significa que qualquer um pode *propor e participar de projetos*, com o
+apoio do grupo. Os organizadores de um projeto são responsáveis por organizar
+as atividades, prazos, e liderar os outros participantes.

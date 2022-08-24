@@ -7,21 +7,18 @@ layout: default
     {{ page.date | date: "%d/%m/%y" }}
 
     {% if page.author %}
-      | <strong>{{ site.data.people[page.author].name }}</strong>
+      | <strong>{{ page.author }}</strong>
     {% endif %}
 
     | <a href="/relatorios">Relatórios</a>
   </small>
 </p>
 
-{% if page.attendees or page.guests %}
+{% if page.attendees %}
 <ul class="attendance">
 <strong>Presentes</strong>:
   {% for attendee in page.attendees %}
-    <li>{{ site.data.people[attendee].name }}</li>
-  {% endfor %}
-  {% for guest in page.guests %}
-    <li><em>{{ guest }}</em></li>
+    <li>{{ attendees }}</li>
   {% endfor %}
 </ul>
 {% endif %}
