@@ -11,7 +11,7 @@ Totalmente livre e em domínio público, ele permite com que pessoas compartilhe
 
 Por isso, no dia 03/06/2022, realizamos uma apresentação mostrando o funcionamento e especificação desta tecnologia, contando também com um Workshop de como criar e hospedar sua própria *seedbox* com o [Deluge](https://www.deluge-torrent.org/).
 
-Os slides estão licenciados em [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/), em domínio público, e podem ser baixados em [PDF](/assets/static/bittorrent.pdf) ou [ODP](/assets/static/bittorrent.odp) :)
+Os slides estão licenciados em [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/), em domínio público, e podem ser baixados em [PDF](https://cloud.gelos.club/s/X9EHSypRgZST9s2) ou [ODP](https://cloud.gelos.club/s/LkwaFRTyonESZ3R) :)
 
 ### Créditos
 

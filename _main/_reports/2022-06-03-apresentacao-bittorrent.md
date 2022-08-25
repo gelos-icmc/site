@@ -11,8 +11,8 @@ attendees:
 
 - **Apresentação**
 
-    - [BitTorrent.pdf](/assets/bittorrent.pdf)
-    - [BitTorrrent.odp](/assets/bittorrent.odp)
+    - [BitTorrent.pdf](https://cloud.gelos.club/s/X9EHSypRgZST9s2)
+    - [BitTorrrent.odp](https://cloud.gelos.club/s/LkwaFRTyonESZ3R)
 
 - **Participação:**
 
