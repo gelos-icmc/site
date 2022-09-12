@@ -13,7 +13,7 @@
         gelos-site = final.callPackage ./default.nix { };
         gelos-site-serve = final.writeShellScriptBin "serve" ''
           echo "Serving on localhost:8000"
-          ${final.webfs}/bin/webfsd -F -f index.html -r ${gelos-site}/public
+          ${final.webfs}/bin/webfsd -F -f index.html -r ${final.gelos-site}/public
         '';
       };
       default = gelos-site;
@@ -29,7 +29,7 @@
       };
 
       apps = rec {
-        gelos-site-serve = pkgs.mkApp {
+        gelos-site-serve = {
           type = "app";
           program = "${pkgs.gelos-site-serve}/bin/serve";
         };
