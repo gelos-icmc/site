@@ -1,6 +1,5 @@
 ---
 title: Apresentação GELOS & CCOS
-slug: apresentacao
 ---
 
 Oi! Somos o **GELOS**!
