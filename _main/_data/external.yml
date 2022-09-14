@@ -1,23 +1,26 @@
-- name: contato@gelos.club
-  type: E-mail
-  url: mailto:contato@gelos.club
-
 - name: Telegram
-  type: Telegram
   url: https://telegram.gelos.club/
 
 - name: Matrix
-  type: Matrix
   url: https://matrix.gelos.club/
 
+- name: GitHub
+  url: https://github.com/gelos-icmc
+
 - name: Instagram
-  type: Instagram
   url: https://instagram.com/gelos.icmc/
 
 - name: Linkedin
-  type: Linkedin
   url: https://www.linkedin.com/company/gelos-icmc/
 
 - name: Youtube
-  type: Youtube
   url: https://youtube.gelos.club
+
+- name: Email
+  url: mailto:contato@gelos.club
+
+- name: Nextcloud
+  url: https://cloud.gelos.club
+
+- name: Analytics
+  url: https://analytics.gelos.club/gelos.club

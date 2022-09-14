@@ -23,7 +23,7 @@
         <ul>
           {% for item in site.data.navigation %}
           <li>
-            <a {% if page.title == item.name %} aria-current="page" {% endif %} href="{{ item.link | relative_url }}">
+            <a {% if page.title == item.name %} aria-current="page" {% endif %} href="{{ item.url | relative_url }}">
               {{ item.name }}
             </a>
           </li>
@@ -60,8 +60,8 @@
 
       <nav>
         <ul>
-          {% for social in site.data.social %}
-          <li><a href="{{ social.url }}" target="_blank" rel="noreferrer noopener">{{ social.type }}</a></li>
+          {% for item in site.data.external %}
+          <li><a href="{{ item.url }}" target="_blank" rel="noreferrer noopener">{{ item.name }}</a></li>
           {% endfor %}
         </ul>
       <nav>

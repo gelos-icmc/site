@@ -1,11 +1,8 @@
 - name: Home
-  link: /
+  url: /
 - name: Sobre
-  link: /sobre
+  url: /sobre
 - name: Notícias
-  link: /noticias
-
+  url: /noticias
 - name: Relatórios
-  link: /relatorios
-- name: Arquivos
-  link: https://cloud.gelos.club/s/aMgzwjG56PQjXQz
+  url: /relatorios
