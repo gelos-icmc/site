@@ -23,3 +23,5 @@ Todos estão super convidados a colar pra ajudar ou só socializar mesmo.
 
 Gostou e quer participar? Queria ir mas o horário não bateu? Vem conversar com
 a gente [lá no nosso grupo](https://t.me/gelos_geral) ❄
+
+![flyer](https://cloud.gelos.club/s/MQXLFWEj29ZFMfs/preview)
