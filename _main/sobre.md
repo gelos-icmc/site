@@ -70,7 +70,7 @@ Devemos muito ao apoio deles!
 **Em suma**: Os dois movimentos estão incluídos, e debates são extremamente
 benéficos e bem-vindos! Estamos todos aprendendo e formando opiniões, afinal de
 contas. Discussões políticas ao redor de FLOSS são consideradas *on-topic* e
-fazem parte de todos os nossos espaço.
+fazem parte de todos os nossos espaços.
 
 ### Contexto e termos
 
