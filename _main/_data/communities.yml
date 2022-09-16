@@ -1,0 +1,81 @@
+
+# Comunidades de FLOSS*
+# Colocar nome do grupo e, pelo menos, um link.
+# Exemplo:
+#
+# - name: GELOS
+#   telegram: https://t.me/gelos_geral
+#   instagram: https://instagram.com/gelos.icmc
+#   matrix: https://matrix.to/#/#gelos:matrix.org
+#
+# REGRAS:
+#
+# 1. Colocar apenas URLs com os **domínios oficiais** de cada rede social
+#
+# Exemplo:
+#  x telegram: https://telegram.gelos.club
+#  ✓ telegram: https://t.me/gelos_geral
+#
+# 2. Não colocar a URL com parâmetros que não sirvam para o acesso ao grupo, como refers e afins.
+#
+# Exemplo:
+#
+#  x instagram: https://instagram.com/gelos.icmc?fbclick=dmeief...
+#  ✓ instagram: https://instagram.com/gelos.icmc
+
+- name: GELOS - ICMC/USP
+  description: Grupo de Extensão em Livre & Open Source do Instituto de Ciências Matemáticas e de Computação da USP.
+  telegram: https://t.me/gelos_geral
+  matrix: https://matrix.to/#/#gelos:matrix.org
+  instagram: https://instagram.com/gelos.icmc
+  website: https://gelos.club/
+
+- name: Linux Brasil
+  description: Comunidade brasileira de Linux.
+  reddit: https://reddit.com/r/linuxbrasil/
+
+- name: Linux para Todos
+  description: Grupo no Telegram de Linux para todos os públicos.
+  telegram: https://t.me/LinuxParaTodos
+
+- name: Comunidade Fedora Brasil
+  description: Comunidade oficial brasileira da distribuição Linux Fedora.
+  telegram: https://t.me/comunidadefedorabrasil
+  website: https://fedorabr.org/
+
+- name: Fedora Brasil
+  description: Comunidade Linux Fedora no Brasil.
+  telegram: https://t.me/fedora_br
+
+- name: Manjaro Brasil
+  description: Comunidade brasileira da distribuição Linux Manjaro.
+  telegram: https://t.me/manjarobrasiloficial
+
+- name: SancaLUG
+  description: Grupo de Usuários de Linux da cidade de São Carlos-SP.
+  telegram: https://t.me/sancaLUG
+
+- name: Libre Office Brasil
+  description: Comunidade no Telegram de Libre Office, software livre de documentos.
+  telegram: https://t.me/libreofficebr
+
+- name: GNOME Brasil
+  description: Grupo sobre o Desktop Environment GNOME.
+  telegram: https://t.me/GNOMEBrasil
+
+- name: KDE Brasil
+  description: Grupo de telegram sobre KDE, um projeto que engloba uma desktop environment (plasma) e diversos outros softwares livres famosos, como Krita, Kdenlive, entre outros.
+  telegram: https://t.me/kdebrasil
+
+- name: Arch Linux Brasil
+  description: Comunidade brasileira de Arch Linux.
+  telegram: https://t.me/archlinuxbr
+
+- name: NixOS Brasil
+  description: Comunidade brasileira de NixOS.
+  telegram: https://t.me/nixosbrasil
+
+- name: RISC-V Brasil
+  description: Grupo de RISC-V.
+  telegram: https://t.me/riscvbr
+
