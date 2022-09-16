@@ -6,3 +6,5 @@
   url: /noticias
 - name: Relatórios
   url: /relatorios
+- name: Comunidades
+  url: /comunidades
