@@ -23,7 +23,7 @@
         <ul>
           {% for item in site.data.navigation %}
           <li>
-            <a {% if page.title == item.name %} aria-current="page" {% endif %} href="{{ item.url | relative_url }}">
+            <a {% if page.url == item.url %} aria-current="page" {% endif %} href="{{ item.url | relative_url }}">
               {{ item.name }}
             </a>
           </li>
