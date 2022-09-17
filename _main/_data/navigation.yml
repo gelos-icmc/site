@@ -1,10 +1,10 @@
 - name: Home
   url: /
 - name: Sobre
-  url: /sobre
+  url: /sobre/
 - name: Notícias
-  url: /noticias
+  url: /noticias/
 - name: Relatórios
-  url: /relatorios
+  url: /relatorios/
 - name: Comunidades
-  url: /comunidades
+  url: /comunidades/
