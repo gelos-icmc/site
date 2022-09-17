@@ -79,3 +79,16 @@
   description: Grupo de RISC-V.
   telegram: https://t.me/riscvbr
 
+- name: Debian Brasil
+  description: Grupo criado para conversármos sobre Debian, raspberry, música, e outros temas!
+  telegram: https://t.me/debianbr
+
+- name: Debian SP
+  description: Grupo de usuários e colaboradores da comunidade Debian em São Paulo.
+  irc: irc://irc.oftc.net#debian-sp
+  telegram: https://t.me/DebianSP
+
+- name: Creative Commons Brasil
+  description: Grupo criado pelo CC Brasil para discutir e divulgar informações ligadas às licenças CC e tudo que elas envolvem.
+  telegram: https://t.me/+tazzHFnAPNBmY2Ux
+  website: https://br.creativecommons.net/
