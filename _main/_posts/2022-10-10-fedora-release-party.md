@@ -11,6 +11,18 @@ O objetivo do festival de lançamento é apresentar as novidades da nova versão
 
 Então já anote aí na sua agenda, pois teremos um dia do Fedora muito especial!
 
-Se interessou pelo evento? Quer conferir o cronograma completo e ficar antenado para os próximos que virão? Acesse: https://gelos.club/
+Confira o nosso cronograma completo de atividades abaixo.
+
+|  Horário  |  Evento  |  Apresentador(es)  |     Descrição     | 
+|-----------|----------|--------------------|-------------------|
+| 10h | Abertura | Equipe do GELOS | Apresentação do evento e do projeto Fedora |
+| 10h30 | Palestra | Geraldo Simião | Release Cicle do Fedora |
+| 11h30 | Palestra | Melissa Wen | Como contribuir para o Kernel (Motivação) |
+| 12h30 | Almoço |  |  |
+| 14h | Palestra | Flango | Métodos de contribuição |
+| 15h | Palestra | Maíra | Programas de Mentoria (Open-Source Internship) |
+| 16h | Coffee Break |  |  |
+| 16h30 | Palestra | Charles | Empacotamento no Debian |
+| 17h30 | Encerramento | Equipe do GELOS | Agradecimentos e finalizações. |
 
 ![Cartaz](/assets/fedora-release-party.png)
