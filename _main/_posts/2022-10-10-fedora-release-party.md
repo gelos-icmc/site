@@ -25,4 +25,4 @@ Confira o nosso cronograma completo de atividades abaixo.
 | 16h30 | Palestra | Charles | Empacotamento no Debian |
 | 17h30 | Encerramento | Equipe do GELOS | Agradecimentos e finalizações. |
 
-![Cartaz](/assets/fedora-release-party.png)
+![Cartaz](/assets/static/fedora-release-party.png)
