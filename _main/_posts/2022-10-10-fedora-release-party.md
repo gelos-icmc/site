@@ -12,4 +12,4 @@ O objetivo do festival de lançamento é apresentar as novidades da nova versão
 
 Então já anote aí na sua agenda, pois teremos um dia do Fedora muito especial!
 
-![fedora-release-party(2).png](.attachments.6385/fedora-release-party%282%29.png)
+![Cartaz](/assets/fedora-release-party.png)
