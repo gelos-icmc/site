@@ -37,35 +37,21 @@
     </main>
 
     <footer>
-      <hr />
       <address>
-        <small>
-          Grupo de Extensão em Livre & Open Source
-          <br />
+        <p>
+          Grupo de Extensão em Livre & Open Source <br />
           <a href="https://icmc.usp.br">Instituto de Ciências Matemáticas e de Computação</a>
-          <br />
-          Av. Trabalhador São-carlense, 400.
-          São Carlos, SP
-        </small>
+        </p>
+        <p><a href="mailto:contato@gelos.club">contato@gelos.club</a></p>
+        <p>Copyleft GELOS, 2021 - <a href="https://github.com/gelos-icmc/site">código fonte</a></p>
       </address>
-
-      <p>
-        <small>
-          Copyleft GELOS, 2021 -
-          <a href="https://github.com/gelos-icmc/site">código fonte</a>
-        </small>
-      </p>
-
-      <hr />
-
       <nav>
         <ul>
           {% for item in site.data.external %}
           <li><a href="{{ item.url }}" target="_blank" rel="noreferrer noopener">{{ item.name }}</a></li>
           {% endfor %}
         </ul>
-      <nav>
-
+      </nav>
     </footer>
   </body>
 </html>

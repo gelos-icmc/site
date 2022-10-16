@@ -92,18 +92,6 @@ figure {
   }
 }
 
-// Lista de links de contato e sociais
-footer nav {
-  text-align: center;
-  ul {
-    list-style-type: none;
-    li {
-      display: inline-block;
-      margin-right: 4%;
-    }
-  }
-}
-
 fieldset {
   border: 0;
   border-top: 1px solid var(--color-fade);
@@ -143,6 +131,26 @@ ul.attendance {
     }
     &:last-child:after {
       content: ".";
+    }
+  }
+}
+
+footer {
+  font-size: 85%;
+  address {
+    border-top: 1px solid var(--color-blossom);
+    padding-top: 2em;
+  }
+  nav {
+    border-top: 1px solid var(--color-blossom);
+    padding-top: 2em;
+    text-align: center;
+    ul {
+      list-style-type: none;
+      li {
+        display: inline-block;
+        margin-right: 4%;
+      }
     }
   }
 }

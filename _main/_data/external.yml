@@ -10,17 +10,8 @@
 - name: Instagram
   url: https://instagram.com/gelos.icmc/
 
-- name: Linkedin
-  url: https://www.linkedin.com/company/gelos-icmc/
-
 - name: Youtube
   url: https://youtube.gelos.club
 
-- name: Email
-  url: mailto:contato@gelos.club
-
 - name: Nextcloud
   url: https://cloud.gelos.club
-
-- name: Analytics
-  url: https://analytics.gelos.club/gelos.club
