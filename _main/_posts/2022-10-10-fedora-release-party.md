@@ -3,11 +3,11 @@ title: Fedora Release Party
 author: Julio
 ---
 
+No próximo dia 22/10 (sábado) a partir das 10h da manhã faremos o Festival de Lançamento do Fedora 37. 
+
 ![Cartaz](/assets/static/fedora-release-party.png)
 
 Salve geladitos ☃️
-
-No próximo dia 22/10 (sábado) a partir das 10h da manhã faremos o Festival de Lançamento do Fedora 37. 
 
 O evento será realizado no Auditório Fávaro do ICMC-USP, teremos alguns palestrantes que apresentarão de forma remota e outros de forma presencial. Todas as atividades do evento serão realizadas de forma gratuita e aberta a todas as pessoas interessadas. 
 
@@ -21,17 +21,17 @@ Confira o nosso cronograma completo de atividades abaixo.
 
 ## Cronograma
 
-| Horário | Evento | Apresentador(es) | Descrição |
-|---------|--------|------------------|-----------|
-| 10h | Abertura | Equipe do GELOS | Apresentação do evento e do projeto Fedora |
-| 10h30 | Palestra | Geraldo Simião | Release Cicle do Fedora |
-| 11h30 | Palestra | Melissa Wen | Como contribuir para o Kernel (Motivação) |
-| 12h30 | Almoço |  |  |
-| 14h | Palestra | Flango | Métodos de contribuição |
-| 15h | Palestra | Maíra | Programas de Mentoria (Open-Source Internship) |
-| 16h | Coffee Break |  |  |
-| 16h30 | Palestra | Charles | Empacotamento no Debian |
-| 17h30 | Encerramento | Equipe do GELOS | Agradecimentos e finalizações. |
+| Horário | Evento       | Apresentador(es) | Descrição                                      |
+|---------|--------------|------------------|------------------------------------------------|
+| 10h     | Abertura     | Equipe do GELOS  | Apresentação do evento e do projeto Fedora     |
+| 10h30   | Palestra     | Geraldo Simião   | Release Cicle do Fedora                        |
+| 11h30   | Palestra     | Melissa Wen      | Como contribuir para o Kernel (Motivação)      |
+| 12h30   | Almoço       | -                |                                                |
+| 14h     | Palestra     | Bruno Larsen     | Métodos de contribuição                        |
+| 15h     | Palestra     | Maíra Canal      | Programas de Mentoria (Open-Source Internship) |
+| 16h     | Coffee Break | -                |                                                |
+| 16h30   | Palestra     | Carlos Melara    | Empacotamento no Debian                        |
+| 17h30   | Encerramento | Equipe do GELOS  | Agradecimentos e finalizações.                 |
 
 ## Detalhamento
 
