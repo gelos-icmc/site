@@ -25,12 +25,12 @@ Confira o nosso cronograma completo de atividades abaixo.
 |---------|--------------|------------------|------------------------------------------------|
 | 10h     | Abertura     | Equipe do GELOS  | Apresentação do evento e do projeto Fedora     |
 | 10h30   | Palestra     | Geraldo Simião   | Release Cycle do Fedora                        |
-| 11h30   | Palestra     | Melissa Wen      | Como contribuir para o Kernel (Motivação)      |
+| 11h30   | Palestra     | Melissa Wen      | É difícil contribuir para o kernel Linux?      |
 | 12h30   | Almoço       | -                |                                                |
-| 14h     | Palestra     | Bruno Larsen     | Métodos de contribuição                        |
-| 15h     | Palestra     | Maíra Canal      | Programas de Mentoria (Open-Source Internship) |
+| 14h     | Palestra     | Bruno Larsen     | Minha primeira contribuição                    |
+| 15h     | Palestra     | Maíra Canal      | Como iniciar uma carreira em software livre?   |
 | 16h     | Coffee Break | -                |                                                |
-| 16h30   | Palestra     | Carlos Melara    | Empacotamento no Debian                        |
+| 16h30   | Palestra     | Carlos Melara    | O ~~Fedora~~ Debian e as minhas contribuições  |
 | 17h30   | Encerramento | Equipe do GELOS  | Agradecimentos e finalizações.                 |
 
 ## Detalhamento
