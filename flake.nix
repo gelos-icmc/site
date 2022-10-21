@@ -14,7 +14,7 @@
       packages = rec {
         gelos-site = pkgs.callPackage ./default.nix { };
         gelos-site-serve = pkgs.writeShellScriptBin "serve" ''
-          echo "Serving on localhost:8000"
+          echo "Serving on http://localhost:8000"
           ${pkgs.webfs}/bin/webfsd -F -f index.html -r ${gelos-site}/public
         '';
         default = gelos-site;
