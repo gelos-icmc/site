@@ -41,6 +41,8 @@ Confira o nosso cronograma completo de atividades abaixo.
 
 **Bio**: Geraldo S. Simião Kutz. Uso GNU/Linux e Software Open Source desde 2004, mas somente em 2019 me tornei usuário do Fedora. Desde o início eu me apaixonei pelo Projeto e pela distro Fedora e busquei me tornar um contribuidor do Fedora, primeiro na equipe de controle de qualidade, e mais tarde como um Fedora Advocate também. Sou de Curitiba, e trabalho como administrador de empresas. Minha variação favorita do Fedora é o KDE-Plasma SPIN que eu uso no meu antigo notebook acer/intel com ótimos resultados.
 
+**Slides**: [fedora-geraldo.pdf](/assets/static/fedora37-release-party/fedora37-release-party/slides/fedora-geraldo.pdf)
+
 ### Palestra 11h30 - Melissa Wen
 
 **Título**: É difícil contribuir para o kernel Linux?
@@ -48,6 +50,8 @@ Confira o nosso cronograma completo de atividades abaixo.
 **Resumo**: Você quer ser um contribuidor do projeto Kernel Linux? Então precisamos nos conhecer! Vamos falar um pouco sobre os primeiros passos, principais desafios e motivos para começar e continuar contribuindo para um dos maiores e mais famosos projetos de software livre. Também falaremos sobre a experiência de fazer parte de uma comunidade de desenvolvimento geograficamente distribuída com mais de 30 anos de história.
 
 **Bio**: Melissa Wen é desenvolvedora do kernel Linux na Igalia, onde desenvolve drivers de GPU para o subsistema DRM. Tem bacharelado em Ciências da Computação pela UFBA, onde foi professora substituta, e mestrado na mesma área pelo IME-USP, investigando ecossistemas de software livre e suas comunidades. Há mais de 10 anos ela trabalha com tecnologias livres e, além de códigos e pesquisa, ela contribui para projetos de software livre com mentoria, documentação e manutenção de drivers de GPU.
+
+**Slides**: [KernelDev_Melissa.pdf](/assets/static/fedora37-release-party/fedora37-release-party/slides/KernelDev_Melissa.pdf)
 
 ### Palestra 14h - Bruno (Flango) Larsen
 
@@ -57,11 +61,15 @@ Confira o nosso cronograma completo de atividades abaixo.
 
 **Bio**: Bruno (Flango) Larsen eh um engenheiro de software contratado pela Red Hat para desenvolver GDB.
 
+**Slides**: [Minha-primeira-contribuicao.pdf](/assets/static/fedora37-release-party/fedora37-release-party/slides/Minha-primeira-contribuicao.pdf)
+
 ### Palestra 15h - Maíra Canal
 
 **Título**: Como iniciar uma carreira em software livre?
 
 **Bio**: Estudante de Engenharia de Computação na EESC desde 2020, gasta grande parte do seu tempo livre empacotando pacotes para Fedora e evangelizando o software livre. Fã de programação de baixo nível, contribui frequentemente para o Kernel Linux, principalmente, para o subsistema de Graphics. Além da graduação, participou de programas de mentoria como o Google Summer of Code pela X.Org Foundation, escrevendo testes unitários para placas gráficas da AMD. Atualmente, é parte do Igalia Coding Experience, onde continua trabalhando com Graphics para a Raspberry Pi 4.
+
+**Slides**: [Como-iniciar-uma-carreira-em-software-livre.pdf](/assets/static/fedora37-release-party/fedora37-release-party/slides/Como-iniciar-uma-carreira-em-software-livre.pdf)
 
 ### Palestra 16h30 - Carlos (Charles) Melara
 
@@ -77,3 +85,5 @@ Confira o nosso cronograma completo de atividades abaixo.
 * Etc XD
 
 **Bio**: Carlos, ou melhor, Charles é graduando em Engenharia de Computação pela USP São Carlos. Foi na universidade que teve seu primeiro contato com distros GNU/Linux, e passou a usar Debian em 2017 graças à Semcomp. Desde então, tem contribuído para diversos projetos de software livre, especialmente para o Debian. Neste, trabalha com tradução, divulgação e empacotamento. Em 2022, teve o prazer de participar da conferência anual do Debian, a Debconf, em Kosovo e de conhecer vários outros contribuidores.
+
+**Slides**: [O-Debian-e-as-minhas-contribuicoes.pdf](/assets/static/fedora37-release-party/fedora37-release-party/slides/O-Debian-e-as-minhas-contribuicoes.pdf)
