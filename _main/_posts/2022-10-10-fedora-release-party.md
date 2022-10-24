@@ -5,7 +5,7 @@ author: Julio
 
 No próximo dia 22/10 (sábado) a partir das 10h da manhã faremos o Festival de Lançamento do Fedora 37. 
 
-![Cartaz](/assets/static/fedora-release-party.png)
+![Cartaz](/assets/static/fedora37-release-party/fedora-release-party.png)
 
 Salve geladitos ☃️
 
