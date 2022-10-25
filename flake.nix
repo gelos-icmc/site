@@ -2,51 +2,30 @@
   description = "Site institucional do GELOS/USP";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-22.05";
     utils.url = "github:numtide/flake-utils";
   };
 
 
-  outputs = { self, nixpkgs, utils }: {
-    overlays = rec {
-      gelos-site = final: _prev: {
-        gelos-site = final.callPackage ./default.nix { };
-        gelos-site-serve = final.writeShellScriptBin "serve" ''
-          echo "Serving on localhost:8000"
-          ${final.webfs}/bin/webfsd -F -f index.html -r ${final.gelos-site}/public
-        '';
-      };
-      default = gelos-site;
-    };
-  } // (utils.lib.eachDefaultSystem (system:
-    let
-      pkgs = import nixpkgs { inherit system; overlays = [ self.overlays.default ]; };
+  outputs = { self, nixpkgs, utils }: utils.lib.eachDefaultSystem (system:
+    let pkgs = nixpkgs.legacyPackages.${system};
     in
-    {
+    rec {
       packages = rec {
-        inherit (pkgs) gelos-site gelos-site-serve;
+        gelos-site = pkgs.callPackage ./default.nix { };
+        gelos-site-serve = pkgs.writeShellScriptBin "serve" ''
+          echo "Serving on http://localhost:8000"
+          ${pkgs.webfs}/bin/webfsd -F -f index.html -r ${gelos-site}/public
+        '';
         default = gelos-site;
       };
 
       apps = rec {
         gelos-site-serve = {
           type = "app";
-          program = "${pkgs.gelos-site-serve}/bin/serve";
+          program = "${packages.gelos-site-serve}/bin/serve";
         };
         default = gelos-site-serve;
       };
-
-      devShells = rec {
-        gelos-site = pkgs.mkShell {
-          inputsFrom = [ pkgs.gelos-site ];
-          buildInputs = with pkgs; [
-            nodePackages.prettier
-            ruby
-            rubyPackages.solargraph
-          ];
-        };
-        default = gelos-site;
-      };
-    }
-  ));
+    });
 }
