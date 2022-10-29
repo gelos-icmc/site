@@ -3,9 +3,17 @@ on:
   pull_request:
   push:
 jobs:
-  tests:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.4.0
-    - uses: cachix/install-nix-action@v15
-    - run: nix build
+    - name: Baixar repositório
+      uses: actions/checkout@v2.4.0
+    - name: Instalar nix
+      uses: cachix/install-nix-action@v18
+    - name: Autenticar no cachix
+      uses: cachix/cachix-action@v10
+      with:
+        name: gelos-icmc
+        authToken: '${{ secrets.CACHIX_KEY }}'
+    - name: Executar 'nix build'
+      run: nix build
