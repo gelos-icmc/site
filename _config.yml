@@ -5,7 +5,7 @@ url: "https://gelos.club"
 sass:
   style: compact
 
-source: _main
+source: src
 
 permalink: /:path/:basename/
 
