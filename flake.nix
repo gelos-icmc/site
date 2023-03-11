@@ -16,6 +16,9 @@
         echo "Serving on http://localhost:8000"
         ${pkgs.webfs}/bin/webfsd -F -f index.html -r ${gelos-site}/public
       '';
+      remove-nbsp = pkgs.writeShellScriptBin "remove-nbsp" ''
+        ${pkgs.gnused}/bin/sed 's/\xC2\xA0/ /g' -i $(find . -name '*.md')
+      '';
       default = gelos-site;
     };
 
