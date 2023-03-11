@@ -25,6 +25,6 @@ jobs:
     - name: Remover NBSPs
       run: |
         nix run .#remove-nbsp
-    - name: Commitar lock
+    - name: Commitar alterações
       run: |
         git commit . -m "fix: remover NBSPs" && git push || echo "Nada para commitar"
