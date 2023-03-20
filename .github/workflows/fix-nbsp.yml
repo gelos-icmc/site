@@ -5,6 +5,8 @@ on:
 jobs:
   fix:
     runs-on: ubuntu-latest
+    # Não rodar em forks, já que forks não tem acesso a secrets.
+    if: ${{ !github.event.pull_request.head.repo.fork }}
     steps:
     - name: Autenticar bot
       uses: tibdex/github-app-token@v1
