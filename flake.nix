@@ -2,7 +2,7 @@
   description = "Site institucional do GELOS/USP";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-22.05";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";
     utils.url = "github:numtide/flake-utils";
   };
 
