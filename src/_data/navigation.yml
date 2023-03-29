@@ -4,6 +4,8 @@
   url: /sobre/
 - name: Notícias
   url: /noticias/
+- name: Projetos
+  url: /projetos/
 - name: Relatórios
   url: /relatorios/
 - name: Comunidades

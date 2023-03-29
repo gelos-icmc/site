@@ -24,6 +24,11 @@ collections:
     output: true
     permalink: /:year/:month/:day/:title:output_ext
     name: Relatórios
+  # Informações sobre projetos/atividades contínuas
+  projects:
+    output: true
+    permalink: /projetos/:title:output_ext
+    name: Projetos
 
 defaults:
   -
@@ -36,6 +41,11 @@ defaults:
       type: reports
     values:
       layout: report
+  -
+    scope:
+      type: projects
+    values:
+      layout: project
   -
     scope:
       path: "api"
