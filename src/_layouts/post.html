@@ -4,13 +4,13 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p>
   <small>
-    {{ page.date | date: "%d/%m/%y" }}
+    {{ page.date | date: "%d/%m/%y" }} |
 
     {% if page.author %}
-      | <strong>{{ page.author }}</strong>
+      <strong>{{ page.author }}</strong> |
     {% endif %}
 
-    | <a href="/noticias">Notícias</a>
+    <a href="/noticias">Notícias</a>
   </small>
 </p>
 

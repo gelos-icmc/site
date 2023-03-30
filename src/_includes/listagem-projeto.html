@@ -1,0 +1,16 @@
+<article>
+  <p>
+    <{{ include.element | default: "h2" }}>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </{{ include.element | default: "h2"  }}>
+    <small>
+      {% if post.author %}
+        <strong>{{ post.author }}</strong>
+      {% endif %}
+    </small>
+  </p>
+  <p>
+    {{ post.excerpt }}
+  </p>
+  <p><a href="{{ post.url | relative_url }}">Ler mais...</a></p>
+</article>
