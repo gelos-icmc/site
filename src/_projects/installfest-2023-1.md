@@ -43,8 +43,11 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 |----------|----------------------|----------------------------------------------------|
 | Gabriel  | g.fontes@usp.br      | 12-13h, 16-19h. _Intermitente em outros horários._ |
 |----------|----------------------|----------------------------------------------------|
-| Silmar   | silmar.junior@usp.br | 12-19h                                             |
+| Silmar   | silmar.junior@usp.br | 12-19h.                                            |
 |----------|----------------------|----------------------------------------------------|
+| Júlio    | casemiroji@usp.br    | 12-13:30h, 14:30-19h.                              |
+|----------|----------------------|----------------------------------------------------|
+
 
 
 ## Pendrives
@@ -58,6 +61,9 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 | 32GB        | Sandisk Preto e vermelho        | Silmar   | Todas                        |
 | 15GB        | Utech Preto                     | Silmar   | Todas exceto ubuntu e Debian |
 |-------------|---------------------------------|----------|------------------------------|
+| 64GB        | Adata                           | Júlio    | Todas                        |
+|-------------|---------------------------------|----------|------------------------------|
+
 
 
 ## Guestbook
