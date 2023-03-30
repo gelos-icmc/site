@@ -31,8 +31,11 @@ Todas são `x86-64` e, para agilizar a instalação, versão "offline" (não net
 |----------|----------------------|----------------------------------------------------|
 | Gabriel  | g.fontes@usp.br      | 12-13h, 16-19h. _Intermitente em outros horários._ |
 |----------|----------------------|----------------------------------------------------|
-| Silmar   | silmar.junior@usp.br | 12-19h                                             |
+| Silmar   | silmar.junior@usp.br | 12-19h.                                            |
 |----------|----------------------|----------------------------------------------------|
+| Júlio    | casemiroji@usp.br    | 12-13:30h, 14:30-19h.                              |
+|----------|----------------------|----------------------------------------------------|
+
 
 
 ## Pendrives
@@ -46,6 +49,9 @@ Todas são `x86-64` e, para agilizar a instalação, versão "offline" (não net
 | 32GB        | Sandisk Preto e vermelho        | Silmar   | Todas                        |
 | 15GB        | Utech Preto                     | Silmar   | Todas exceto ubuntu e Debian |
 |-------------|---------------------------------|----------|------------------------------|
+| 64GB        | Adata                           | Júlio    | Todas                        |
+|-------------|---------------------------------|----------|------------------------------|
+
 
 
 ## Guestbook
