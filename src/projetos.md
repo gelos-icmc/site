@@ -1,6 +1,6 @@
 ---
 title: Projetos
-description: Índice de projetos e atividades recorrentes.
+description: Índice de projetos e atividades recorrentes. Alguns são Work-in-progress!
 ---
 
 # {{ page.title }}
