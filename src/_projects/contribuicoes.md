@@ -2,6 +2,7 @@
 title: Contribuições FLOSS
 author: Gabriel
 lang: pt-BR
+state: concepção
 ---
 
 Contribuir com projetos livres é maravilhoso e faz bem para todos os envolvidos. O GELOS pode te ajudar com isso!
