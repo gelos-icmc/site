@@ -20,5 +20,5 @@ Infelizmente, nem todos os alunos têm muito contato com isso na graduação. No
     - Como explorar e "hackear" numa codebase
         - git, grep, editores, LSPs/IDEs
     - Como modificar o software que você usa no dia a dia
-        - Patching, build, empacotamento tools
+        - Patching, build tools, empacotamento
         - Um tie-in com um curso sobre distros e ciclo de release?
