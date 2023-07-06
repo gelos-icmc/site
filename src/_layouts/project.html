@@ -8,6 +8,8 @@ layout: default
       <strong>{{ page.author }}</strong> |
     {% endif %}
 
+    <strong>Status:</strong> {{ page.state | default: "em andamento" }} |
+
     <a href="/projetos">Projetos</a>
   </small>
 </p>

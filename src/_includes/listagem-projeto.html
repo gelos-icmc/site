@@ -5,8 +5,10 @@
     </{{ include.element | default: "h2"  }}>
     <small>
       {% if post.author %}
-        <strong>{{ post.author }}</strong>
+        <strong>{{ post.author }}</strong> |
       {% endif %}
+
+      <strong>Status:</strong> {{ post.state | default: "em andamento" }}
     </small>
   </p>
   <p>

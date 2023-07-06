@@ -2,6 +2,7 @@
 title: Installfest 2023/1
 author: Gabriel
 lang: pt-BR
+state: concluído
 ---
 
 Evento de instalação de Linux, a ser realizado no dia 31/03 das 12h às 19h, no vão da biblioteca do ICMC.
