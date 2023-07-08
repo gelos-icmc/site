@@ -59,18 +59,6 @@ figure {
   font-size: $font-size-base * 1.5;
 }
 
-// Lista de destaques (coloca em flexbox)
-.highlights {
-  display: flex;
-  flex-wrap: wrap;
-
-  // Espaça entre eles
-  article {
-    margin-right: 1em;
-    flex: 300px;
-  }
-}
-
 fieldset {
   border: 0;
   border-top: 1px solid var(--color-fade);
