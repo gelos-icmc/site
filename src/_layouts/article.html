@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article>
+  <header>
+    <h1>{{ page.title }}</h1>
+
+    <blockquote>
+      {% if page.date %}
+        <p>Data: <strong>{{ page.date | date: "%d/%m/%y" }}</strong><p>
+      {% endif %}
+      {% if page.author %}
+        <p>Autor: <strong>{{ page.author }}</strong></p>
+      {% endif %}
+      {% if page.state %}
+        <p>Status: <strong>{{ page.state | default: "em andamento" }}</strong></p>
+      {% endif %}
+    </blockquote>
+
+    {% if page.attendees %}
+    <ul class="attendance">
+      <strong>Presentes</strong>:
+      {% for attendee in page.attendees %}
+        <li>{{ attendee }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </header>
+
+  {{ content }}
+</article>

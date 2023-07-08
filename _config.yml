@@ -35,19 +35,19 @@ defaults:
     scope:
       type: posts
     values:
-      layout: post
+      layout: article
       parent: /blog/
   -
     scope:
       type: meetings
     values:
-      layout: meeting
+      layout: article
       parent: /reunioes/
   -
     scope:
       type: projects
     values:
-      layout: project
+      layout: article
       parent: /projetos/
   -
     scope:

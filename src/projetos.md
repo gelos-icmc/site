@@ -7,5 +7,5 @@ description: Índice de projetos e atividades recorrentes. Alguns são Work-in-p
 {{ page.description }}
 
 {% for post in site.projects %}
-{% include listagem-projeto.html %}
+{% include listagem.html %}
 {% endfor %}
