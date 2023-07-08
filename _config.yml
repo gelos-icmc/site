@@ -19,11 +19,11 @@ collections:
     output: true
     permalink: /:year/:month/:day/:title:output_ext
     name: Notícias
-  # Relatórios internos (reuniões, eventos, etc)
-  reports:
+  # Relatórios de reuniões
+  meetings:
     output: true
     permalink: /:year/:month/:day/:title:output_ext
-    name: Relatórios
+    name: Reuniões
   # Informações sobre projetos/atividades contínuas
   projects:
     output: true
@@ -39,10 +39,10 @@ defaults:
       parent: /noticias/
   -
     scope:
-      type: reports
+      type: meetings
     values:
-      layout: report
-      parent: /relatorios/
+      layout: meeting
+      parent: /reunioes/
   -
     scope:
       type: projects
