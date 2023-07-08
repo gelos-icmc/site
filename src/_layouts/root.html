@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.title %}{{ page.title }} - {% endif %}GELOS</title>
+    <meta
+      name="description"
+      content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+    />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <link rel="stylesheet" href="{% link assets/style.scss %}" />
+    <link rel="icon" href="{% link assets/favicon.svg %}">
+    <script defer data-domain="gelos.club" src="https://analytics.gelos.club/js/plausible.js"></script>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

@@ -1,57 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% if page.title %}{{ page.title }} - {% endif %}GELOS</title>
-    <meta
-      name="description"
-      content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
-    />
-    <link rel="canonical" href="{{ page.url | absolute_url }}" />
-    <link rel="stylesheet" href="{% link assets/style.scss %}" />
-    <link rel="icon" href="{% link assets/favicon.svg %}">
-    <script defer data-domain="gelos.club" src="https://analytics.gelos.club/js/plausible.js"></script>
-  </head>
-  <body>
+---
+layout: root
+---
 
-    <header>
-      <nav>
-        <span class="title">
-          <a aria-label="GELOS" href="/{{ site.baseurl }}">{% include icones/logo.svg %}</a>
-        </span>
-        <ul>
-          {% for item in site.data.navigation %}
-          <li>
-            <a {% if page.url == item.url or page.parent == item.url %} aria-current="page" {% endif %} href="{{ item.url | relative_url }}">
-              {{ item.name }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </header>
+<header>
+  {% include header.html %}
+</header>
 
-    <main>
-      {{ content }}
-    </main>
+<main>
+  {{ content }}
+</main>
 
-    <footer>
-      <address>
-        <p>
-          Grupo de Extensão em Livre & Open Source <br />
-          <a href="https://icmc.usp.br">Instituto de Ciências Matemáticas e de Computação</a>
-        </p>
-        <p><a href="mailto:contato@gelos.club">contato@gelos.club</a></p>
-        <p>Copyleft GELOS, 2021 - <a href="https://github.com/gelos-icmc/site">código fonte</a></p>
-      </address>
-      <nav>
-        <ul>
-          {% for item in site.data.external %}
-          <li><a href="{{ item.url }}" target="_blank" rel="noreferrer noopener">{{ item.name }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </footer>
-  </body>
-</html>
+<footer>
+  {% include footer.html %}
+</footer>
