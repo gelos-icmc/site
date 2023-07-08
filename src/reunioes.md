@@ -8,5 +8,5 @@ description: Atas de reuniões do grupo.
 
 {% assign meetings = site.meetings | sort: 'date' | reverse %}
 {% for post in meetings %}
-{% include listagem-post.html %}
+{% include listagem.html %}
 {% endfor %}

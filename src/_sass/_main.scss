@@ -144,3 +144,35 @@ table {
 li ul {
   margin-bottom: 0.5rem;
 }
+
+main > article > header {
+  margin-bottom: 2em;
+  :first-child {
+    margin-bottom: 1em;
+  }
+  p {
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    font-size: 0.9em;
+  }
+}
+
+article.listing {
+  margin-bottom: 2.5em;
+  header {
+    margin-bottom: 0.5em;
+    :first-child {
+      margin-bottom: 0.1em;
+    }
+    p {
+      margin-block-start: 0.1em;
+      margin-block-end: 0.1em;
+      font-size: 0.8em;
+    }
+  }
+  .excerpt {
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+    font-style: italic;
+  }
+}

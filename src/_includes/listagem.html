@@ -1,22 +1,15 @@
-<article>
-  <p>
+<article class="listing">
+  <header>
     <{{ include.element | default: "h2" }}>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </{{ include.element | default: "h2"  }}>
-    <small>
+    <p>
       {{ post.date | date: "%d/%m/%y" }}
 
       {% if post.author %}
         | <strong>{{ post.author }}</strong>
       {% endif %}
-
-      {% if post.category %}
-        | <a href="{{ post.category | prepend:'/' | relative_url }}">{{ post.category }}</a>
-      {% endif %}
-    </small>
-  </p>
-  <p>
-    {{ post.excerpt }}
-  </p>
-  <p><a href="{{ post.url | relative_url }}">Ler mais...</a></p>
+    </p>
+  </header>
+  <div class="excerpt">{{ post.excerpt }}</div>
 </article>
