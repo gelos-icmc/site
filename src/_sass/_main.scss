@@ -40,9 +40,6 @@ nav ul {
   // Página atual (tira aparência de link)
   [aria-current="page"] {
     color: var(--color-text);
-    cursor: default;
-    pointer-events: none;
-    text-decoration: none;
   }
 }
 

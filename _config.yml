@@ -36,16 +36,19 @@ defaults:
       type: posts
     values:
       layout: post
+      parent: /noticias/
   -
     scope:
       type: reports
     values:
       layout: report
+      parent: /relatorios/
   -
     scope:
       type: projects
     values:
       layout: project
+      parent: /projetos/
   -
     scope:
       path: "api"
