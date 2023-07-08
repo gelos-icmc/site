@@ -36,7 +36,7 @@ defaults:
       type: posts
     values:
       layout: post
-      parent: /noticias/
+      parent: /blog/
   -
     scope:
       type: meetings

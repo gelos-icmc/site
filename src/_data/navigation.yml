@@ -2,8 +2,8 @@
   url: /
 - name: Sobre
   url: /sobre/
-- name: Notícias
-  url: /noticias/
+- name: Blog
+  url: /blog/
 - name: Projetos
   url: /projetos/
 - name: Reuniões
