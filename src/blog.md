@@ -1,5 +1,5 @@
 ---
-title: Notícias
+title: Blog
 description: Novidades e links interessantes compartilhados pelo grupo
 ---
 
