@@ -2,7 +2,7 @@
 title: Installfest 2023/1
 author: Gabriel
 lang: pt-BR
-state: concluído
+state: completed
 ---
 
 Evento de instalação de Linux, a ser realizado no dia 31/03 das 12h às 19h, no vão da biblioteca do ICMC.
@@ -52,7 +52,7 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 |-----------|----------------------|----------------------------------------------------|
 | Rodrigo   | rodrigogilgen@usp.br | 12-19h.                                            |
 |-----------|----------------------|----------------------------------------------------|
-| Ryan      | ryansouza@usp.br     | 12:30-17h30                                        | 
+| Ryan      | ryansouza@usp.br     | 12:30-17h30                                        |
 |-----------|----------------------|----------------------------------------------------|
 
 

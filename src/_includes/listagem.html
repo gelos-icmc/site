@@ -4,7 +4,15 @@
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </{{ include.element | default: "h2"  }}>
     <p>
-      {{ post.date | date: "%d/%m/%y" }}
+      {% if post.state == "wip" %}
+        Em concepção
+      {% elsif post.state == "current" %}
+        Em andamento
+      {% elsif post.state == "suspended" %}
+        Suspenso
+      {% else %}
+        {{ post.date | date: "%d/%m/%y" }}
+      {% endif %}
 
       {% if post.author %}
         | <strong>{{ post.author }}</strong>

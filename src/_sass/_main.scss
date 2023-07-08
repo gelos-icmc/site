@@ -176,3 +176,16 @@ article.listing {
     font-style: italic;
   }
 }
+
+section {
+  margin-bottom: 4.5em;
+  margin-top: 3em;
+  header {
+    :first-child {
+      margin-bottom: 0.5em;
+    }
+  }
+  article {
+    margin-left: 1em;
+  }
+}

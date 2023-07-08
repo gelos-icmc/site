@@ -1,0 +1,34 @@
+---
+title: Projetos
+description: Índice de projetos e atividades recorrentes. Alguns são Work-in-progress!
+---
+
+<h1> {{ page.title }} </h1>
+<p>{{ page.description }}</p>
+
+<section id="atuais">
+<header>
+  <h2><a href="#atuais">#</a> Atuais</h2>
+  <p>Projetos atuais e atividades recorrentes</p>
+</header>
+{% assign current_projects = site.projects | where:"state","current" %}
+{% for post in current_projects %}{% include listagem.html element="h3" %}{% endfor %}
+</section>
+
+<section id="em-concepcao">
+<header>
+  <h2><a href="#em-concepcao">#</a> Em concepção</h2>
+  <p>Projetos em fase de concepção</p>
+</header>
+{% assign wip_projects = site.projects | where:"state","wip" %}
+{% for post in wip_projects %}{% include listagem.html element="h3" %}{% endfor %}
+</section>
+
+<section id="concluidos">
+<header>
+  <h2><a href="#concluidos">#</a> Concluídos</h2>
+  <p>Projetos finalizados</p>
+</header>
+{% assign completed_projects = site.projects | where:"state","completed" %}
+{% for post in completed_projects %}{% include listagem.html element="h3" %}{% endfor %}
+</section>
