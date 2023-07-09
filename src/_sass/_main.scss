@@ -32,9 +32,12 @@ nav ul {
 
   // Dispõe na horizontal
   li {
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
-    margin-right: 15px;
+  }
+  li + li::before {
+    color: var(--color-bg-alt);
+    content: "/ ";
   }
 
   // Página atual (tira aparência de link)
@@ -65,12 +68,12 @@ figure {
   align-items: center;
   text-align: center;
 
-  font-size: 1.5em;
+  font-size: 1.4em;
   @media (min-width: 950px) {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   @media (min-width: 1400px) {
-    font-size: 1.7em;
+    font-size: 1.6em;
   }
 
   .title {
@@ -84,9 +87,21 @@ figure {
 
   nav {
     max-width: 15em;
-    border-top: 1px solid var(--color-blossom);
-    margin-top: 1.5em;
-    padding-top: 2em;
+  }
+
+  footer {
+    font-size: 0.7em;
+    address {
+      max-width: 30em;
+      padding-top: 1em;
+    }
+    nav {
+      max-width: 30em;
+      padding-top: 1em;
+    }
+    margin-top: 5em;
+    padding-top: 0.5em;
+    max-width: 50em;
   }
 }
 
@@ -136,21 +151,9 @@ ul.attendance {
 footer {
   margin-top: 5em;
   font-size: 85%;
+  border-top: 1px solid var(--color-blossom);
   address {
-    border-top: 1px solid var(--color-blossom);
     padding-top: 2em;
-  }
-  nav {
-    border-top: 1px solid var(--color-blossom);
-    padding-top: 2em;
-    text-align: center;
-    ul {
-      list-style-type: none;
-      li {
-        display: inline-block;
-        margin-right: 4%;
-      }
-    }
   }
 }
 
@@ -159,6 +162,11 @@ table {
   display: block;
   overflow-x: auto;
   white-space: nowrap;
+}
+
+
+main {
+  border-top: 1px solid var(--color-bg-alt);
 }
 
 main > article > header {
