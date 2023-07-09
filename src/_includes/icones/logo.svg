@@ -1,8 +1,15 @@
 <svg width="3.5em" height="3.5em" version="1.1" viewBox="0 0 67.733 67.733" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
-  <linearGradient id="logo-gradient" x1="57.52" x2="52.032" y1="23.396" y2="28.806" gradientTransform="matrix(9.9813 0 0 9.9813 -506.86 -233.39)" gradientUnits="userSpaceOnUse">
+  <linearGradient id="logo-gradient" spreadMethod="reflect" x1="0%" x2="50%" y1="0%" y2="50%" gradientUnits="userSpaceOnUse">
    <stop stop-color="var(--color-blossom)" offset="0"/>
    <stop stop-color="var(--color-fade)" offset="1"/>
+   {% if include.animate != false %}
+       <animateTransform attributeName="gradientTransform"
+        type="translate"
+        to="67 67"
+        dur="3s"
+        repeatCount="indefinite"/>
+    {% endif %}
   </linearGradient>
  </defs>
  <g>
