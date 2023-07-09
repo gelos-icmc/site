@@ -1,5 +1,3 @@
-- name: Home
-  url: /
 - name: Sobre
   url: /sobre/
 - name: Blog

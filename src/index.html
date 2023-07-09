@@ -1,13 +1,9 @@
 ---
 title: Home
 permalink: /
+layout: root
 ---
 
-<h1>Grupo de Extensão em Livre e Open Source - <small>ICMC/USP</small></h1>
-
-<hr />
-
-<h2>Últimas postagens</h2>
-{% for post in site.posts limit:3 %}
-{% include listagem.html element="h3" %}
-{% endfor %}
+<div class="splash">
+  {% include header.html full=true %}
+</div>
