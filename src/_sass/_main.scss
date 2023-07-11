@@ -130,20 +130,13 @@ table {
   white-space: nowrap;
 }
 
-li ul {
-  margin-bottom: 0.5rem;
-}
-
 main > article > header {
   margin-bottom: 2em;
-  :first-child {
-    margin-bottom: 1em;
-  }
-  p {
-    margin-block-start: 0.1em;
-    margin-block-end: 0.1em;
-    font-size: 0.9em;
-  }
+  font-size: 0.9em;
+}
+
+blockquote ul {
+  margin-bottom: 0;
 }
 
 article.listing {

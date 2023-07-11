@@ -8,7 +8,7 @@ layout: default
 
     <blockquote>
       {% if page.date %}
-        <p>Data: <strong>{{ page.date | date: "%d/%m/%y" }}</strong><p>
+        <p>Data: <strong>{{ page.date | date: "%d/%m/%y" }}</strong></p>
       {% endif %}
       {% if page.author %}
         <p>Autor: <strong>{{ page.author }}</strong></p>
@@ -16,16 +16,16 @@ layout: default
       {% if page.state %}
         <p>Status: <strong>{{ page.state | default: "em andamento" }}</strong></p>
       {% endif %}
-    </blockquote>
 
-    {% if page.attendees %}
-    <ul class="attendance">
-      <strong>Presentes</strong>:
-      {% for attendee in page.attendees %}
-        <li>{{ attendee }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
+      {% if page.attendees %}
+      <ul class="attendance">
+        Presentes:
+        {% for attendee in page.attendees %}
+          <li>{{ attendee }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </blockquote>
   </header>
 
   {{ content }}
