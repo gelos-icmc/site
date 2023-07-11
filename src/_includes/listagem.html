@@ -4,13 +4,9 @@
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </{{ include.element | default: "h2"  }}>
     <p>
-      {% if post.state == "wip" %}
-        Em concepção
-      {% elsif post.state == "current" %}
-        Em andamento
-      {% elsif post.state == "suspended" %}
-        Suspenso
-      {% else %}
+      {{ site.data.project_states[post.state] | default: "Desconhecido" }}
+
+      {% if post.date and post.show_date %}
         {{ post.date | date: "%d/%m/%y" }}
       {% endif %}
 
