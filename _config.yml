@@ -35,12 +35,14 @@ defaults:
     scope:
       type: posts
     values:
+      show_date: true
       layout: article
       parent: /blog/
   -
     scope:
       type: meetings
     values:
+      show_date: true
       layout: article
       parent: /reunioes/
   -

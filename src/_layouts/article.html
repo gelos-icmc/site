@@ -7,14 +7,16 @@ layout: default
     <h1>{{ page.title }}</h1>
 
     <blockquote>
-      {% if page.date %}
+      {% if page.date and page.show_date %}
         <p>Data: <strong>{{ page.date | date: "%d/%m/%y" }}</strong></p>
       {% endif %}
       {% if page.author %}
         <p>Autor: <strong>{{ page.author }}</strong></p>
       {% endif %}
       {% if page.state %}
-        <p>Status: <strong>{{ page.state | default: "em andamento" }}</strong></p>
+        <p>Status:
+          <strong>{{ site.data.project_states[post.state] | default: "Desconhecido" }}</strong>
+        </p>
       {% endif %}
 
       {% if page.attendees %}
