@@ -15,7 +15,7 @@ layout: default
       {% endif %}
       {% if page.state %}
         <p>Status:
-          <strong>{{ site.data.project_states[post.state] | default: "Desconhecido" }}</strong>
+          <strong>{{ site.data.project_states[page.state] | default: "Desconhecido" }}</strong>
         </p>
       {% endif %}
 
