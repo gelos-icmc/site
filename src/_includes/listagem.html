@@ -4,7 +4,9 @@
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </{{ include.element | default: "h2"  }}>
     <p>
-      {{ site.data.project_states[post.state] | default: "Desconhecido" }}
+      {% if post.state %}
+        {{ site.data.project_states[post.state] | default: "Desconhecido" }}
+      {% endif %}
 
       {% if post.date and post.show_date %}
         {{ post.date | date: "%d/%m/%y" }}
