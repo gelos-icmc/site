@@ -184,6 +184,10 @@ table {
   white-space: nowrap;
 }
 
+main {
+  border-top: 1px solid var(--color-bg-alt);
+}
+
 main > article > header {
   margin-bottom: 2em;
   font-size: 0.9em;
