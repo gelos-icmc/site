@@ -1,6 +1,7 @@
 ---
 title: Reuniões
 description: Atas de reuniões do grupo.
+collection_src: meetings
 ---
 
 # {{ page.title }}

@@ -1,6 +1,7 @@
 ---
 title: Blog
 description: Novidades e links interessantes compartilhados pelo grupo
+collection_src: posts
 ---
 
 # {{ page.title }}

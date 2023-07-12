@@ -1,6 +1,7 @@
 ---
 title: Comunidades de FLOSS*
 description: Comunidades de FLOSS* brasileiras
+data_src: communities
 ---
 
 # Comunidades brasileiras de FLOSS

@@ -171,6 +171,10 @@ footer {
   address {
     padding-top: 2em;
   }
+  .external {
+    border-top: 1px solid var(--color-bg-alt);
+    padding-top: 1em;
+  }
 }
 
 // Scrollável
@@ -178,11 +182,6 @@ table {
   display: block;
   overflow-x: auto;
   white-space: nowrap;
-}
-
-
-main {
-  border-top: 1px solid var(--color-bg-alt);
 }
 
 main > article > header {

@@ -5,11 +5,25 @@
     <a href="https://icmc.usp.br">Instituto de Ciências Matemáticas e de Computação</a>
   </p>
   {% endif %}
+  <p>
+    Copyleft GELOS - <a href="https://github.com/gelos-icmc/site">código fonte</a>
+
+    <br>
+
+    <a href="https://github.com/gelos-icmc/site/blob/main/src/{{ page.path }}">Editar página</a>
+    {% if page.data_src %}
+      -
+      <a href="https://github.com/gelos-icmc/site/blob/main/src/_data/{{ page.data_src }}.yml">Editar coleção</a>
+    {% elsif page.collection_src %}
+      -
+      <a href="https://github.com/gelos-icmc/site/tree/main/src/_{{ page.collection_src }}">Editar coleção</a>
+    {% endif %}
+  </p>
+
   <p><a href="mailto:contato@gelos.club">contato@gelos.club</a></p>
-  <p>Copyleft GELOS - <a href="https://github.com/gelos-icmc/site">código fonte</a></p>
 </address>
 
-<nav>
+<nav class="external">
   <ul>
     {% for item in site.data.external %}
     <li><a href="{{ item.url }}" target="_blank" rel="noreferrer noopener">{{ item.name }}</a></li>
