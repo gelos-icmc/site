@@ -17,5 +17,5 @@
       {% endif %}
     </p>
   </header>
-  <div class="excerpt">{{ post.excerpt }}</div>
+  <div class="excerpt">{{ post.excerpt | truncatewords: 30 | strip_html }}</div>
 </article>
