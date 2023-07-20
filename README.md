@@ -19,7 +19,8 @@ localmente. Não se preocupe, é bem simples.
 ### Com Nix
 
 A forma mais fácil é usando o [Nix](https://nixos.org/nix), o gerenciador de
-pacotes e sistema de builds que usamos nos projetos do GELOS.
+pacotes e sistema de builds que usamos nos projetos do GELOS. Mais informações
+de como baixar [aqui](https://gelos.club/nix).
 
 Basta usar `nix develop` para entrar numa shell com tudo que você precisa para
 desenvolver. Nessa shell você pode usar os comandos do jekyll, como `jekyll
