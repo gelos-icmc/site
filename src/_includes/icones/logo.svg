@@ -1,8 +1,8 @@
 <svg width="3.5em" height="3.5em" version="1.1" viewBox="0 0 67.733 67.733" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <linearGradient id="logo-gradient" spreadMethod="reflect" x1="50%" x2="100%" y1="50%" y2="100%" gradientUnits="userSpaceOnUse">
-   <stop stop-color="var(--gradient-main)" offset="0"/>
-   <stop stop-color="var(--color-mid)" offset="1"/>
+   <stop stop-color="currentColor" offset="0"/>
+   <stop stop-color="var(--color-trim)" offset="1"/>
    {% if include.animate %}
        <animateTransform attributeName="gradientTransform"
         type="translate"

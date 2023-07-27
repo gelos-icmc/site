@@ -10,11 +10,6 @@ $font-family-heading: $font-family-base;
 
 @import "sakura";
 
-:root {
-  --gradient-main: var(--color-blossom);
-  --color-mid: color-mix(in srgb, var(--color-fade) 70%, var(--color-blossom));
-}
-
 // Breakpoints para a largura do body
 body {
   max-width: 38em;
@@ -36,7 +31,6 @@ a {
   }
   &:hover {
     border-bottom: none;
-    --gradient-main: var(--color-fade);
   }
 }
 
