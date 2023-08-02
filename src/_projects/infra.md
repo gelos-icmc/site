@@ -25,4 +25,4 @@ Usamos GitHub para aumentar nossa visibilidade e reduzir barreiras para contribu
 
 ## Serviços externos
 
-Nosso domínio hoje está registrado no [Gandi](https://gandi.net), mas pretendemos mudar em breve, após mudanças negativas no serviço de e-mail deles. Estamos estudando formas melhores de gerir nosso e-mail no futuro, também (possivelmente criar uma lista de e-mails pública).
+Nosso domínio hoje está registrado no [Gandi](https://gandi.net), mas pretendemos mudar em breve, após mudanças negativas no serviço de e-mail deles. 
