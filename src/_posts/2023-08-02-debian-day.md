@@ -16,7 +16,7 @@ a várias outras distros muito famosas, como o [Ubuntu](https://ubuntu.com/), [K
 
 ## Sobre o Debian Day
 
-Fundado oficialmente por [Ian Murdock](https://pt.wikipedia.org/wiki/Ian_Murdock) em 16/08/1993. A comunidade Debian celebra seu aniversário, o Debian Day (Dia do Debian), nesta data todo ano. (Que também tem sido chamado de Debian Appreciation Day (Dia de apreciação do Debian)).
+Fundado oficialmente por [Ian Murdock](https://pt.wikipedia.org/wiki/Ian_Murdock) em 16/08/1993. A comunidade Debian celebra seu aniversário, o Debian Day (Dia do Debian), nesta data todo ano (que também tem sido chamado de Debian Appreciation Day (Dia de apreciação do Debian)).
 
 Também existe um dia de atividades chamado Debian Day - [DebianDayDebConf](https://wiki.debian.org/DebianDayDebConf) um pouco antes ou um pouco depois da conferência anual do Debian, a DebConf.
 
