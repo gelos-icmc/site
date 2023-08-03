@@ -27,7 +27,7 @@ Além de São Carlos, o Debian Day será celebrado também nas cidades de [Belo 
 ## Cronograma
 
 Hora | Palestrante | Título | Descrição
----|---|---|---
+-----|-------------|--------|----------
 14:00 | Charles Melara | A definir | A definir
 15:00 | Guilherme Paixão | O Debian e a Cultura Livre | A definir
 16:00 | -- | Coffee Break | Vamo comer um lanchinho e trocar umas ideias!
