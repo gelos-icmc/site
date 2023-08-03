@@ -35,7 +35,7 @@ Hora | Palestrante | Título | Descrição
 
 ## Informações
 
-**Local:** Instituto de Ciências Matemáticas e de Computação (ICMC) da USP - auditório Fávaro
+**Local:** Instituto de Ciências Matemáticas e de Computação (ICMC) da USP - auditório Fávaro, 2º andar bloco 4
 
 **Data:** 19 de Agosto de 2023
 
