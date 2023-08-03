@@ -12,7 +12,7 @@ O evento será no auditório Fávaro, no ICMC da USP em São Carlos, e contará 
 
 O Projeto Debian é uma associação de indivíduos que compartilham de um mesmo ideal: criar um sistema operacional livre, sendo livremente disponível a todes.
 Lançado em 1993, o Debian se tornou uma das distribuições GNU/Linux mais usadas no mundo e é conhecida por manter firmes seus ideais de *software* Livre. O Debian deu origem
-a várias outras distros muito famosas, como o [Ubuntu](https://ubuntu.com/), [Kali Linux](https://www.kali.org/), [Tails](https://tails.net/), [Linux Mint](https://linuxmint.com/), [Pop!_OS](https://pop.system76.com/), entre outros!
+a várias outras distros muito famosas, como o [Ubuntu](https://ubuntu.com/), [Kali Linux](https://www.kali.org/), [Tails](https://tails.net/), [Linux Mint](https://linuxmint.com/), [Pop!_OS](https://pop.system76.com/), entre outras!
 
 ## Sobre o Debian Day
 
