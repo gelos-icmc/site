@@ -34,7 +34,7 @@ Abaixo estão listadas algumas comunidades brasileiras que tenham como tema FLOS
 {% endif %}
 
 {% if community.irc %}
-- IRC: [{{community.irc}}](community.irc)
+- IRC: [{{community.irc}}]({{ community.irc }})
 {% endif %}
 
 {% if community.reddit %}
@@ -42,7 +42,7 @@ Abaixo estão listadas algumas comunidades brasileiras que tenham como tema FLOS
 {% endif %}
 
 {% if community.facebook %}
-- Facebook: [{{ community.facebook }}](community.facebook)
+- Facebook: [{{ community.facebook }}]({{ community.facebook }})
 {% endif %}
 
 
