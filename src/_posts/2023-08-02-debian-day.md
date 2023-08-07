@@ -6,7 +6,7 @@ author: Guilherme Paixão
 
 No dia 19 de Agosto de 2023, a partir das 14h, o GELOS sediará o Debian Day 2023, que marcará 30 anos do projeto Debian!
 
-O evento será no auditório Fávaro, no ICMC da USP em São Carlos, e contará com palestras e *coffee break*!
+O evento será no auditório Fávaro, no ICMC da USP em São Carlos, contará com palestras e *pausa para o café*!
 
 ## Sobre o Projeto Debian
 
@@ -30,7 +30,7 @@ Hora | Palestrante | Título | Descrição
 -----|-------------|--------|----------
 14:00 | Charles Melara | A definir | A definir
 15:00 | Guilherme Paixão | O Debian e a Cultura Livre | A definir
-16:00 | -- | Coffee Break | Vamo comer um lanchinho e trocar umas ideias!
+16:00 | -- | Pausa para o café | Vamos comer um lanchinho e trocar umas ideias!
 17:00 | Prof. Dr. Francisco José Mônaco | A Definir | A Definir
 
 ## Informações
