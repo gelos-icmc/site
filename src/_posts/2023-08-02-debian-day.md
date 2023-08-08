@@ -26,12 +26,8 @@ Além de São Carlos, o Debian Day será celebrado também nas cidades de [Belo 
 
 ## Cronograma
 
-Hora | Palestrante | Título | Descrição
------|-------------|--------|----------
-14:00 | Charles Melara | Uma ~~não tão~~ Breve Introdução ao Projeto Debian | Descubra o que é esse tal Debian e como ele pode te levar pra Índia
-15:00 | Guilherme Paixão | O Debian e a Cultura Livre | A definir
-16:00 | -- | Pausa para o café | Vamos comer um lanchinho e trocar umas ideias!
-17:00 | Prof. Dr. Francisco José Mônaco | A Definir | A Definir
+A ser definido.
+
 
 ## Informações
 
