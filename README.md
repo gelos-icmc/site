@@ -5,65 +5,41 @@ em Livre & Open Source**)](https://gelos.club).
 
 ## Como contribuir
 
-### Conteúdo simples
-Basta clonar o repositório, adicionar (ou modificar) **páginas ou posts**
-dentro de `_pages` e `_posts`. Abra um Merge Request para sua mudança.
+Para pequenas contribuições, você pode fazer direto pela UI do GitHub. A
+maioria das páginas estão em markdown, e cada coleção pode ser encontrada em
+sua pasta específica (`_posts`, `_meetings`, `_projects`, etc). O rodapé de
+cada página tem um link para seu código fonte no GitHub, então você pode
+visitar este link para encontrar o que está buscando
 
-É possível fazer modificações simples direto da interface do github.
+Para edições maiores, pedimos que você clone o repositório e rode o site
+localmente. Não se preocupe, é bem simples.
 
-### Assuntos mais complexos
+## Desenvolvimento e dependências
 
-Para PRs mais complicados, é importante baixar o
-[jekyll](https://jekyllrb.com/) e testar o site durante o processo.
+### Com Nix
 
-Basta instalar e usar os comandos usuais (`jekyll build` ou `jekyll serve`)
-durante o desenvolvimento.
+A forma mais fácil é usando o [Nix](https://nixos.org/nix), o gerenciador de
+pacotes e sistema de builds que usamos nos projetos do GELOS..
 
-Caso você tenha o [nix](https://nixos.org/), basta usar `nix develop` para
-obter uma shell com tudo que você precisa.
+Basta usar `nix develop` para entrar numa shell com tudo que você precisa para
+desenvolver. Nessa shell você pode usar os comandos do jekyll, como `jekyll
+serve`.
+
+Você também pode usar `nix build` e `nix run` para construir/servir o site
+preparado para release.
+
+### Manualmente
+
+Baixe o `ruby` [seguindo os passos
+relevantes](https://www.ruby-lang.org/en/documentation/installation/) para seu
+ambiente.
+
+Use `bundle install` para instalar as dependências da `Gemfile`, e execute o
+jekyll usando `bundle exec jekyll` (por exemplo, `bundle exec jekyll serve`)
+
 
 ## Convenções
 
-### Idioma
-
-Para páginas **navegadas por humanos** (HTML), a URL (decidido pelo nome do
-arquivo ou atributo `permalink`) deve ter **o mesmo idioma** que o conteúdo da
-página. A primeira opção de idioma deve ser o português. As páginas podem ter
-versões internacionalizadas.
-
-Como as **chaves** (nome de campos) e **variáveis** do jekyll são em inglês, as
-nossas também estão em **inglês**. Os conteúdos (valores) nelas devem seguir o
-idioma das páginas em que aparecem (na medida do possível).
-
-Para páginas **acessadas programaticamente** (JSON, por exemplo), a URL e
-conteúdo (na medida do possível) devem usar o mesmo idioma. A primeira opção de
-idioma deve ser **inglês**, visto que nesses endpoints os nomes dos campos (que
-estão em inglẽs) são expostos.
-
-## Estrutura do repositório
-
-### Conteúdo
-
-- `_posts`: Posts (notícias, eventos, documentos). Devem ser criados dentro da
-  pasta da respectiva categoria, e com data no nome (exemplo:
-  `2022-01-05-titulo-exemplo.md`). Escreva preferencialmente em markdown.
-- `_pages`: Páginas fixas do site, desde home até indexação das categorias.
-  Podem ser escritos com qualquer extensão, mas normalmente é usado markdown
-  para páginas simples e html quando se exige mais controle.
-
-### Disposição e estilos
-- `_data`: Dados estruturados para serem reusados no site. Por exemplo lista de
-  navegação ou de pessoas.
-- `_includes`: Componentes que podem ser reusados entre páginas.
-- `_layouts`: Layouts base para cada tipo de página. Atualmente temos `default`
-  (usado ou herdado em todas as páginas) e `post` (automaticamente insere
-  certos dados).
-- `_sass`: Arquivos SASS (`.scss` ou `.sass`) para definir estilos. Essa pasta
-  é especificamente para arquivos de estilo a serem "incluidos".
-- `assets` Arquivos que serão servidos na pasta `assets`, inclui favicon e
-  estilização principal (que importa arquivos da `_sass`).
-
-### Configurações e CI/CD
-- `_config.yml`: Configurações do site.
-- `default.nix`, `flake.nix` e `flake.lock`: Tooling e definições de
-- distribuição, feitas com o gerenciador de pacotes nix.
+No momento ainda não temos páginas internacionalizadas, mas a convenção é que a
+URL siga sempre o idioma do conteúdo da página. A primeira opção de idioma para
+páginas acessadas por humanos deve ser o português.
