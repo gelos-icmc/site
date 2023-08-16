@@ -26,7 +26,14 @@ Além de São Carlos, o Debian Day será celebrado também nas cidades de [Belo 
 
 ## Cronograma
 
-A ser definido.
+Hora | Palestrante | Título | Descrição
+-----|-------------|--------|----------
+14:00 | GELOS | Uma Introdução ao GELOS | Quem é afinal esse tal de GELOS? Venha descobrir!
+14:15 | Carlos Melara (Charles) | Uma ~~não tão~~ Breve Introdução ao Projeto Debian | Descubra o que é esse tal Debian e como ele pode te levar pra Índia!
+15:00 | Guilherme Paixão | O Debian e a Cultura Livre | Uma Breve introdução à cultura Livre: da criação do copyright ao software livre.
+15:30 | zé | Software Livre: trilhando caminhos para uma vida livre | O que o Software Livre faz e ainda pode ser capaz de fazer no mundo? Como se encaixa com nossos objetivos pessoais e coletivos, para além de saber o que se passa no seu dispositivo? Chega mais pra conspirarmos um pouco!
+16:00 | -- | Pausa para o café | Vamos comer um lanchinho e trocar umas ideias!
+17:00 | Prof. Dr. Francisco José Monaco | O Ecossistema FOSS e você | O conceito de comunidade é indissociável do paradigma FOSS. Todo usuário é um contribuidor e você é parte importante para o futuro da tecnologia livre e de donte aberta.
 
 
 ## Informações
