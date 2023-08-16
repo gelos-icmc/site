@@ -17,9 +17,4 @@ Também existe um dia de atividades chamado Debian Day - [DebianDayDebConf](http
 
 ## Cronograma
 
-Hora | Palestrante | Título | Descrição
----|---|---|---
-14:00 | Charles Melara | A definir | A definir
-15:00 | Guilherme Paixão | O Debian e a Cultura Livre | A definir
-16:00 | -- | Coffee Break | Vamo comer um lanchinho e trocar umas ideias!
-17:00 | Prof. Dr. Francisco José Mônaco | A Definir | A Definir
+Vide [post de divulgação](http://127.0.0.1:4000/2023/08/02/debian-day.html#cronograma)
