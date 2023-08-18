@@ -14,10 +14,17 @@ jobs:
       with:
         app_id: 251209
         private_key: ${{ secrets.GELOS_BOT_KEY }}
+    - name: Obter URL do PR
+      steps: get_pr
+      continue-on-error: true
+      run: |
+        echo "url=$(gh api repos/gelos-icmc/site/commits/${{ github.sha }} | jq '.[0].url' -re)" >> "$GITHUB_OUTPUT"
+      env:
+        GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
     - name: Sinalizar update
       uses: benc-uk/workflow-dispatch@v1
       with:
         workflow: bump-lock.yml
         repo: gelos-icmc/infra
-        inputs: '{ "name": "gelos-site", "ref": "github:gelos-icmc/site/${{ github.head_ref }}" }'
+        inputs: '{ "name": "gelos-site", "ref": "github:gelos-icmc/site/${{ github.sha }}", "context": "${{ steps.get_pr.outputs.url }}" }'
         token: ${{ steps.generate-token.outputs.token }}
