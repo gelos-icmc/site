@@ -17,7 +17,7 @@ jobs:
     - name: Sinalizar update
       uses: benc-uk/workflow-dispatch@v1
       with:
-        workflow: bump-lock
+        workflow: bump-lock.yml
         repo: gelos-icmc/infra
         inputs: '{ "name": "gelos-site", "ref": "github:gelos-icmc/site/${{ github.head_ref }}" }'
         token: ${{ steps.generate-token.outputs.token }}
