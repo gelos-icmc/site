@@ -17,4 +17,4 @@ Também existe um dia de atividades chamado Debian Day - [DebianDayDebConf](http
 
 ## Cronograma
 
-Vide [post de divulgação](http://127.0.0.1:4000/2023/08/02/debian-day.html#cronograma)
+Vide [post de divulgação](/2023/08/02/debian-day.html#cronograma)
