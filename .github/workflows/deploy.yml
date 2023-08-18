@@ -5,6 +5,7 @@ on:
   push:
     branches: [main]
 jobs:
+  runs-on: ubuntu-latest
   deploy:
     steps:
     - name: Autenticar bot
