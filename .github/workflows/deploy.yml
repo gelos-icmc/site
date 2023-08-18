@@ -1,0 +1,21 @@
+# Essa action triggereia o bump-lock.yml do repositório de infra
+# Atualizando o flake, gerando um commit, e então criando um deploy
+name: "Deploy"
+on:
+  push: [main]
+jobs:
+  deploy:
+    steps:
+    - name: Autenticar bot
+      uses: tibdex/github-app-token@v1
+      id: generate-token
+      with:
+        app_id: 251209
+        private_key: ${{ secrets.GELOS_BOT_KEY }}
+    - name: Sinalizar update
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: bump-lock
+        repo: gelos-icmc/infra
+        inputs: '{ "name": "gelos-site", "ref": "github:gelos-icmc/site/${{ github.head_ref }}" }'
+        token: ${{ steps.generate-token.outputs.token }}
