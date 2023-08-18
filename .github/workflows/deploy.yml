@@ -5,8 +5,8 @@ on:
   push:
     branches: [main]
 jobs:
-  runs-on: ubuntu-latest
   deploy:
+    runs-on: ubuntu-latest
     steps:
     - name: Autenticar bot
       uses: tibdex/github-app-token@v1
