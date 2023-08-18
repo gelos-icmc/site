@@ -2,7 +2,8 @@
 # Atualizando o flake, gerando um commit, e então criando um deploy
 name: "Deploy"
 on:
-  push: [main]
+  push:
+    branches: [main]
 jobs:
   deploy:
     steps:
