@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: determinatesystens/nix-installer-action@v4
-    - uses: determinatesystens/magic-nix-cache-action@v0.1
+    - uses: determinatesystems/nix-installer-action@v4
+    - uses: determinatesystems/magic-nix-cache-action@v0.1
     - run: nix build
