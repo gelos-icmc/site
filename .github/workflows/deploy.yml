@@ -18,7 +18,7 @@ jobs:
       id: get_pr
       continue-on-error: true
       run: |
-        url="$(gh api repos/gelos-icmc/site/commits/${{ github.sha }}/pulls | jq '.[0].url' -re)"
+        url="$(gh api repos/gelos-icmc/site/commits/${{ github.sha }}/pulls | jq '.[0].html_url' -re)"
         echo "url=$url" >> "$GITHUB_OUTPUT"
       env:
         GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
