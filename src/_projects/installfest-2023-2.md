@@ -54,28 +54,21 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 
 ## Voluntários
 
-| **Nome** | **Email** | **Horários** |
-|----------|-----------|--------------|
-|          |           |              |
-|----------|-----------|--------------|
-|          |           |              |
+| **Nome**               | **Email**                | **Horários** |
+|------------------------|--------------------------|--------------|
+| Gabriel Fontes         | g.fontes@usp.br          | 14-19h       |
+|                        |                          |              |
+|                        |                          |              |
 
 
 ## Pendrives
 
-| **Tamanho** | **Descrição** | **Dono** | **ISOs** |
-|-------------|---------------|----------|----------|
-|             |               |          |          |
-|-------------|---------------|----------|----------|
-|             |               |          |          |
-
-## Guestbook
-
-| **Nome** | **Instalou** |
-|----------|--------------|
-|          |              |
-|----------|--------------|
-|          |              |
+| **Tamanho** | **Descrição**                 | **Dono**       | **ISOs** |
+|-------------|-------------------------------|----------------|----------|
+| 256GB       | Sandisk Prata (USB-A + USB-C) | Gabriel Fontes | Todas    |
+| 128GB       | Sandisk Prata                 | Gabriel Fontes | Todas    |
+|             |                               |                |          |
+|             |                               |                |          |
 
 
 ## Flyer
