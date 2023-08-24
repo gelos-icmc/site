@@ -2,18 +2,18 @@
 title: Installfest 2023/2
 author: Gabriel e Charles
 lang: pt-BR
-state: wip
+state: current
 ---
 
 Evento de instalação de Linux, a ser realizado no dia 31/08 das 14h às 19h, no
 vão da biblioteca do ICMC.
 
-[Post de divulgação](/2023/08/21/installfest-2023-2.html)
+[**Post de divulgação**](/2023/08/21/installfest-2023-2.html)
 
 **Nota**: Projeto em construção, informações estão sujeitas à mudança.
 
-Tarefas pendentes:
-- [x] [Post de divulgação](https://github.com/gelos-icmc/site/pull/56)
+**Tarefas pendentes**:
+- [x] Post de divulgação
 - [ ] ISOs
     - [ ] Preencher tabela
     - [ ] Criar arquivo com checksums
