@@ -162,12 +162,9 @@ footer {
   margin-top: 5em;
   font-size: 85%;
   border-top: 1px solid var(--color-blossom);
-  address {
-    padding-top: 2em;
-  }
-  .external {
-    border-top: 1px solid var(--color-bg-alt);
+  address, nav {
     padding-top: 1em;
+    border-bottom: 1px solid var(--color-bg-alt);
   }
 }
 
