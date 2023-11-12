@@ -15,36 +15,11 @@ Abaixo estão listadas algumas comunidades brasileiras que tenham como tema FLOS
 
 ### {{ community.name }}
 
-{{community.description}}
+{{ community.description }}
 
-{% if community.website %}
-- Website: [{{ community.website }}]({{ community.website }})
-{% endif %}
-
-{% if community.telegram %}
-- Telegram: [{{ community.telegram }}]({{ community.telegram }})
-{% endif %}
-
-{% if community.matrix %}
-- Matrix: [{{ community.matrix }}]({{ community.matrix }})
-{% endif %}
-
-{% if community.whatsapp %}
-- Whatsapp: [{{ community.whatsapp }}]({{ community.whatsapp }})
-{% endif %}
-
-{% if community.irc %}
-- IRC: [{{community.irc}}]({{ community.irc }})
-{% endif %}
-
-{% if community.reddit %}
-- Reddit: [{{ community.reddit }}]({{ community.reddit }})
-{% endif %}
-
-{% if community.facebook %}
-- Facebook: [{{ community.facebook }}]({{ community.facebook }})
-{% endif %}
-
+{% for link in community.links %}
+- {{ link[0] }}: [{{ link[1] }}]({{ link[1] }})
+{% endfor %}
 
 {% endfor %}
 

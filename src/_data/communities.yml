@@ -1,20 +1,22 @@
-
 # Comunidades de FLOSS*
 # Colocar nome do grupo e, pelo menos, um link.
 # Exemplo:
 #
-# - name: GELOS
-#   telegram: https://t.me/gelos_geral
-#   instagram: https://instagram.com/gelos.icmc
-#   matrix: https://matrix.to/#/#gelos:matrix.org
+# - name: GELOS - ICMC/USP
+#   description: Grupo de Extensão em Livre & Open Source do Instituto de Ciências Matemáticas e de Computação da USP.
+#   links:
+#     Telegram: https://t.me/gelos_geral
+#     Matrix: https://matrix.to/#/#gelos:matrix.org
+#     Instagram: https://instagram.com/gelos.icmc
+#     Website: https://gelos.club/
 #
 # REGRAS:
 #
 # 1. Colocar apenas URLs com os **domínios oficiais** de cada rede social
 #
 # Exemplo:
-#  x telegram: https://telegram.gelos.club
-#  ✓ telegram: https://t.me/gelos_geral
+#  x Telegram: https://telegram.gelos.club
+#  ✓ Telegram: https://t.me/gelos_geral
 #
 # 2. Não colocar a URL com parâmetros que não sirvam para o acesso ao grupo, como refers e afins.
 #
@@ -23,84 +25,122 @@
 #  x instagram: https://instagram.com/gelos.icmc?fbclick=dmeief...
 #  ✓ instagram: https://instagram.com/gelos.icmc
 
-- name: GELOS - ICMC/USP
-  description: Grupo de Extensão em Livre & Open Source do Instituto de Ciências Matemáticas e de Computação da USP.
-  telegram: https://t.me/gelos_geral
-  matrix: https://matrix.to/#/#gelos:matrix.org
-  instagram: https://instagram.com/gelos.icmc
-  website: https://gelos.club/
+
+# Grupos universitários, similares o GELOS
 
 - name: FLUSP - IME/USP
   description: Grupo de extensão da USP com objetivo de estudar e contribuir para projetos de software livre.
-  telegram: https://t.me/joinchat/BDEctw1URj59ayCWY88qvA
-  irc: irc://irc.freenode.net#ccsl-usp
-  facebook: https://facebook.com/flusp/
-  website: https://flusp.ime.usp.br
+  links:
+    Telegram: https://t.me/FLUSP2
+    Facebook: https://facebook.com/flusp
+    Website: https://flusp.ime.usp.br
 
-- name: Linux Brasil
-  description: Comunidade brasileira de Linux.
-  reddit: https://reddit.com/r/linuxbrasil/
+- name: CSL Ribeirão Preto
+  description: Comunidade de Software Livre de Ribeirão Preto, organizada por estudantes da USP de Ribeirão Preto.
+  links:
+    Website: https://csl-rp.codeberg.page
+    Codeberg: https://codeberg.org/CSL.dev
+    Telegram: https://t.me/+WwiGBNUhJPc5MTMx
 
-- name: Linux para Todos
-  description: Grupo no Telegram de Linux para todos os públicos.
-  telegram: https://t.me/LinuxParaTodos
+- name: LKCAMP
+  description: Grupo de estudos de Software Livre na Unicamp.
+  links:
+    Telegram: https://t.me/lkcamp_unicamp
+    Website: https://lkcamp.dev/
 
-- name: Comunidade Fedora Brasil
-  description: Comunidade oficial brasileira da distribuição Linux Fedora.
-  telegram: https://t.me/comunidadefedorabrasil
-  website: https://fedorabr.org/
-
-- name: Fedora Brasil
-  description: Comunidade Linux Fedora no Brasil.
-  telegram: https://t.me/fedora_br
-
-- name: Manjaro Brasil
-  description: Comunidade brasileira da distribuição Linux Manjaro.
-  telegram: https://t.me/manjarobrasiloficial
+# Grupos locais (São Carlos)
 
 - name: SancaLUG
   description: Grupo de Usuários de Linux da cidade de São Carlos-SP.
-  telegram: https://t.me/sancaLUG
+  links:
+    Telegram: https://t.me/sancaLUG
+    Website: https://sancalug.github.io
+    GitHub: https://github.com/sancaLUG
 
-- name: Libre Office Brasil
-  description: Comunidade no Telegram de Libre Office, software livre de documentos.
-  telegram: https://t.me/libreofficebr
+# Comunidades brasileiras oficiais/principais de um projeto FLOSS
+# Deve ser oficial e/ou ser a única comunidade brasileira relevante daquele projeto
 
-- name: GNOME Brasil
-  description: Grupo sobre o Desktop Environment GNOME.
-  telegram: https://t.me/GNOMEBrasil
+- name: Comunidade Fedora Brasil
+  description: Comunidade oficial brasileira da distribuição Linux Fedora.
+  links:
+    Telegram: https://t.me/comunidadefedorabrasil
+    Website: https://fedorabr.org
 
-- name: KDE Brasil
-  description: Grupo de telegram sobre KDE, um projeto que engloba uma desktop environment (plasma) e diversos outros softwares livres famosos, como Krita, Kdenlive, entre outros.
-  telegram: https://t.me/kdebrasil
-
-- name: Arch Linux Brasil
-  description: Comunidade brasileira de Arch Linux.
-  telegram: https://t.me/archlinuxbr
+- name: Manjaro Brasil
+  description: Comunidade brasileira da distribuição Linux Manjaro.
+  links:
+    Website: https://manjaro-linux.com.br
+    Telegram: https://t.me/manjarobrasiloficial
 
 - name: NixOS Brasil
   description: Comunidade brasileira de NixOS.
-  telegram: https://t.me/nixosbrasil
-
-- name: RISC-V Brasil
-  description: Grupo de RISC-V.
-  telegram: https://t.me/riscvbr
+  links:
+    Telegram: https://t.me/nixosbrasil
+    GitHub: https://github.com/nixosbrasil
 
 - name: Debian Brasil
-  description: Grupo criado para conversármos sobre Debian, raspberry, música, e outros temas!
-  telegram: https://t.me/debianbr
+  description: Comunidade oficial brasileira de Debian
+  links:
+    Website: https://debianbrasil.org.br
+    Wiki: https://wiki.debian.org/Brasil/
+    Telegram: https://t.me/debianbrasil
 
-- name: Debian SP
-  description: Grupo de usuários e colaboradores da comunidade Debian em São Paulo.
-  irc: irc://irc.oftc.net#debian-sp
-  telegram: https://t.me/DebianSP
+- name: GNOME Brasil
+  description: Comunidade oficial brasileira de GNOME
+  links:
+    Website: https://br.gnome.org/
+    Telegram: https://t.me/GNOMEBrasil
 
 - name: Creative Commons Brasil
-  description: Grupo criado pelo CC Brasil para discutir e divulgar informações ligadas às licenças CC e tudo que elas envolvem.
-  telegram: https://t.me/+tazzHFnAPNBmY2Ux
-  website: https://br.creativecommons.net/
+  description: Capítulo brasileiro do Creative Commons
+  links:
+    Telegram: https://t.me/+tazzHFnAPNBmY2Ux
+    Website: https://br.creativecommons.net/
 
-- name: LKCAMP
-  description: Grupo de estudos de Software Livre na Unicamp
-  telegram: https://t.me/lkcamp_unicamp
-  website: https://lkcamp.dev/
+# Comunidades específicas a uma plataforma (talvez espelhada)
+
+- name: r/linuxbrasil
+  description: Subreddit brasileiro de Linux.
+  links:
+    Reddit: https://reddit.com/r/linuxbrasil
+
+- name: Linux para Todos (Telegram)
+  description: Grupo no Telegram de Linux para todos os públicos.
+  links:
+    Telegram: https://t.me/LinuxParaTodos
+
+- name: Libre Office Brasil (Telegram)
+  description: Grupo no Telegram de Libre Office, software livre de documentos.
+  links:
+    Telegram: https://t.me/libreofficebr
+
+- name: KDE Brasil (Telegram)
+  description: Grupo no Telegram sobre KDE, um projeto que engloba uma desktop environment (plasma) e diversos outros softwares livres famosos, como Krita, Kdenlive, entre outros.
+  links:
+    Telegram: https://t.me/kdebrasil
+
+- name: Arch Linux Brasil (Telegram)
+  description: Grupo no Telegram sobre Arch Linux.
+  links:
+    Telegram: https://t.me/archlinuxbr
+
+- name: RISC-V Brasil (Telegram)
+  description: Grupo no Telegram de RISC-V.
+  links:
+    Telegram: https://t.me/riscvbr
+
+- name: Debian BR (Telegram)
+  description: Grupo criado para conversármos sobre Debian, raspberry, música, e outros temas!
+  links:
+    Telegram: https://t.me/debianbr
+
+- name: Debian SP (Telegram)
+  description: Grupo de usuários e colaboradores da comunidade Debian em São Paulo.
+  links:
+    IRC: irc://irc.oftc.net#debian-sp
+    Telegram: https://t.me/DebianSP
+
+- name: Fedora BR (Telegram)
+  description: Grupo no Telegram sobre Fedora, não oficial
+  links:
+    Telegram: https://t.me/fedora_br
