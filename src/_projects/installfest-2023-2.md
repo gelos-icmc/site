@@ -2,24 +2,23 @@
 title: Installfest 2023/2
 author: Gabriel e Charles
 lang: pt-BR
-state: current
+state: completed
 ---
 
-Evento de instalação de Linux, a ser realizado no dia 31/08 das 14h às 19h, no
-vão da biblioteca do ICMC.
+Evento de instalação de Linux, realizado no dia 31/08 das 14h às 19h, no vão da
+biblioteca do ICMC.
 
 [**Post de divulgação**](/2023/08/21/installfest-2023-2.html)
 
-**Nota**: Projeto em construção, informações estão sujeitas à mudança.
-
 **Tarefas pendentes**:
+- [ ] Adicionar números (instalações, pessoas presentes, etc)
 - [x] Post de divulgação
 - [x] ISOs
     - [x] Preencher tabela
     - [x] Criar arquivo com checksums
-- [ ] Levantar pessoas
-    - [ ] Preencher tabela de voluntários
-    - [ ] Preencher tabela de pendrives
+- [x] Levantar pessoas
+    - [x] Preencher tabela de voluntários
+    - [x] Preencher tabela de pendrives
 
 ## Distros
 
