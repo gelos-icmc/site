@@ -1,11 +1,11 @@
 name: "Deploy to staging"
 on:
-  push:
-    branches-ignore:
-      - main
+  pull_request:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Não rodar em forks, já que forks não tem acesso a secrets.
+    if: ${{ !github.event.pull_request.head.repo.fork }}
     steps:
     - uses: actions/checkout@v3
     - uses: determinatesystems/nix-installer-action@v4
@@ -42,10 +42,11 @@ jobs:
           unlink '/srv/staging/${{ github.ref_name }}' || true
           ln -s '${{ steps.build.outputs.out-path }}/public' '/srv/staging/${{ github.ref_name }}'
         EOF
-    - name: Comentar commit
-      uses: peter-evans/commit-comment@v3
+    - name: Comentar PR
+      uses: thollander/actions-comment-pull-request@v2
       with:
         token: ${{ steps.generate-token.outputs.token }}
-        body: |
+        message: |
           Esse commit pode ser visualizado em:
           https://staging.gelos.club/${{ github.ref_name }}
+        comment_tag: preview_stager
