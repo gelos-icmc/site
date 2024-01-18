@@ -4,5 +4,8 @@ on:
     branches: [main]
 jobs:
   deploy:
+    environment:
+      name: galapagos
+      url: https://gelos.club
     uses: gelos-icmc/actions/.github/workflows/deploy.yml@main
     secrets: inherit
