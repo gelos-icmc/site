@@ -10,7 +10,24 @@ jobs:
     - uses: actions/checkout@v3
     - uses: determinatesystems/nix-installer-action@v4
     - uses: determinatesystems/magic-nix-cache-action@v2
-    - name: set baseurl
+    - name: Autenticar bot
+      uses: tibdex/github-app-token@v1
+      id: generate-token
+      with:
+        app_id: 251209
+        private_key: ${{ secrets.GELOS_BOT_KEY }}
+    - name: Configurar SSH
+      uses: webfactory/ssh-agent@v0.6.0
+      with:
+        ssh-private-key: ${{ secrets.DEPLOYER_SSH_KEY }}
+    - name: Known hosts
+      run: |
+        cat <<EOF >> ~/.ssh/known_hosts
+        [galapagos.gelos.club]:2112 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIORz4g+LH7W1XYXqYsSsJMGupEJr23XJOnkHGSyYBQHd
+        [galapagos.gelos.club]:2112 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCZqWhjDfqFAfjTt7doa9shXIjg5IT1lgg8pifURdTssZe8tdu7Hps4PeRcK8T176sMuBvlv60qmpnBgKEjXzqurWDhqIlCv1C/vk5gwjOInSd/gpGUw7pzzCW3JWfLEOtwIamshPItZlRN12zZMq58Fw/UkqmbOPiVthhNJKAX47s5+zg+920mWPtNmSoQJ27wxTH/4DUx5M8No0tKNGbrVLIDvH7d3z0xsv+JBXdMoIlCUsqoC1dgLv/XRqchMkSHDbvZbwm0RHt2lMjF8xqGOCL+Ue5LB5w5x/V0OoD0O3Fe+0zBin9Jt76jafvqJxumAcf5X4SvxBB3ctcsNmvu0vqRCGwC6ZBl1+Y1XlC5uiYKBzD2rxlZUKdGoEZxhDRNpampsfpgwrtx/dQQ14zkxmkhcVtl1BQptjKd0PHLNud/kw/OO5wPmMBzns7tetjf37PNdlEo2BgCnckE7M7q13PCG9pKGSn2Q0G8R+2agM56llsCpBbxdYR2IZUCovOD1/pm2+3a1/E7rNGjg64Y4Jenurh2E77n3vJbOl6fmKUF+zHWpUspIw5lN+HHWGiOLQNI8rx7PzDnk1JkLLi2PiNXGZy/5H+AzZ3KjyOy4ImRSTmGNxDBPXgOyo9z4S5rjmA2j1HuchM5nzfY23JSrGVdSvMqg++QFLCTidCiTw==
+        EOF
+
+    - name: Trocar baseurl
       run: |
         sed -i 's/default.nix { }/default.nix { baseurl = "${{ github.ref_name }}"; }/' flake.nix
         cat flake.nix
@@ -18,18 +35,17 @@ jobs:
       id: build
       run: |
         echo "out-path=$(nix build --print-out-paths)" >> "$GITHUB_OUTPUT"
-
-    - uses: webfactory/ssh-agent@v0.6.0
-      with:
-        ssh-private-key: ${{ secrets.DEPLOYER_SSH_KEY }}
-    - name: set known hosts
-      run: |
-        cat <<EOF >> ~/.ssh/known_hosts
-        [galapagos.gelos.club]:2112 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIORz4g+LH7W1XYXqYsSsJMGupEJr23XJOnkHGSyYBQHd
-        [galapagos.gelos.club]:2112 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCZqWhjDfqFAfjTt7doa9shXIjg5IT1lgg8pifURdTssZe8tdu7Hps4PeRcK8T176sMuBvlv60qmpnBgKEjXzqurWDhqIlCv1C/vk5gwjOInSd/gpGUw7pzzCW3JWfLEOtwIamshPItZlRN12zZMq58Fw/UkqmbOPiVthhNJKAX47s5+zg+920mWPtNmSoQJ27wxTH/4DUx5M8No0tKNGbrVLIDvH7d3z0xsv+JBXdMoIlCUsqoC1dgLv/XRqchMkSHDbvZbwm0RHt2lMjF8xqGOCL+Ue5LB5w5x/V0OoD0O3Fe+0zBin9Jt76jafvqJxumAcf5X4SvxBB3ctcsNmvu0vqRCGwC6ZBl1+Y1XlC5uiYKBzD2rxlZUKdGoEZxhDRNpampsfpgwrtx/dQQ14zkxmkhcVtl1BQptjKd0PHLNud/kw/OO5wPmMBzns7tetjf37PNdlEo2BgCnckE7M7q13PCG9pKGSn2Q0G8R+2agM56llsCpBbxdYR2IZUCovOD1/pm2+3a1/E7rNGjg64Y4Jenurh2E77n3vJbOl6fmKUF+zHWpUspIw5lN+HHWGiOLQNI8rx7PzDnk1JkLLi2PiNXGZy/5H+AzZ3KjyOy4ImRSTmGNxDBPXgOyo9z4S5rjmA2j1HuchM5nzfY23JSrGVdSvMqg++QFLCTidCiTw==
-        EOF
     - name: deploy
       run: |
         NIX_SSHOPTS="-p 2112" nix copy --to ssh://admin@galapagos.gelos.club ${{ steps.build.outputs.out-path }}
-        ssh admin@galapagos.gelos.club -p 2112 \
-          ln -s '${{ steps.build.outputs.out-path }}' '/srv/staging/${{ github.ref_name }}'
+        ssh admin@galapagos.gelos.club -p 2112 << EOF
+          unlink '/srv/staging/${{ github.ref_name }}' || true
+          ln -s '${{ steps.build.outputs.out-path }}/public' '/srv/staging/${{ github.ref_name }}'
+        EOF
+    - name: Comentar commit
+      uses: peter-evans/commit-comment@v3
+      with:
+        token: ${{ steps.generate-token.outputs.token }}
+        body: |
+          Esse commit pode ser visualizado em:
+          https://staging.gelos.club/${{ github.ref_name }}
