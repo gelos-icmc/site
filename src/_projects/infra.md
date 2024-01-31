@@ -25,4 +25,4 @@ Usamos GitHub para aumentar nossa visibilidade e reduzir barreiras para contribu
 
 ## Serviços externos
 
-Nosso domínio hoje está registrado no [Gandi](https://gandi.net), mas pretendemos mudar em breve, após mudanças negativas no serviço de e-mail deles. 
+Nosso domínio hoje está registrado no [Porkbun](https://porkbun.com).
