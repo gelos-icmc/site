@@ -39,10 +39,10 @@ jobs:
       run: |
         NIX_SSHOPTS="-p 2112" nix copy --to ssh://admin@galapagos.gelos.club ${{ steps.build.outputs.out-path }}
         ssh admin@galapagos.gelos.club -p 2112 << EOF
-          dest='/srv/staging/${{ github.ref_name }}'
+          dest="/srv/staging/${{ github.ref_name }}"
           mkdir -p "$(dirname "$dest")"
           unlink "$dest" || true
-          ln -s '${{ steps.build.outputs.out-path }}/public' "$dest"
+          ln -s "${{ steps.build.outputs.out-path }}/public" "$dest"
         EOF
     - name: Comentar commit
       uses: peter-evans/commit-comment@v3
