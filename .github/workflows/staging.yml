@@ -29,7 +29,7 @@ jobs:
 
     - name: Trocar baseurl
       run: |
-        sed -i 's/default.nix { }/default.nix { baseurl = "${{ github.ref_name }}"; }/' flake.nix
+        sed -i 's|default.nix { }|default.nix { baseurl = "${{ github.ref_name }}"; }|' flake.nix
         cat flake.nix
     - name: nix build
       id: build
@@ -39,8 +39,10 @@ jobs:
       run: |
         NIX_SSHOPTS="-p 2112" nix copy --to ssh://admin@galapagos.gelos.club ${{ steps.build.outputs.out-path }}
         ssh admin@galapagos.gelos.club -p 2112 << EOF
-          unlink '/srv/staging/${{ github.ref_name }}' || true
-          ln -s '${{ steps.build.outputs.out-path }}/public' '/srv/staging/${{ github.ref_name }}'
+          dest='/srv/staging/${{ github.ref_name }}'
+          mkdir -p "$(dirname "$dest")"
+          unlink "$dest" || true
+          ln -s '${{ steps.build.outputs.out-path }}/public' "$dest"
         EOF
     - name: Comentar commit
       uses: peter-evans/commit-comment@v3
