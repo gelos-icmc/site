@@ -71,4 +71,4 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 
 ## Flyer
 
-TODO
+![Flyer](https://cloud.gelos.club/s/EHmYwea5kQT6Y7X/preview)
