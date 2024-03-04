@@ -42,6 +42,7 @@ netinstall).
 
 
 <!--
+TODO
 Lembre-se de usar o checksum. Além de eles estarem na tabela acima, você pode
 baixar [este arquivo](/assets/static/checksums-2024-1.sha256) para checar as
 ISOs de forma super conveniente.
