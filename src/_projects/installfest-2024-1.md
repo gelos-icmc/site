@@ -58,9 +58,9 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 
 ## Voluntários
 
-| **Nome**               | **Email**                | **Horários** |
-|------------------------|--------------------------|--------------|
-|                        |                          |              |
+| **Nome**                  | **Email**                | **Horários** |
+|---------------------------|--------------------------|--------------|
+| Vinicius Dada Moura Santos|vinicius.santos927@usp.br | 17h-19h      |
 
 
 ## Pendrives
