@@ -62,6 +62,7 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 |---------------------------|--------------------------|--------------|
 |     Luana                 |   neder@usp.br           | 14:01 ~ 17:27|
 | Vinicius Dada Moura Santos|vinicius.santos927@usp.br | 17h-19h      |
+| Tarcísio L. Oliveira      | tarcisio.oliveira@usp.br | 14h-19h       |
 |                           |                          |              |
 
 
@@ -72,6 +73,7 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 |    16 GB    | SanDisk vermelho e preto c/ chaveiro openSUSE |     Luana      | openSUSE Tumbleweed  |
 |    64 GB    | SanDisk USB3.0 preto c/ chaveiro GELOS        |     Luana      | Todas                |   
 |    1 GB     | Dane-Elec azul-marinho c/ chaveiro smile      |     Luana      | (?) To-be-decided        |
+|    16 GB    | Sandisk Vermelho e Preto                      |    Tarcísio    | Ubuntu, Fedora, Mint |
 |             |                                               |                |                          |
 
 
