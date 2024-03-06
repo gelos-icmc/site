@@ -37,7 +37,7 @@ netinstall).
 | Arch Linux 2024.03.01          | [archlinux-2024.03.01-x86_64.iso](https://mirror.ufscar.br/archlinux/iso/2024.03.01/archlinux-2024.03.01-x86_64.iso)                                                                  | TODO        | TODO       |
 | EndeavourOS Galileo 2024.01.25 | [EndeavourOS_Galileo-Neo-2024.01.25.iso](https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Galileo-Neo-2024.01.25.iso)                                                          | TODO        | TODO       |
 | NixOS 23.11.4976 (Minimal)     | [nixos-minimal-23.11.4976.79baff8812a0-x86_64-linux.iso](https://releases.nixos.org/nixos/23.11/nixos-23.11.4976.79baff8812a0/nixos-minimal-23.11.4976.79baff8812a0-x86_64-linux.iso) | TODO        | TODO       |
-| OpenSUSE Tumbleweed 20240302   | [openSUSE-Tumbleweed-DVD-x86_64-Snapshot20240302-Media.iso](https://opensuse.c3sl.ufpr.br/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20240302-Media.iso)                   | TODO        | TODO       |
+| openSUSE Tumbleweed 20240302   | [openSUSE-Tumbleweed-DVD-x86_64-Snapshot20240302-Media.iso](https://opensuse.c3sl.ufpr.br/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20240302-Media.iso)                   | TODO        | TODO       |
 | Fedora Workstation 39-1.5      | [Fedora-Workstation-Live-x86_64-39-1.5.iso](https://download.fedoraproject.org/pub/fedora/linux/releases/39/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-39-1.5.iso)         | TODO        | TODO       |
 
 
@@ -60,14 +60,18 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 
 | **Nome**               | **Email**                | **Horários** |
 |------------------------|--------------------------|--------------|
+|     Luana              |   neder@usp.br           | 14:01 ~ 17:27|
 |                        |                          |              |
 
 
 ## Pendrives
 
-| **Tamanho** | **Descrição**                 | **Dono**       | **ISOs**             |
-|-------------|-------------------------------|----------------|----------------------|
-|             |                               |                |                      |
+| **Tamanho** | **Descrição**                                 | **Dono**       | **ISOs**             |
+|-------------|-----------------------------------------------|----------------|--------------------------|
+|    16 GB    | SanDisk vermelho e preto c/ chaveiro openSUSE |     Luana      | openSUSE Tumbleweed  |
+|    64 GB    | SanDisk USB3.0 preto c/ chaveiro GELOS        |     Luana      | Todas                |   
+|    1 GB     | Dane-Elec azul-marinho c/ chaveiro smile      |     Luana      | (?) To-be-decided        |
+|             |                                               |                |                          |
 
 
 ## Flyer
