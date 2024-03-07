@@ -62,6 +62,7 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 |---------------------------|--------------------------|--------------|
 |     Luana                 |   neder@usp.br           | 14:01 ~ 17:27|
 | Vinicius Dada Moura Santos|vinicius.santos927@usp.br | 17h-19h      |
+| João Gabriel              |  joaog.bastos@usp.br     | 16:10 - 18:00|
 |                           |                          |              |
 
 
