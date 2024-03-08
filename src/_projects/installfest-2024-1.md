@@ -61,6 +61,7 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 | Vinicius Dada Moura Santos|vinicius.santos927@usp.br | 17h-19h      |
 | Tarcísio L. Oliveira      | tarcisio.oliveira@usp.br | 14h-19h      |
 | João Gabriel              |  joaog.bastos@usp.br     | 16:10 - 18:00|
+| Gabriel Fontes            | g.fontes@usp.br          | 14h-17h      |
 |                           |                          |              |
 
 
@@ -72,6 +73,8 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 |    64 GB    | SanDisk USB3.0 preto c/ chaveiro GELOS        |     Luana      | Todas                |   
 |    1 GB     | Dane-Elec azul-marinho c/ chaveiro smile      |     Luana      | (?) To-be-decided        |
 |    16 GB    | Sandisk Vermelho e Preto                      |    Tarcísio    | Ubuntu, Fedora, Mint |
+| 256GB       | Sandisk Prata (USB-A + USB-C)                 | Gabriel Fontes | Todas                |
+| 128GB       | Sandisk Prata                                 | Gabriel Fontes | Todas                |
 |             |                                               |                |                          |
 
 
