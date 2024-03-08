@@ -62,7 +62,7 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 | Tarcísio L. Oliveira      | tarcisio.oliveira@usp.br | 14h-19h      |
 | João Gabriel              |  joaog.bastos@usp.br     | 16:10 - 18:00|
 | Gabriel Fontes            | g.fontes@usp.br          | 14h-17h      |
-|                           |                          |              |
+| Luís Peres                | luisfvperes@usp.br       | 14h-15h, 17h-19h|
 
 
 ## Pendrives
@@ -75,7 +75,8 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 |    16 GB    | Sandisk Vermelho e Preto                      |    Tarcísio    | Ubuntu, Fedora, Mint |
 | 256GB       | Sandisk Prata (USB-A + USB-C)                 | Gabriel Fontes | Todas                |
 | 128GB       | Sandisk Prata                                 | Gabriel Fontes | Todas                |
-|             |                                               |                |                          |
+| 64 GB       | Cinza com cordão vermelho                     | Luís Peres     | Todas                |
+| 2 GB        | Kingston vermelho                             | Luís Peres     | TBD                  |
 
 
 ## Flyer
