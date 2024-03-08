@@ -75,7 +75,7 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 |    16 GB    | Sandisk Vermelho e Preto                      |    Tarcísio    | Ubuntu, Fedora, Mint |
 | 256GB       | Sandisk Prata (USB-A + USB-C)                 | Gabriel Fontes | Todas                |
 | 128GB       | Sandisk Prata                                 | Gabriel Fontes | Todas                |
-| 64 GB       | Cinza com cordão vermelho                     | Luís Peres     | Todas                |
+| 32 GB       | Cinza com cordão vermelho                     | Luís Peres     | Todas                |
 | 2 GB        | Kingston vermelho                             | Luís Peres     | TBD                  |
 
 
