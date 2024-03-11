@@ -37,7 +37,7 @@ netinstall).
 | [Arch Linux 2024.03.01](https://mirror.ufscar.br/archlinux/iso/2024.03.01/archlinux-2024.03.01-x86_64.iso)                                                    | 0.94GB      | `0062e39e57d492672712467fdb14371fca4e3a5c57fed06791be95da8d4a60e3` |
 | [EndeavourOS Galileo 2024.01.25](https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Galileo-Neo-2024.01.25.iso)                                          | 2.69GB      | `897f24bdb4c0e297406668c9e4d7ab637fe081b0f54ade5d4f2a276a009bcd91` |
 | [NixOS 23.11.4976 (Minimal)](https://releases.nixos.org/nixos/23.11/nixos-23.11.4976.79baff8812a0/nixos-minimal-23.11.4976.79baff8812a0-x86_64-linux.iso)     | 0.97GB      | `4494fd9dd7f3b181b7fb3ae94e2403d4d20777197b8a94f670561c1e19c1e184` |
-| [openSUSE Tumbleweed 20240306](https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20240306-Media.iso)                        | 4.35GB      | `3491a94ad0c2bd5457be154f5f530d7a46dc2d56ea37f62b290cd8c3536aaa89` |
+| [openSUSE Tumbleweed 20240309](https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20240309-Media.iso)                        | 4.35GB      | `4be8b5fc6b63dd7be533f49fc92f954a28a72cb4bf008851b93eebc53b80056e` |
 | [Fedora Workstation 39-1.5](https://download.fedoraproject.org/pub/fedora/linux/releases/39/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-39-1.5.iso) | 1.98GB      | `af52046e43c6f06afd3456d2a9a36dd9782fcb204f05a21b1c31f593db36a8e8` |
 
 
