@@ -42,6 +42,14 @@
       tamanho: 2GB
       isos: TBD
 
+- nome: Yuri
+  email: gmininsk@gmail.com
+  horarios: 14-17h
+  pendrives:
+    - descricao: Kingston Prata
+      tamanho: 8GB
+      isos: Ubuntu, Mint, Arch
+
 - nome: João Gabriel
   email: joaog.bastos@usp.br
   horarios: 16:10 - 18:00
