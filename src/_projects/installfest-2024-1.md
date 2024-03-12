@@ -23,24 +23,11 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 
 ### Voluntários
 
-| **Nome**                  | **Email**                | **Horários**               |
-|---------------------------|--------------------------|----------------------------|
-{%- for volunteer in site.data.if5-volunteers %}
-| {{ volunteer["nome"] }}   | {{ volunteer["email"] }} | {{ volunteer["horarios"]}} |
-{%- endfor %}
-|---------------------------|--------------------------|----------------------------|
-
+{% include planilha-voluntarios.html data=site.data.if5-volunteers %}
 
 ### Pendrives
 
-| **Tamanho**               | **Descrição**               | **Dono**               | **ISOs**               |
-|---------------------------|-----------------------------|------------------------|------------------------|
-{%- for volunteer in site.data.if5-volunteers -%}
-{%- for pendrive in volunteer.pendrives %}
-| {{ pendrive["tamanho"] }} | {{ pendrive["descricao"] }} | {{ volunteer["nome"]}} | {{ pendrive["isos"]}} |
-{%- endfor -%}
-{%- endfor %}
-|---------------------------|-----------------------------|------------------------|------------------------|
+{% include planilha-pendrives.html data=site.data.if5-volunteers %}
 
 
 ## Distros
@@ -48,12 +35,7 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 Todas são `x86-64` e, para agilizar a instalação, versão "offline" (não
 netinstall).
 
-| **ISO**                                | **Tamanho**       | **Checksum** (SHA256) |
-|----------------------------------------|-------------------|-----------------------|
-{%- for iso in site.data.if5-isos %}
-| [{{ iso["name"] }}]({{ iso["link"] }}) | {{ iso["size"] }} | `{{ iso["sha256" ]}}` |
-{%- endfor %}
-|----------------------------------------|-------------------|-----------------------|
+{% include planilha-isos.html data=site.data.if5-isos %}
 
 Lembre-se de usar o checksum. Além de eles estarem na tabela acima, você pode
 baixar [este arquivo](/assets/if5-checksums.sha256) para checar as ISOs de

@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th><strong>ISO</strong></th>
+      <th><strong>Tamanho</strong></th>
+      <th><strong>Checksum (SHA256)</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for iso in include.data %}
+    <tr>
+      <td><a href="{{ iso.link }}">{{ iso.name }}</a></td>
+      <td>{{ iso.size }}</td>
+      <td><code>{{ iso.sha256 }}</code></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

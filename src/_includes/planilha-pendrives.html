@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th><strong>Tamanho</strong></th>
+      <th><strong>Descrição</strong></th>
+      <th><strong>Dono</strong></th>
+      <th><strong>ISOs</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for volunteer in include.data %}
+    {% for pendrive in volunteer.pendrives %}
+    <tr>
+      <td>{{ pendrive.tamanho }}</td>
+      <td>{{ pendrive.descricao }}</td>
+      <td>{{ volunteer.nome }}</td>
+      <td>{{ pendrive.isos }}</td>
+    </tr>
+    {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>

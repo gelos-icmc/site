@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th><strong>Nome</strong></th>
+      <th><strong>Email</strong></th>
+      <th><strong>Horários</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for volunteer in include.data %}
+    <tr>
+      <td>{{ volunteer["nome"] }}</td>
+      <td>{{ volunteer["email"] }}</td>
+      <td>{{ volunteer["horarios"] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
