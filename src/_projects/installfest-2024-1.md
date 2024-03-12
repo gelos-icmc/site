@@ -10,18 +10,38 @@ biblioteca do ICMC.
 
 [**Post de divulgação**](/2024/03/01/installfest-2024-1.html)
 
-**Tarefas pendentes**:
-- [ ] Flyer
-- [ ] Post de divulgação
-- [ ] ISOs
-    - [x] Preencher tabela com links atuais
-    - [ ] Criar arquivo com checksums
-- [ ] Levantar pessoas
-    - [ ] Preencher tabela de voluntários
-    - [ ] Preencher tabela de pendrives
+## Como participar
 
-**Pós-evento**:
-- [ ] Adicionar números (instalações, pessoas presentes, etc)
+Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
+
+- Baixe [as ISOs](#Distros) que você pretende usar
+    - Para usar várias ISOs em um único pendrive, use o [ventoy](https://ventoy.net).
+    - Caso queira, você pode aplicar o [nosso tema](https://github.com/gelos-icmc/tema-ventoy).
+- Adicione seu nome (e pendrives) [na lista](https://github.com/gelos-icmc/site/blob/main/src/_data/if-volunteers.yml).
+    - Isso atualizará as planilhas abaixo automaticamente.
+    - Caso você tenha dificuldade com git, basta pedir no [telegram](https://t.me/gelos_geral) que alguém faça por você.
+
+### Voluntários
+
+| **Nome**                  | **Email**                | **Horários**               |
+|---------------------------|--------------------------|----------------------------|
+{%- for volunteer in site.data.if5-volunteers %}
+| {{ volunteer["nome"] }}   | {{ volunteer["email"] }} | {{ volunteer["horarios"]}} |
+{%- endfor %}
+|---------------------------|--------------------------|----------------------------|
+
+
+### Pendrives
+
+| **Tamanho**               | **Descrição**               | **Dono**               | **ISOs**               |
+|---------------------------|-----------------------------|------------------------|------------------------|
+{%- for volunteer in site.data.if5-volunteers -%}
+{%- for pendrive in volunteer.pendrives %}
+| {{ pendrive["tamanho"] }} | {{ pendrive["descricao"] }} | {{ volunteer["nome"]}} | {{ pendrive["isos"]}} |
+{%- endfor -%}
+{%- endfor %}
+|---------------------------|-----------------------------|------------------------|------------------------|
+
 
 ## Distros
 
@@ -31,7 +51,7 @@ netinstall).
 | **ISO**                                | **Tamanho**       | **Checksum** (SHA256) |
 |----------------------------------------|-------------------|-----------------------|
 {%- for iso in site.data.if5-isos %}
-| [{{ iso["name"] }}]({{ iso["link"] }}) | {{ iso["size"] }} | {{ iso["sha256" ]}}   |
+| [{{ iso["name"] }}]({{ iso["link"] }}) | {{ iso["size"] }} | `{{ iso["sha256" ]}}` |
 {%- endfor %}
 |----------------------------------------|-------------------|-----------------------|
 
@@ -47,29 +67,21 @@ sha256sum -c <(curl https://gelos.club/assets/if5-checksums.sha256)
 
 O comando te avisará, para cada ISO, se o hash bate ou não.
 
-## Voluntários
+## Organização
 
-| **Nome**                  | **Email**                | **Horários**               |
-|---------------------------|--------------------------|----------------------------|
-{%- for volunteer in site.data.if5-volunteers %}
-| {{ volunteer["nome"] }}   | {{ volunteer["email"] }} | {{ volunteer["horarios"]}} |
-{%- endfor %}
-|---------------------------|--------------------------|----------------------------|
+### Pré evento
 
+- [x] Flyer
+- [x] Post de divulgação
+- [x] ISOs
+    - [x] Preencher tabela com links atuais
+    - [x] Criar arquivo com checksums
+- [x] Levantar pessoas
+    - [x] Preencher tabela de voluntários
+    - [x] Preencher tabela de pendrives
 
-## Pendrives
-
-[Editar](https://github.com/gelos-icmc/site/blob/main/src/_data/if5-volunteers.yml)
-
-| **Tamanho**               | **Descrição**               | **Dono**               | **ISOs**               |
-|---------------------------|-----------------------------|------------------------|------------------------|
-{%- for volunteer in site.data.if5-volunteers -%}
-{%- for pendrive in volunteer.pendrives %}
-| {{ pendrive["tamanho"] }} | {{ pendrive["descricao"] }} | {{ volunteer["nome"]}} | {{ pendrive["isos"]}} |
-{%- endfor -%}
-{%- endfor %}
-|---------------------------|-----------------------------|------------------------|------------------------|
-
+### Pós evento
+- [ ] Adicionar números (instalações, pessoas presentes, etc)
 
 ## Flyer
 
