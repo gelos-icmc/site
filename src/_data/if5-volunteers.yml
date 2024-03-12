@@ -1,0 +1,51 @@
+- nome: Luana
+  email: neder@usp.br
+  horarios: 14:01 ~ 17:27
+  pendrives:
+    - descricao: SanDisk vermelho e preto c/ chaveiro openSUSE
+      tamanho: 16GB
+      isos: openSUSE Tumbleweed
+    - descricao: SanDisk USB3.0 preto c/ chaveiro GELOS
+      tamanho: 64GB
+      isos: Todas
+    - descricao: Dane-Elec azul-marinho c/ chaveiro smile
+      tamanho: 1GB
+      isos: TBD
+
+- nome: Tarcísio L. Oliveira
+  email: tarcisio.oliveira@usp.br
+  horarios: 14h-19h
+  pendrives:
+    - descricao: Sandisk Vermelho e Preto
+      tamanho: 16GB
+      isos: Ubuntu, Fedora, Mint
+
+- nome: Gabriel Fontes
+  email: g.fontes@usp.br
+  horarios: 14h-17h
+  pendrives:
+    - descricao: Sandisk Prata
+      tamanho: 128GB
+      isos: Todas
+    - descricao: Sandisk Prata (USB-A e USB-C)
+      tamanho: 256GB
+      isos: Todas
+
+- nome: Luís Peres
+  email: luisfvperes@usp.br
+  horarios: 14h-15h, 17h-19h
+  pendrives:
+    - descricao: Cinza com cordão vermelho
+      tamanho: 32GB
+      isos: Todas
+    - descricao: Kingston Vermelho
+      tamanho: 2GB
+      isos: TBD
+
+- nome: João Gabriel
+  email: joaog.bastos@usp.br
+  horarios: 16:10 - 18:00
+
+- nome: Vinicius Dada Moura Santos
+  email: vinicius.santos927@usp.br
+  horarios: 17h-19h
