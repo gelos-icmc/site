@@ -14,7 +14,7 @@ biblioteca do ICMC.
 
 Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 
-- Baixe [as ISOs](#Distros) que você pretende usar
+- Baixe [as ISOs](#distros) que você pretende usar
     - Para usar várias ISOs em um único pendrive, use o [ventoy](https://ventoy.net).
     - Caso queira, você pode aplicar o [nosso tema](https://github.com/gelos-icmc/tema-ventoy).
 - Adicione seu nome (e pendrives) [na lista](https://github.com/gelos-icmc/site/blob/main/src/_data/if5-volunteers.yml).
