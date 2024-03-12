@@ -57,3 +57,11 @@
 - nome: Vinicius Dada Moura Santos
   email: vinicius.santos927@usp.br
   horarios: 17h-19h
+
+- nome: Silmar
+  email: silmar.junior@usp.br
+  horarios: 14-18h
+  pendrives:
+    - descricao: Sandisk vermelho e preto
+      tamanho: 32GB
+      isos: Todas
