@@ -71,17 +71,28 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 
 ### Pré evento
 
-- [x] Flyer
+- [x] Reservar espaço
 - [x] Post de divulgação
+- [x] Flyer
+    - [x] Preparar
+    - [ ] Imprimir
+    - [ ] Colar
+- [x] Divulgar nas listas
 - [x] ISOs
     - [x] Preencher tabela com links atuais
     - [x] Criar arquivo com checksums
 - [x] Levantar pessoas
     - [x] Preencher tabela de voluntários
     - [x] Preencher tabela de pendrives
+- [ ] Coffee break
+    - [ ] Salgados
+    - [ ] Bolos
+    - [ ] Refrigerantes
+    - [ ] Café
 
 ### Pós evento
-- [ ] Adicionar números (instalações, pessoas presentes, etc)
+
+- [ ] Levantar números (instalações, pessoas presentes, etc)
 
 ## Flyer
 
