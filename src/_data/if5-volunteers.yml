@@ -65,3 +65,17 @@
     - descricao: Sandisk vermelho e preto
       tamanho: 32GB
       isos: Todas
+
+- nome: Natan
+  email: natanbc@usp.br
+  horarios: 17-19h
+  pendrives:
+    - descricao: Kingston branco
+      tamanho: 64GB
+      isos: Todas
+    - descricao: Kingston branco
+      tamanho: 64GB
+      isos: Todas
+    - descricao: Kingston preto USB-C
+      tamanho: 64GB
+      isos: Todas
