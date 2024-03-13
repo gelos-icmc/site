@@ -29,7 +29,7 @@ jobs:
 
     - name: Trocar baseurl
       run: |
-        sed -i 's|default.nix { }|default.nix { baseurl = "${{ github.ref_name }}"; }|' flake.nix
+        sed -i 's|default.nix { }|default.nix { baseurl = "/${{ github.ref_name }}"; }|' flake.nix
         cat flake.nix
     - name: nix build
       id: build
