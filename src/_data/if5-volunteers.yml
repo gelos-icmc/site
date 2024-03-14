@@ -66,10 +66,33 @@
       tamanho: 32GB
       isos: Todas
 
+- nome: Natan
+  email: natanbc@usp.br
+  horarios: 17-19h
+  pendrives:
+    - descricao: Kingston branco
+      tamanho: 64GB
+      isos: Todas
+    - descricao: Kingston branco
+      tamanho: 64GB
+      isos: Todas
+    - descricao: Kingston preto USB-C
+      tamanho: 64GB
+      isos: Todas
+    - descricao: Kingston preto
+      tamanho: 64GB
+      isos: Todas
+    - descricao: Kingston preto
+      tamanho: 64GB
+      isos: Todas
+    - descricao: Kingston preto
+      tamanho: 64GB
+      isos: Todas
+      
 - nome: Gustavo Blois
   email: gustavobloisrr@usp.br
   horarios: 14:15 - 18:00
   pendrives:
     - descricao: Sandisk preto
       tamanho: 128GB
-      isos: Todas  
+      isos: Todas
