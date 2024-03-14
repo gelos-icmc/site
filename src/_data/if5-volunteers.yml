@@ -60,6 +60,10 @@
 - nome: Vinicius Dada Moura Santos
   email: vinicius.santos927@usp.br
   horarios: 17h-19h
+  pendrives:
+    - descricao: Kingston vermelho e preto
+      tamanho: 32GB
+      isos: TBD
 
 - nome: Silmar
   email: silmar.junior@usp.br
