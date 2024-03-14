@@ -32,8 +32,14 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 
 ## Distros
 
-Todas são `x86-64` e, para agilizar a instalação, versão "offline" (não
-netinstall).
+A distro principal a ser recomendada e instalada é o Fedora.
+Disponibilizaremos, no mínimo, a versão com GNOME, KDE, e Xfce. Para usuários
+não-técnicos, a sugestão pode ser Fedora ou Linux Mint. Para usuários
+avançados, fica a critério do voluntário qual sugerir, mas é importante lembrar
+de priorizar quais vieram instalar pela primeira vez.
+
+Estamos disponibilizando oficialmente apenas ISOs para x86_64. Mas alguns
+voluntários pretendem levar também ISOs ARM64.
 
 {% include planilha-isos.html data=site.data.if5-isos %}
 
