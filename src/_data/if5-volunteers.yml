@@ -8,12 +8,9 @@
     - descricao: SanDisk USB3.0 preto c/ chaveiro GELOS
       tamanho: 64GB
       isos: Todas (+ extras)
-    - descricao: LEGO vermelho e azul c/ chaveiro openSUSE
-      tamanho: 16GB
-      isos: openSUSE, Fedora, Mint, Arch e NixOS
     - descricao: SanDisk preta (DT101G2) c/ chaveiro GELOS
       tamanho: 16GB
-      isos: Nada (p/ formatar caso algum setup estranho surja)
+      isos: openSUSE, Fedora, Mint, Arch e NixOS
 
 - nome: Tarcísio L. Oliveira
   email: tarcisio.oliveira@usp.br
