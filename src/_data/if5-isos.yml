@@ -51,3 +51,14 @@
   link: https://download.fedoraproject.org/pub/fedora/linux/releases/39/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-39-1.5.iso
   filename: Fedora-Workstation-Live-x86_64-39-1.5.iso
   sha256: af52046e43c6f06afd3456d2a9a36dd9782fcb204f05a21b1c31f593db36a8e8
+- name: Fedora KDE 39-1.5
+  size: 2.31GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-39-1.5.iso
+  filename: Fedora-KDE-Live-x86_64-39-1.5.iso
+  sha256: c338d6e05a2ddcee9f7d198916538a7a170c4b958691ac09b304f1169b7579d5
+
+- name: Fedora Xfce 39-1.5
+  size: 1.59GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-39-1.5.iso
+  filename: Fedora-Xfce-Live-x86_64-39-1.5.iso
+  sha256: ba2c66dba39ef9686b994e3e58e88bf41e3afc3dc9abf6c51ac42bd486cb8b4e
