@@ -35,8 +35,8 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 A distro principal a ser recomendada e instalada é o Fedora.
 Disponibilizaremos, no mínimo, a versão com GNOME, KDE, e Xfce. Para usuários
 não-técnicos, a sugestão pode ser Fedora ou Linux Mint. Para usuários
-avançados, fica a critério do voluntário qual sugerir, mas é importante lembrar
-de priorizar quais vieram instalar pela primeira vez.
+avançados, fica a critério do voluntário qual sugerir. É importante lembrar
+que iniciantes são prioridade no evento.
 
 Estamos disponibilizando oficialmente apenas ISOs para x86_64. Mas alguns
 voluntários pretendem levar também ISOs ARM64.
