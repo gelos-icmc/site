@@ -20,6 +20,7 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 - Adicione seu nome (e pendrives) [na lista](https://github.com/gelos-icmc/site/blob/main/src/_data/if5-volunteers.yml).
     - Isso atualizará as planilhas abaixo automaticamente.
     - Caso você tenha dificuldade com git, basta pedir no [telegram](https://t.me/gelos_geral) que alguém faça por você.
+- Lembre de pedir que a pessoa preencha o [formulário de instalação](https://forms.gle/z5YY2rA62zqAAwNf7). Utilizamos isso para nos isentar de possíveis problemas, coletar contatos, e também ter um censo de quantas instalações foram feitas.
 
 ### Voluntários
 
