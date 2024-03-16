@@ -1,8 +1,8 @@
 - name: Telegram
-  url: https://telegram.gelos.club/
+  url: https://t.me/gelos_geral
 
 - name: Matrix
-  url: https://matrix.gelos.club/
+  url: https://matrix.to/#/#gelos:matrix.org
 
 - name: GitHub
   url: https://github.com/gelos-icmc
@@ -11,7 +11,7 @@
   url: https://instagram.com/gelos.icmc/
 
 - name: Youtube
-  url: https://youtube.gelos.club
+  url: https://youtube.com/@gelos3943
 
 - name: Nextcloud
   url: https://cloud.gelos.club
