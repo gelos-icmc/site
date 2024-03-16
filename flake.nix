@@ -8,26 +8,29 @@
 
 
   outputs = { self, nixpkgs, utils }: utils.lib.eachDefaultSystem (system:
-  let pkgs = nixpkgs.legacyPackages.${system};
+  let
+    pkgs = nixpkgs.legacyPackages.${system};
+    mkApp = drv: {
+      type = "app";
+      program = nixpkgs.lib.getExe drv;
+    };
   in rec {
     packages = rec {
-      gelos-site = pkgs.callPackage ./default.nix { };
-      gelos-site-serve = pkgs.writeShellScriptBin "serve" ''
-        echo "Serving on http://localhost:8000"
-        ${pkgs.webfs}/bin/webfsd -F -f index.html -r ${gelos-site}/public
-      '';
-      remove-nbsp = pkgs.writeShellScriptBin "remove-nbsp" ''
-        ${pkgs.gnused}/bin/sed 's/\xC2\xA0/ /g' -i $(find . -name '*.md')
-      '';
       default = gelos-site;
+      gelos-site = pkgs.callPackage ./default.nix { };
     };
-
     apps = rec {
-      gelos-site-serve = {
-        type = "app";
-        program = "${packages.gelos-site-serve}/bin/serve";
-      };
-      default = gelos-site-serve;
+      default = serve;
+      serve = mkApp (pkgs.writeShellScriptBin "serve" ''
+        echo "Serving on http://localhost:8000"
+        ${pkgs.webfs}/bin/webfsd -F -f index.html -r ${packages.default}/public
+      '');
+      remove-nbsp = mkApp (pkgs.writeShellScriptBin "remove-nbsp" ''
+        ${pkgs.gnused}/bin/sed 's/\xC2\xA0/ /g' -i $(find . -name '*.md')
+      '');
+      check-links = mkApp (pkgs.writeShellScriptBin "check-links" ''
+        ${pkgs.lib.getExe pkgs.lychee} "${packages.default}/public" --base "${packages.default}/public"
+      '');
     };
   });
 }
