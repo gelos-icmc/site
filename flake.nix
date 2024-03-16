@@ -2,7 +2,7 @@
   description = "Site institucional do GELOS/USP";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
     utils.url = "github:numtide/flake-utils";
   };
 
@@ -25,11 +25,11 @@
         echo "Serving on http://localhost:8000"
         ${pkgs.webfs}/bin/webfsd -F -f index.html -r ${packages.default}/public
       '');
+      check-links = mkApp (pkgs.writeShellScriptBin "check-links" ''
+        ${pkgs.lychee}/bin/lychee --quiet --no-progress --base="${packages.default}/public" "${packages.default}/public"
+      '');
       remove-nbsp = mkApp (pkgs.writeShellScriptBin "remove-nbsp" ''
         ${pkgs.gnused}/bin/sed 's/\xC2\xA0/ /g' -i $(find . -name '*.md')
-      '');
-      check-links = mkApp (pkgs.writeShellScriptBin "check-links" ''
-        ${pkgs.lib.getExe pkgs.lychee} "${packages.default}/public" --base "${packages.default}/public"
       '');
     };
   });
