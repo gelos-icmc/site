@@ -184,10 +184,6 @@ main > article > header {
   font-size: 0.9em;
 }
 
-blockquote ul {
-  margin-bottom: 0;
-}
-
 article.listing {
   margin-bottom: 2.5em;
   header {
@@ -219,4 +215,8 @@ section {
   article {
     margin-left: 1em;
   }
+}
+
+ul {
+  margin-bottom: 0;
 }
