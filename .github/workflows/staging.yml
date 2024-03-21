@@ -41,7 +41,7 @@ jobs:
         dest="/srv/staging/${{ github.ref_name }}"
         ssh admin@galapagos.gelos.club -p 2112 << EOF
           mkdir -p "$(dirname "$dest")"
-          unlink "$dest" || true
+          unlink "$dest" || rm -d "$dest" || true
           ln -s "${{ steps.build.outputs.out-path }}/public" "$dest"
         EOF
     - name: Comentar commit
