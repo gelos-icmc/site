@@ -19,7 +19,7 @@
   in rec {
     packages = rec {
       default = gelos-site;
-      gelos-site = pkgs.callPackage ./default.nix { };
+      gelos-site = pkgs.callPackage ./default.nix { inherit atas; };
       atas = pkgs.callPackage ./atas.nix { gelos-theme = gelos-beamer.packages.${pkgs.system}.theme; };
     };
     apps = rec {
