@@ -28,6 +28,9 @@ layout: default
       </ul>
       {% endif %}
     </blockquote>
+    {% if page.pdf %}
+    <p><a href="{{ page.url | replace: ".html", ".pdf" }}">Também disponível em PDF</a></p>
+    {% endif %}
   </header>
 
   {{ content }}

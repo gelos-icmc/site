@@ -3,11 +3,13 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
+    gelos-beamer.url = "github:gelos-icmc/beamer-theme";
+    gelos-beamer.inputs.nixpkgs.follows = "nixpkgs";
     utils.url = "github:numtide/flake-utils";
   };
 
 
-  outputs = { self, nixpkgs, utils }: utils.lib.eachDefaultSystem (system:
+  outputs = { self, nixpkgs, utils, gelos-beamer }: utils.lib.eachDefaultSystem (system:
   let
     pkgs = nixpkgs.legacyPackages.${system};
     mkApp = drv: {
@@ -17,7 +19,8 @@
   in rec {
     packages = rec {
       default = gelos-site;
-      gelos-site = pkgs.callPackage ./default.nix { };
+      gelos-site = pkgs.callPackage ./default.nix { inherit atas; };
+      atas = pkgs.callPackage ./atas.nix { gelos-theme = gelos-beamer.packages.${pkgs.system}.theme; };
     };
     apps = rec {
       default = serve;

@@ -22,7 +22,7 @@ collections:
   # Relatórios de reuniões
   meetings:
     output: true
-    permalink: /:year/:month/:day/:title:output_ext
+    permalink: /reunioes/:year-:month-:day:output_ext
     name: Reuniões
   # Informações sobre projetos/atividades contínuas
   projects:
@@ -42,6 +42,7 @@ defaults:
     scope:
       type: meetings
     values:
+      pdf: true
       show_date: true
       layout: article
       parent: /reunioes/

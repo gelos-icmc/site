@@ -1,4 +1,4 @@
-{ stdenv, ruby, bundlerEnv, lib, baseurl ? null }:
+{ stdenv, ruby, bundlerEnv, lib, baseurl ? null, atas ? null }:
 
 let
   gems = bundlerEnv {
@@ -21,5 +21,6 @@ stdenv.mkDerivation {
   installPhase = ''
     mkdir -p $out
     cp -Tr _site $out/public
+    ${lib.optionalString (atas != null) "cp ${atas}/*.pdf $out/public/reunioes/"}
   '';
 }
