@@ -13,7 +13,7 @@ Paulo](https://usp.br).
 Alguns dos nossos objetivos:
 - Fazer uma ponte entre a USP e a comunidade FLOSS;
 - Utilizar de recursos da USP para contribuir com software livre;
-- Manter espaços;de estudo e discussão sobre o tema; e
+- Manter espaços de estudo e discussão sobre o tema; e
 - Ter um impacto positivo fora dos muros da universidade.
 
 O grupo engloba desde software livre e hardware, até Open Science e todos os
