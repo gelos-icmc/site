@@ -218,6 +218,11 @@ section {
   }
 }
 
-ul {
+// Retirar margem inferior de listas nestadas
+li li,
+li ul,
+ul li,
+ul ul,
+{
   margin-bottom: 0;
 }
