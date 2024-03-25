@@ -8,7 +8,8 @@ lang: pt_BR
 Ativo desde 2021, o **Grupo de Extensão em Livre & Open Source** (**GELOS**) é
 um grupo de extensão do [Instituto de Ciências Matemáticas e de
 Computação](https://icmc.usp.br) da [Universidade de São
-Paulo](https://usp.br).
+Paulo](https://usp.br). O grupo é vinculado e conta com o apoio do [Centro de
+Competência em Open Source (CCOS)](https://ccos.icmc.usp.br/).
 
 Alguns dos nossos objetivos:
 - Fazer uma ponte entre a USP e a comunidade FLOSS;
