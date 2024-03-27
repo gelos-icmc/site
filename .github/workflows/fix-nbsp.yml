@@ -4,29 +4,8 @@ on:
   push:
 jobs:
   fix:
-    runs-on: ubuntu-latest
-    # Não rodar em forks, já que forks não tem acesso a secrets.
-    if: ${{ !github.event.pull_request.head.repo.fork }}
-    steps:
-    - name: Autenticar bot
-      uses: tibdex/github-app-token@v1
-      id: generate-token
-      with:
-        app_id: 251209
-        private_key: ${{ secrets.GELOS_BOT_KEY }}
-    - name: Configurar git
-      run: |
-        git config --global user.name "gelos-bot"
-        git config --global user.email "gelos-bot[bot]@users.noreply.github.com"
-    - name: Baixar repositório
-      uses: actions/checkout@v3
-      with:
-        token: ${{ steps.generate-token.outputs.token }}
-    - name: Instalar nix
-      uses: cachix/install-nix-action@v18
-    - name: Remover NBSPs
-      run: |
-        nix run .#remove-nbsp
-    - name: Commitar alterações
-      run: |
-        git commit . -m "fix: remover NBSPs" && git push || echo "Nada para commitar"
+    uses: gelos-icmc/actions/.github/workflows/fix-commit.yml@main
+    secrets: inherit
+    with:
+      commit-message: remover NBSPs
+      command: nix run .#remove-nbsp
