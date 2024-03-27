@@ -1,6 +1,5 @@
 name: "Buscar e remover Non-breaking Spaces"
 on:
-  pull_request:
   push:
 jobs:
   fix:
