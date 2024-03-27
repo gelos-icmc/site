@@ -2,7 +2,7 @@
 title: Installfest 2024/1
 author: Gabriel e Charles
 lang: pt-BR
-state: current
+state: completed
 ---
 
 Evento de instalação de Linux, realizado no dia 14/03 das 14h às 19h, no vão da
