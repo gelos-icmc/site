@@ -1,2 +1,4 @@
 gemset.nix linguist-generated
 Gemfile.lock linguist-generated
+src/_sass/sakura.scss linguist-vendored
+**/*.md linguist-detectable
