@@ -17,7 +17,7 @@ Alguns dos nossos objetivos:
 - Manter espaços de estudo e discussão sobre o tema; e
 - Ter um impacto positivo fora dos muros da universidade.
 
-O grupo engloba desde software livre e hardware, até Open Science e todos os
+O grupo engloba desde software e hardware livres, até Open Science e todos os
 aspectos sociais e políticos envolvidos.
 
 O GELOS tem como princípio ser um **agrupamento de entusiastas**. Onde trocamos
