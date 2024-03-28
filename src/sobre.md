@@ -30,7 +30,7 @@ implica em obrigatoriedade de atividades**, e **não existe hierarquia que
 ## Como participar?
 
 No momento, não temos um processo seletivo formal. Basta entrar no nosso
-[telegram](https://t.me/gelos_geral) e dizer "oi". Te explicaremos sobre os
+[telegram](https://t.me/gelos_geral) e dizer "oi" que explicaremos sobre os
 projetos em andamento e as nossas reuniões.
 
 Para fins oficiais (horas extracurriculares, relatórios, etc), são listados os
