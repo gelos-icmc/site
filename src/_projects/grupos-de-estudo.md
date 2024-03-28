@@ -10,6 +10,7 @@ Grupos de estudo para diferentes tópicos de software livre. Tópico no telegram
 No momento temos:
 - [Nix & Guix](https://t.me/gelos_geral/69543)
 - [Sistemas Operacionais](https://t.me/gelos_geral/90832)
+- [Gaming no Linux](https://t.me/gelos_geral/103504)
 - [Hardware](https://t.me/gelos_geral/76522)
 - Distros
     - [Arch Linux](https://t.me/gelos_geral/100321)
