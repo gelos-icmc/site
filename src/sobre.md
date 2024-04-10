@@ -38,16 +38,20 @@ membros que participaram ativamente de algum projeto naquele dado semestre.
 
 ## Gerência
 
-Por motivos burocráticos e organizacional temos definidos alguns cargos de
-coordenação. Os atuais gestores são:
+O GELOS busca adotar um modelo de gestão horizontal. Os atuais membros da coordenação são:
 
-- **Coordenador**: [Gabriel Fontes](https://misterio.me)
-- **Vice-coordenador**: Carlos Henrique Melara
-- **Gerente Técnico**: [Ryan Souza Sá Teles](https://ryrden.github.io/ryrden.dev)
-- **Gerente de Comunicação**: Júlio Casemiro
-- **Gerente Projetos**: [Guilherme Ramos Costa Paixão](https://guip.dev)
-- **Gerente Administrativo**: Silmar Pereira Junior
-- **Gerente de Recursos Humanos**: Deandreson Alves de Souza
+- [Gabriel Fontes](https://misterio.me) (2021-presente)
+- Carlos Henrique Melara (2021-presente)
+- [Ryan Souza Sá Teles](https://ryrden.github.io/ryrden.dev) (2023-presente)
+- Júlio Casemiro (2022-presente)
+- [Guilherme Ramos Costa Paixão](https://guip.dev) (2021-presente)
+- [Silmar Pereira Junior](https://silmarp.dev) (2021-presente)
+- Deandreson Alves de Souza (2021-presente)
+
+Antigos membros:
+
+- [Aya Kuwahara](https://setembru.dev.br) (2021-2023)
+- Lucas Caetano Procópio (2021-2022)
 
 Como mencionamos, o GELOS existe para apoiar projetos que os membros idealizam.
 Isso significa que qualquer um pode *propor e participar de projetos*, com o
