@@ -5,3 +5,5 @@ state: wip
 ---
 
 Plantões para tirar dúvidas com Linux e outras ferramentas livres.
+
+## Problemas Recorrentes
