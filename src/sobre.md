@@ -1,19 +1,24 @@
 ---
 title: Sobre
+lang: pt_BR
 ---
 
 # Sobre o GELOS
 
-O **Grupo de Extensão em Livre & Open Source** (**GELOS**) é um grupo de extensão
-do [Instituto de Ciências Matemáticas e de Computação](https://icmc.usp.br) da
-[Universidade de São Paulo](https://usp.br).
+Ativo desde 2021, o **Grupo de Extensão em Livre & Open Source** (**GELOS**) é
+um grupo de extensão do [Instituto de Ciências Matemáticas e de
+Computação](https://icmc.usp.br) da [Universidade de São
+Paulo](https://usp.br). O grupo é vinculado e conta com o apoio do [Centro de
+Competência em Open Source (CCOS)](https://ccos.icmc.usp.br/).
 
-Somos um grupo recém formado, e temos como objetivo reunir pessoas interessadas
-por cultura livre e open source. Bem como divulgar e fomentar esse cultura
-dentro e fora da USP.
+Alguns dos nossos objetivos:
+- Fazer uma ponte entre a USP e a comunidade FLOSS;
+- Utilizar de recursos da USP para contribuir com software livre;
+- Manter espaços de estudo e discussão sobre o tema; e
+- Ter um impacto positivo fora dos muros da universidade.
 
-Desde software livre e hardware, até Open Science e todos os aspectos sociais
-e políticos envolvidos.
+O grupo engloba desde software e hardware livres, até Open Science e todos os
+aspectos sociais e políticos envolvidos.
 
 O GELOS tem como princípio ser um **agrupamento de entusiastas**. Onde trocamos
 conhecimento, e apoiamos (individual e institucionalmente) uns aos outros. Você
@@ -23,21 +28,18 @@ implica em obrigatoriedade de atividades**, e **não existe hierarquia que
 "escale membros"** para projetos.
 
 ## Como participar?
-Não  temos um processo seletivo estrito, basta entrar em um dos nossos
-grupinhos e dizer "oi". Te explicaremos sobre os projetos em andamento e as
-nossas reuniões. Caso você participe de alguma maneira, você pode (e deve!) se
-considerar um membro!
 
-Basta entrar em um dos nossos canais ([telegram](https://telegram.gelos.club)
-ou [matrix](https://matrix.gelos.club)) e você está dentro!
+No momento, não temos um processo seletivo formal. Basta entrar no nosso
+[telegram](https://t.me/gelos_geral) e dizer "oi" que explicaremos sobre os
+projetos em andamento e as nossas reuniões.
 
 Para fins oficiais (horas extracurriculares, relatórios, etc), são listados os
 membros que participaram ativamente de algum projeto naquele dado semestre.
 
 ## Gerência
 
-Apesar da estrutura horizontal, por motivos burocráticos e organizacional temos
-definidos alguns cargos de coordenação. Os atuais gestores são:
+Por motivos burocráticos e organizacional temos definidos alguns cargos de
+coordenação. Os atuais gestores são:
 
 - **Coordenador**: [Gabriel Fontes](https://misterio.me)
 - **Vice-coordenador**: Carlos Henrique Melara
@@ -67,55 +69,7 @@ Devemos muito ao apoio deles!
 
 ## Livre? Open Source? (Cultura do grupo)
 
-**Em suma**: Os dois movimentos estão incluídos, e debates são extremamente
-benéficos e bem-vindos! Estamos todos aprendendo e formando opiniões, afinal de
-contas. Discussões políticas ao redor de FLOSS são consideradas *on-topic* e
-fazem parte de todos os nossos espaços.
-
-### Contexto e termos
-
-Para quem ainda não está inserido nessa cultura, existem discussões sobre os
-termos *Open Source* e *Free* (ou *Livre*, em português). Em suma, quando se
-trata de licença, **ambos tem o mesmo significado**: praticamente toda licença
-considerada *Open Source* (aprovada pela [OSI](https://opensource.org/)) também
-é *Livre* (aprovada pela [FSF](https://fsf.org/)).
-
-As diferenças se dão pelas políticas e movimentos por trás
-[dessas](https://opensource.org/osd) duas
-[entidades](https://www.gnu.org/philosophy/open-source-misses-the-point.html),
-ou seja, **as duas expressões tem conotações distintas**.
-
-Algumas clarificações: *Livre* não é, nescessariamente, *Copyleft* (licenças
-onde softwares derivados devem continuar livres); e códigos publicamente
-disponíveis **não são** nescessariamente *Open Source*, podendo ser os chamados
-*Source Available* (onde ele é livre para ser lido, mas não reusado).
-
-### Como nos encaixamos nisso
-
-O GELOS como grupo de extensão é inclusivo com ambos os movimentos: ativistas
-da liberação pelo software são igualmente bem-vindos quanto os membros mais
-pragmatistas do movimento open source. Por isso optamos pelo termo guarda-chuva
-no nome do grupo.
-
-Felizmente, em português temos a palavra *Livre*, então não ocorre o [problema
-do termo guarda-chuva
-FOSS](https://www.gnu.org/philosophy/floss-and-foss.html); logo, a expressão
-*Livre e Open Source* (equivalente a *FLOSS*) é usada no nome e material do
-grupo.
-
-### Os nossos membros
-
-As pessoas mais envolvidas com a comunidade FLOSS costumam ser pessoas que vêem
-o Software Livre como um movimento político, e não apenas uma questão de
-benefícios práticos. Então, como é de se esperar, a maior parte dos membros
-ativos do GELOS fazem parte do movimento pelo Software Livre.
-
-### GELOS como coletivo
-
-Temos vários membros que participam de diversos movimentos políticos, e todos
-esses (e suas pautas) são igualmente bem-vindos no grupo. Graças à esse
-ambiente plural centrado ao redor do FLOSS, pode-se enxergar o GELOS também
-como um coletivo de cultura livre dentro da USP.
-
-Debates e conversas sobre pautas políticas e ideológicas relacionadas à FLOSS
-são consideradas *on-topic* nos espaços do grupo, e são muito bem-vindas.
+Os dois movimentos estão incluídos, e debates são extremamente benéficos e
+bem-vindos! Estamos todos aprendendo e formando opiniões, afinal de contas.
+Discussões políticas ao redor de FLOSS são consideradas *on-topic* e fazem
+parte de todos os nossos espaços.
