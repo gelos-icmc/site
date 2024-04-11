@@ -48,7 +48,7 @@ O GELOS busca adotar um modelo de gestão horizontal. Os atuais membros da coord
 - [Silmar Pereira Junior](https://silmarp.dev) *(2021-presente)*
 - Deandreson Alves de Souza *(2021-presente)*
 
-Antigos membros:
+Membros eméritos:
 
 - [Aya Kuwahara](https://setembru.dev.br) *(2021-2023)*
 - Lucas Caetano Procópio *(2021-2022)*
