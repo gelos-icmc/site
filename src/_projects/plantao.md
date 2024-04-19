@@ -4,7 +4,9 @@ lang: pt-BR
 state: current
 ---
 
-Plantões para tirar dúvidas com Linux e outras ferramentas livres.  
+Plantões para tirar dúvidas com Linux e outras ferramentas livres.
+
+Usa Linux e esbarrou em algum problema? Usa algum software open source e tem alguma dúvida? Estamos aqui para ajudar!
 
 Nos plantões, haverá ao menos um voluntário na sala do GELOS (3-155) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.  
 Caso tenha um problema ou precise de alguma ajuda, é só aparecer!
@@ -25,7 +27,7 @@ Confira abaixo as próximas datas
 
 ## Problemas Recorrentes
 
-Aqui são listados os problemas que encontramos nos plantões (ou nas installfests), bem como suas respectivas soluções.
+Tendo em vista manter uma documentação para consulta futura, aqui são listados os problemas que encontramos nos plantões (ou nas installfests), bem como suas respectivas soluções.
 
 #### "Operation system not found"
 - Data do ocorrido: 14/03/2424 (installfest)
