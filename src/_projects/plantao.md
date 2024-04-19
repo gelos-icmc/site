@@ -20,9 +20,9 @@ Confira abaixo as próximas datas
 | Data                | Horário                  | Voluntário(s)   |
 |---------------------|--------------------------|-----------------|
 | 26/04/2024          | 14:20 ~ 17:00            | Luana           |
-| Toda quinta-feira   | Tarde e noite            | Gabriel         |
+| Toda quinta-feira   | Tarde e noite            | Gabriel         |  
 
-
+  
 *Para se voluntariar, basta [editar](https://github.com/gelos-icmc/site/blob/main/src/_projects/plantao.md) a tabela acima e adicionar os dias e horários que você estará na salinha para ajudar*
 
 ## Problemas Recorrentes
