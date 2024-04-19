@@ -25,7 +25,7 @@ Confira abaixo as próximas datas
 
 Aqui são listados os problemas que encontramos nos plantões (ou nas installfests), bem como suas respectivas soluções.
 
-### "Operation system not found"
+#### "Operation system not found"
 - Data do ocorrido: 14/03/2424 (installfest)
 - Voluntário: Luana
 - Distro: Fedora, openSUSE Tumbleweed
@@ -46,7 +46,7 @@ Aqui são listados os problemas que encontramos nos plantões (ou nas installfes
   - A partir daí, pode instalar o Linux por cima.
   - Agora fico curiosa para saber como que o Windows particionou o disco (talvez pudessemos usar isso como base para resolver o problema sem precisar instalar o windows), mas não me atentei em ver isso na hora. 
 
-### Backlight não funcional
+#### Backlight não funcional
 - Data do ocorrido: 14/03/2424 (installfest)
 - Voluntário:
 - Distro: Arch, Fedora, openSUSE Tumbleweed
