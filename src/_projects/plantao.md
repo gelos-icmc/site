@@ -19,7 +19,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntário(s)   |
 |---------------------|--------------------------|-----------------|
-| 26/04/2024          | 14:20 ~ 17:00            | Luana           |
+| 10/05/2024          | 14:20 ~ 17:00            | Luana           |
 | Toda quinta-feira   | Tarde e noite            | Gabriel         |  
 
   
