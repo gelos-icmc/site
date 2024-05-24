@@ -37,13 +37,33 @@ jobs:
         echo "staging_out=$staging_out" >> "$GITHUB_OUTPUT"
     - name: Deploy
       run: |
-        NIX_SSHOPTS="-p 2112" nix copy --to ssh://admin@galapagos.gelos.club ${{ steps.build.outputs.out-path }}
+        NIX_SSHOPTS="-p 2112" nix copy --to ssh://admin@galapagos.gelos.club ${{ steps.build.outputs.staging_out }}
         dest="/srv/staging/${{ github.ref_name }}"
         ssh admin@galapagos.gelos.club -p 2112 << EOF
           mkdir -p "$(dirname "$dest")"
           unlink "$dest" || rm -d "$dest" || true
-          ln -s "${{ steps.build.outputs.out-path }}/public" "$dest"
+          ln -s "${{ steps.build.outputs.staging_out }}/public" "$dest"
         EOF
+    - name: Detectar arquivos alterados
+      id: diff
+      run: |
+        base_url="https://staging.gelos.club/${{ github.ref_name }}"
+        current="$(nix build --print-out-paths --no-link github:gelos-icmc/site)"
+        new="$(nix build --print-out-paths --no-link)"
+        # Show diff, for debugging
+        diff "$current" "$new" -qr
+
+        echo "urls<<EOF" >> "$GITHUB_OUTPUT"
+        while IFS= read -r line; do
+          # Limpar path, obter só URL relativo
+          path="$(echo $line | cut -d ' ' -f2)"
+          path="${path#"$current/public/"}"
+          # Adicionar ao output
+          if [ -n "$path" ]; then
+            echo "- [/$path]($base_url/$path)" >> "$GITHUB_OUTPUT"
+          fi
+        done <<< "$(diff "$current" "$new" -qr)"
+        echo "EOF" >> "$GITHUB_OUTPUT"
     - name: Comentar commit
       uses: peter-evans/commit-comment@v3
       with:
@@ -51,3 +71,6 @@ jobs:
         body: |
           Esse commit pode ser visualizado em:
           https://staging.gelos.club/${{ github.ref_name }}
+
+          URLs modificadas:
+          ${{ steps.diff.outputs.urls }}
