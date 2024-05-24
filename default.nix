@@ -1,4 +1,11 @@
-{ stdenv, ruby, bundlerEnv, lib, baseurl ? null, atas ? null }:
+{
+  lib,
+  stdenv, ruby, bundlerEnv,
+
+  baseurl ? (lib.removeSuffix "\n" (lib.readFile ./.baseurl)),
+  atas ? null,
+  ...
+}:
 
 let
   gems = bundlerEnv {
@@ -16,7 +23,7 @@ stdenv.mkDerivation {
   buildInputs = [ gems ruby ];
 
   buildPhase = ''
-    ${gems}/bin/bundle exec jekyll build ${lib.optionalString (baseurl != null) "--baseurl ${baseurl}"}
+    ${gems}/bin/bundle exec jekyll build ${lib.optionalString (baseurl != null) "--baseurl '${baseurl}'"}
   '';
   installPhase = ''
     mkdir -p $out
