@@ -19,6 +19,7 @@ done <<< "$modified"
 
 added="$(diff "$old" "$new" -qr | grep "Only in $new")"
 if [ -n "$added" ]; then
+    echo ""
     echo "Páginas adicionadas:";
 fi
 while IFS= read -r line; do
@@ -30,6 +31,7 @@ done <<< "$added"
 
 removed="$(diff "$old" "$new" -qr | grep "Only in $old")"
 if [ -n "$removed" ]; then
+    echo ""
     echo "Páginas removidas:";
 fi
 while IFS= read -r line; do
