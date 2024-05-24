@@ -40,6 +40,6 @@ fi
 while IFS= read -r line; do
   path="$(echo $line | cut -d ' ' -f4)"
   if [ -n "$path" ]; then
-    echo "- [/$path]($base_url/$path)"
+    echo "- /$path"
   fi
 done <<< "$removed"
