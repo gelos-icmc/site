@@ -3,7 +3,10 @@
 old="$(nix build --print-out-paths --no-link github:gelos-icmc/site)/public"
 new="$(nix build --print-out-paths --no-link)/public"
 
-modified="$(diff "$old" "$new" -qr | grep "Files .* differ")"
+# Ignorar PDFs
+diff="$(diff "$old" "$new" -qr | grep -v '\.pdf$')"
+
+modified="$(echo "$diff" | grep "Files .* differ")"
 if [ -n "$modified" ]; then
     echo "Páginas alteradas:";
 fi
@@ -17,7 +20,7 @@ while IFS= read -r line; do
   fi
 done <<< "$modified"
 
-added="$(diff "$old" "$new" -qr | grep "Only in $new")"
+added="$(echo "$diff" | grep "Only in $new")"
 if [ -n "$added" ]; then
     echo ""
     echo "Páginas adicionadas:";
@@ -29,7 +32,7 @@ while IFS= read -r line; do
   fi
 done <<< "$added"
 
-removed="$(diff "$old" "$new" -qr | grep "Only in $old")"
+removed="$(echo "$diff" | grep "Only in $old")"
 if [ -n "$removed" ]; then
     echo ""
     echo "Páginas removidas:";
