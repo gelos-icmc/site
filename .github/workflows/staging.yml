@@ -47,22 +47,8 @@ jobs:
     - name: Detectar arquivos alterados
       id: diff
       run: |
-        base_url="https://staging.gelos.club/${{ github.ref_name }}"
-        current="$(nix build --print-out-paths --no-link github:gelos-icmc/site)"
-        new="$(nix build --print-out-paths --no-link)"
-        # Show diff, for debugging
-        diff "$current" "$new" -qr
-
-        echo "urls<<EOF" >> "$GITHUB_OUTPUT"
-        while IFS= read -r line; do
-          # Limpar path, obter só URL relativo
-          path="$(echo $line | cut -d ' ' -f2)"
-          path="${path#"$current/public/"}"
-          # Adicionar ao output
-          if [ -n "$path" ]; then
-            echo "- [/$path]($base_url/$path)" >> "$GITHUB_OUTPUT"
-          fi
-        done <<< "$(diff "$current" "$new" -qr)"
+        echo "diff<<EOF" >> "$GITHUB_OUTPUT"
+        base_url="https://staging.gelos.club/${{ github.ref_name }}" ./page_diff.sh >> "$GITHUB_OUTPUT"
         echo "EOF" >> "$GITHUB_OUTPUT"
     - name: Comentar commit
       uses: peter-evans/commit-comment@v3
@@ -72,5 +58,4 @@ jobs:
           Esse commit pode ser visualizado em:
           https://staging.gelos.club/${{ github.ref_name }}
 
-          URLs modificadas:
-          ${{ steps.diff.outputs.urls }}
+          ${{ steps.diff.outputs.diff }}
