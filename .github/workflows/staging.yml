@@ -48,7 +48,7 @@ jobs:
       id: diff
       run: |
         echo "diff<<EOF" >> "$GITHUB_OUTPUT"
-        base_url="https://staging.gelos.club/${{ github.ref_name }}" ./page_diff.sh >> "$GITHUB_OUTPUT"
+        base_url="https://staging.gelos.club/${{ github.ref_name }}" ./url_diff.sh >> "$GITHUB_OUTPUT"
         echo "EOF" >> "$GITHUB_OUTPUT"
     - name: Comentar commit
       uses: peter-evans/commit-comment@v3

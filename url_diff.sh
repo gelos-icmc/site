@@ -8,7 +8,7 @@ diff="$(diff "$old" "$new" -qr | grep -v '\.pdf$')"
 
 modified="$(echo "$diff" | grep "Files .* differ")"
 if [ -n "$modified" ]; then
-    echo "Páginas alteradas:";
+    echo "Caminhos modificados:";
 fi
 while IFS= read -r line; do
   # Limpar path, obter só URL relativo
@@ -23,7 +23,7 @@ done <<< "$modified"
 added="$(echo "$diff" | grep "Only in $new")"
 if [ -n "$added" ]; then
     echo ""
-    echo "Páginas adicionadas:";
+    echo "Caminhos adicionados";
 fi
 while IFS= read -r line; do
   path="$(echo $line | cut -d ' ' -f4)"
@@ -35,7 +35,7 @@ done <<< "$added"
 removed="$(echo "$diff" | grep "Only in $old")"
 if [ -n "$removed" ]; then
     echo ""
-    echo "Páginas removidas:";
+    echo "Caminhos removidos:";
 fi
 while IFS= read -r line; do
   path="$(echo $line | cut -d ' ' -f4)"
