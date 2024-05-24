@@ -27,15 +27,15 @@ jobs:
         [galapagos.gelos.club]:2112 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCZqWhjDfqFAfjTt7doa9shXIjg5IT1lgg8pifURdTssZe8tdu7Hps4PeRcK8T176sMuBvlv60qmpnBgKEjXzqurWDhqIlCv1C/vk5gwjOInSd/gpGUw7pzzCW3JWfLEOtwIamshPItZlRN12zZMq58Fw/UkqmbOPiVthhNJKAX47s5+zg+920mWPtNmSoQJ27wxTH/4DUx5M8No0tKNGbrVLIDvH7d3z0xsv+JBXdMoIlCUsqoC1dgLv/XRqchMkSHDbvZbwm0RHt2lMjF8xqGOCL+Ue5LB5w5x/V0OoD0O3Fe+0zBin9Jt76jafvqJxumAcf5X4SvxBB3ctcsNmvu0vqRCGwC6ZBl1+Y1XlC5uiYKBzD2rxlZUKdGoEZxhDRNpampsfpgwrtx/dQQ14zkxmkhcVtl1BQptjKd0PHLNud/kw/OO5wPmMBzns7tetjf37PNdlEo2BgCnckE7M7q13PCG9pKGSn2Q0G8R+2agM56llsCpBbxdYR2IZUCovOD1/pm2+3a1/E7rNGjg64Y4Jenurh2E77n3vJbOl6fmKUF+zHWpUspIw5lN+HHWGiOLQNI8rx7PzDnk1JkLLi2PiNXGZy/5H+AzZ3KjyOy4ImRSTmGNxDBPXgOyo9z4S5rjmA2j1HuchM5nzfY23JSrGVdSvMqg++QFLCTidCiTw==
         EOF
 
-    - name: Trocar baseurl
-      run: |
-        sed -i 's|default.nix {|default.nix { baseurl = "/${{ github.ref_name }}";|' flake.nix
-        cat flake.nix
-    - name: nix build
+    - name: Buildar com prefixo
       id: build
       run: |
-        echo "out-path=$(nix build --print-out-paths)" >> "$GITHUB_OUTPUT"
-    - name: deploy
+        echo "/${{ github.ref_name }}" > ./.baseurl
+        staging_out="$(nix build --print-out-paths --no-link)"
+        echo "" > ./.baseurl
+
+        echo "staging_out=$staging_out" >> "$GITHUB_OUTPUT"
+    - name: Deploy
       run: |
         NIX_SSHOPTS="-p 2112" nix copy --to ssh://admin@galapagos.gelos.club ${{ steps.build.outputs.out-path }}
         dest="/srv/staging/${{ github.ref_name }}"
