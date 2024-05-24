@@ -5,6 +5,8 @@ lang: pt_BR
 
 # Sobre o GELOS
 
+teste
+
 Ativo desde 2021, o **Grupo de Extensão em Livre & Open Source** (**GELOS**) é
 um grupo de extensão do [Instituto de Ciências Matemáticas e de
 Computação](https://icmc.usp.br) da [Universidade de São
