@@ -32,7 +32,7 @@ collections:
   # Páginas pessoais dos membros
   members:
     output: true
-    permalink: /membros/:title/index.html
+    permalink: /membros/:title/
     name: Membros
 
 defaults:
