@@ -40,11 +40,11 @@ membros que participaram ativamente de algum projeto naquele dado semestre.
 
 O GELOS busca adotar um modelo de gestão horizontal. Os atuais membros da coordenação são:
 
-- [Gabriel Fontes](https://misterio.me) *(2021-presente)*
-- Carlos Henrique Melara *(2021-presente)*
-- Júlio Casemiro *(2022-presente)*
-- [Guilherme Ramos Costa Paixão](https://guip.dev) *(2021-presente)*
-- [Silmar Pereira Junior](https://silmarp.dev) *(2021-presente)*
+- [Gabriel Fontes](/membros/gabriel) *(2021-presente)*
+- [Carlos Henrique Melara](/membros/charles) *(2021-presente)*
+- [Júlio Casemiro](/membros/julio) *(2022-presente)*
+- [Guilherme Ramos Costa Paixão](/membros/guip) *(2021-presente)*
+- [Silmar Pereira Junior](/membros/silmar) *(2021-presente)*
 
 Coordenadores eméritos:
 

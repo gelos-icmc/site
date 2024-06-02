@@ -1,0 +1,18 @@
+---
+title: Membros do GELOS
+description: Listagem dos membros, e suas páginas
+collection_src: members
+---
+
+<h1>{{ page.title }}</h1>
+<p>
+  {{ page.description }}.
+  <a href="https://github.com/gelos-icmc/site/tree/main/src/_members">Adicione a sua</a>!
+</p>
+
+<section>
+  {% assign members = site.members %}
+  {% for post in members %}
+  {% include listagem.html %}
+  {% endfor %}
+</section>

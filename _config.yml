@@ -29,6 +29,11 @@ collections:
     output: true
     permalink: /projetos/:title:output_ext
     name: Projetos
+  # Páginas pessoais dos membros
+  members:
+    output: true
+    permalink: /membros/:title
+    name: Membros
 
 defaults:
   -
@@ -52,6 +57,12 @@ defaults:
     values:
       layout: article
       parent: /projetos/
+  -
+    scope:
+      type: members
+    values:
+      layout: member
+      parent: /membros/
   -
     scope:
       path: "api"
