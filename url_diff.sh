@@ -26,9 +26,9 @@ if [ -n "$added" ]; then
     echo "Caminhos adicionados";
 fi
 while IFS= read -r line; do
-  path="$(echo $line | cut -d ' ' -f4)"
+  path="$(echo $line | sed -E 's|Only in .+(/public)?(/[^/]+): (.*)|\2/\3|')"
   if [ -n "$path" ]; then
-    echo "- [/$path]($base_url/$path)"
+    echo "- [$path]($base_url$path)"
   fi
 done <<< "$added"
 
@@ -38,8 +38,8 @@ if [ -n "$removed" ]; then
     echo "Caminhos removidos:";
 fi
 while IFS= read -r line; do
-  path="$(echo $line | cut -d ' ' -f4)"
+  path="$(echo $line | sed -E 's|Only in .+(/public)?(/[^/]+): (.*)|\2/\3|')"
   if [ -n "$path" ]; then
-    echo "- /$path"
+    echo "- $path"
   fi
 done <<< "$removed"
