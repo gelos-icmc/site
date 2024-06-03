@@ -11,7 +11,7 @@ collection_src: members
 </p>
 
 <section>
-  {% assign members = site.members %}
+  {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
   {% include listagem.html %}
   {% endfor %}
