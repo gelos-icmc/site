@@ -6,3 +6,50 @@ nusp: 13836963
 ---
 
 Preciso colocar algo aqui. Por enquanto, dá um bizu no [meu site](https://{{ page.site }}).
+
+
+<script>if(navigator.getEnvironmentIntegrity!==undefined)document.querySelector('body').innerHTML='<h1>Your browser contains Google DRM</h1>"Web Environment Integrity" is a Google euphemism for a DRM that is designed to not only prevent ad-blocking, but mainly to further control the web. In support of an open web, this website does not function with this DRM. Please install a browser such as <a href="mozilla.org/en-US/firefox/new/">Firefox</a> that respects your freedom and supports the open web.';</script>
+
+
+
+<body>
+    <script>
+        document.querySelector('body').style.cssText = `
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            overflow: hidden;
+        `;
+
+        const style = document.createElement('style');
+        style.innerHTML = `
+            @keyframes rotate {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            @keyframes color-change {
+                0% { color: red; }
+                25% { color: yellow; }
+                50% { color: green; }
+                75% { color: blue; }
+                100% { color: red; }
+            }
+            #rotating-text {
+                font-size: 4em;
+                font-family: Arial, sans-serif;
+                animation: rotate 5s linear infinite, color-change 10s linear infinite;
+            }
+        `;
+        document.head.appendChild(style);
+
+        document.querySelector('body').innerHTML += '<div id="rotating-text">Luana</div>';
+    </script>
+</body>
+</html>
