@@ -6,9 +6,6 @@ nusp: 13836963
 ---
 
 Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
-<br/><br/>
-<br/><br/>
-
 
 <head>
     <meta charset="UTF-8">
@@ -17,19 +14,15 @@ Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
     <style>
         body {
             margin: 0;
+            background-color: black;
+         }
+        #main-content {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: black;
-            height: 100vh;
+            height: 50vh;
             overflow: hidden;
-        }
-        #content {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
         #rotating-text {
             font-size: 4em;
@@ -61,15 +54,29 @@ Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
                 color: red;
             }
         }
+        header, nav, footer {
+            color: white;
+        }
     </style>
 </head>
 <body>
-    <div id="content"><div id="rotating-text">Luana 🏳️‍🌈</div></div>
-    <script>if(navigator.getEnvironmentIntegrity!==undefined)document.querySelector('body').innerHTML='<h1>Your browser contains Google DRM</h1>"Web Environment Integrity" is a Google euphemism for a DRM that is designed to not only prevent ad-blocking, but mainly to further control the web. In support of an open web, this website does not function with this DRM. Please install a browser such as <a href="mozilla.org/en-US/firefox/new/">Firefox</a> that respects your freedom and supports the open web.';</script>
-
+    <div id="main-content">
+        <div id="rotating-text">Luana 🏳️‍🌈</div>
+    </div>
+    <script>
+        if(navigator.getEnvironmentIntegrity==undefined) {
+            document.querySelector('body').innerHTML = document.querySelector('body').innerHTML.replace("Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈", "aaaaaaaa");
+        }
+        if(navigator.getEnvironmentIntegrity!==undefined) {
+            document.querySelector('body').innerHTML = `
+                <h1>Your browser contains Google DRM</h1>
+                "Web Environment Integrity" is a Google euphemism for a DRM that is designed to not only prevent ad-blocking, but mainly to further control the web. In support of an open web, this website does not function with this DRM. Please install a browser such as <a href="https://mozilla.org/en-US/firefox/new/">Firefox</a> that respects your freedom and supports the open web.
+            `;
+        }
+    </script>
 </body>
 
-<br/><br/>
-<br/><br/>
-<br/><br/>
+
+aaa
 Teste
+<!--pq os de baixo n aparecem se eu uso o replace ali dentro? :( -->
