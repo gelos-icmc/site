@@ -6,6 +6,7 @@ nusp: 13836963
 ---
 
 Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
+(liga o javascript ai pra ver o resto da pagina po ;-;)
 🏳️‍🌈 Oiieeee! 🏳️‍🌈 Eu sou a  
 
 
@@ -14,10 +15,18 @@ Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rotating Colorful Text</title>
     <style>
+        :root {
+            --background-color: black;
+            --text-color: DarkSeaGreen;
+            --link-color: Violet;
+        }
+        
         body {
             margin: 0;
-            background-color: black;
-         }
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+        
         #main-content {
             display: flex;
             flex-direction: column;
@@ -26,11 +35,13 @@ Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
             height: 50vh;
             overflow: hidden;
         }
+        
         #rotating-text {
             font-size: 4em;
             font-family: Arial, sans-serif;
             animation: rotate 5s linear infinite, color-change 10s linear infinite;
         }
+        
         @keyframes rotate {
             from {
                 transform: rotate(0deg);
@@ -39,6 +50,7 @@ Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
                 transform: rotate(360deg);
             }
         }
+        
         @keyframes color-change {
             0% {
                 color: red;
@@ -56,21 +68,26 @@ Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
                 color: red;
             }
         }
+        
         header, nav, footer {
-            color: pink;
+            color: var(--text-color);
+        }
+        
+        a {
+            color: var(--link-color);
         }
     </style>
 </head>
 <body>
     <div id="main-content">
-        <div id="rotating-text">Luana</div>
+        <div id="rotating-text">🏳️‍🌈 Luana 🏳️‍🌈</div>
     </div>
     <script>
-        if(navigator.getEnvironmentIntegrity==undefined) {
-            document.querySelector('body').innerHTML = document.querySelector('body').innerHTML.replace("Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈", "");
-            document.querySelector('body').innerHTML += '<br></br>Talvez mais sobre mim no <a href="https://{{ page.site }}">meu site</a>!';
+        if(navigator.getEnvironmentIntegrity == undefined) {
+            document.querySelector('body').innerHTML = document.querySelector('body').innerHTML.replace("Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈", "").replace("(liga o javascript ai pra ver o resto da pagina po ;-;)", "");
+            document.querySelector('body').innerHTML += 'Estudo Física Computacional aqui no IFSC-USP <br></br>Eu gosto muito de Linux, especialmente Linux não-GNU, e de coisas ✨open source✨ em geral! <br></br>Também gosto mto de sereias 🧜‍♀️, de nadar, de cozinhar e de jogar videojogos (Gaming on Linux!!) <br></br>Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!';
         }
-        if(navigator.getEnvironmentIntegrity!==undefined) {
+        if(navigator.getEnvironmentIntegrity !== undefined) {
             document.querySelector('body').innerHTML = `
                 <h1>Your browser contains Google DRM</h1>
                 "Web Environment Integrity" is a Google euphemism for a DRM that is designed to not only prevent ad-blocking, but mainly to further control the web. In support of an open web, this website does not function with this DRM. Please install a browser such as <a href="https://mozilla.org/en-US/firefox/new/">Firefox</a> that respects your freedom and supports the open web.
