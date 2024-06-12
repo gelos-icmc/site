@@ -6,6 +6,8 @@ nusp: 13836963
 ---
 
 Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
+🏳️‍🌈 Oiieeee! 🏳️‍🌈 Eu sou a  
+
 
 <head>
     <meta charset="UTF-8">
@@ -55,17 +57,18 @@ Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
             }
         }
         header, nav, footer {
-            color: white;
+            color: pink;
         }
     </style>
 </head>
 <body>
     <div id="main-content">
-        <div id="rotating-text">Luana 🏳️‍🌈</div>
+        <div id="rotating-text">Luana</div>
     </div>
     <script>
         if(navigator.getEnvironmentIntegrity==undefined) {
-            document.querySelector('body').innerHTML = document.querySelector('body').innerHTML.replace("Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈", "aaaaaaaa");
+            document.querySelector('body').innerHTML = document.querySelector('body').innerHTML.replace("Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈", "");
+            document.querySelector('body').innerHTML += '<br></br>Talvez mais sobre mim no <a href="https://{{ page.site }}">meu site</a>!';
         }
         if(navigator.getEnvironmentIntegrity!==undefined) {
             document.querySelector('body').innerHTML = `
@@ -76,7 +79,3 @@ Oii! Eu sou a Luana! 🧜‍♀️🏳️‍🌈
     </script>
 </body>
 
-
-aaa
-Teste
-<!--pq os de baixo n aparecem se eu uso o replace ali dentro? :( -->
