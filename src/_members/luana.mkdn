@@ -85,7 +85,11 @@ nusp: 13836963
 </body>
 
 Estudo Física Computacional aqui no IFSC-USP, sou lésbica, futura furry e sereia 🧜‍♀️  
+  
 Eu gosto muito de Linux, especialmente Linux não-GNU, do Fediverso e de coisas ✨open source✨ em geral!  
+  
 Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estudar a relação entre cozinha e ciência e open source).  
+  
 Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS).  
+  
 Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!
