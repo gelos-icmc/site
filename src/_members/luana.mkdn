@@ -1,13 +1,12 @@
 ---
 title: Luana Neder
+description: Meooooow! 🧜‍♀️🏳️‍🌈
 email: neder@usp.br
 site: luana.dev.br
 nusp: 13836963
 ---
 
-Meooooow! 🧜‍♀️🏳️‍🌈
 
-(liga o javascript ai pra ver o resto da pagina po ;-;)
 🏳️‍🌈 Oiieeee! 🏳️‍🌈 Eu sou a  
 
 
@@ -83,10 +82,10 @@ Meooooow! 🧜‍♀️🏳️‍🌈
     <div id="main-content">
         <div id="rotating-text">🏳️‍🌈 Luana 🏳️‍🌈</div>
     </div>
-    <script>
-document.querySelector('body').innerHTML = document.querySelector('body').innerHTML.replace("Meooooow! 🧜‍♀️🏳️‍🌈", "").replace("(liga o javascript ai pra ver o resto da pagina po ;-;)", "");
-            document.querySelector('body').innerHTML += 'Estudo Física Computacional aqui no IFSC-USP, sou lésbica, futura furry e sereia 🧜‍♀️ <br></br>Eu gosto muito de Linux, especialmente Linux não-GNU, do Fediverso e de coisas ✨open source✨ em geral! <br></br>Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estudar a relação entre cozinha e ciência e open source). <br></br>Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS). <br></br>Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!';
-        
-    </script>
 </body>
 
+Estudo Física Computacional aqui no IFSC-USP, sou lésbica, futura furry e sereia 🧜‍♀️  
+Eu gosto muito de Linux, especialmente Linux não-GNU, do Fediverso e de coisas ✨open source✨ em geral!  
+Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estudar a relação entre cozinha e ciência e open source).  
+Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS).  
+Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!
