@@ -7,13 +7,14 @@ nusp: 13836963
 extra_css: |
     :root {
         --background-color: black;
-        --text-color: DarkSeaGreen;
+        --color-text: DarkSeaGreen;
         --link-color: pink;
+        --color-bg-alt: #34343d;
     }
 
     body {
         background-color: var(--background-color);
-        color: var(--text-color);
+        color: var(--color-text);
     }
 
     #rotating {
