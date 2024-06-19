@@ -27,6 +27,9 @@
     {% else %}
     <meta property="og:type" content="website"/>
     {% endif %}
+    <style>
+      {{ page.extra_css }}
+    </style>
   </head>
   <body>
     {{ content }}

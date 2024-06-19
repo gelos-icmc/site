@@ -4,92 +4,83 @@ description: Meooooow! 🧜‍♀️🏳️‍🌈
 email: neder@usp.br
 site: luana.dev.br
 nusp: 13836963
+extra_css: |
+    :root {
+        --background-color: black;
+        --text-color: DarkSeaGreen;
+        --link-color: pink;
+    }
+
+    body {
+        margin: 0;
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+
+    #rotating {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        overflow: hidden;
+    }
+
+    #rotating p {
+        font-size: 4em;
+        font-family: Arial, sans-serif;
+        animation: rotate 5s linear infinite, color-change 10s linear infinite;
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes color-change {
+        0% {
+            color: red;
+        }
+        25% {
+            color: yellow;
+        }
+        50% {
+            color: green;
+        }
+        75% {
+            color: blue;
+        }
+        100% {
+            color: red;
+        }
+    }
+
+    header, nav, footer {
+        color: var(--text-color);
+    }
+
+    a {
+        color: var(--link-color);
+    }
 ---
 
 
-🏳️‍🌈 Oiieeee! 🏳️‍🌈 Eu sou a  
+🏳️‍🌈 Oiieeee! 🏳️‍🌈 Eu sou a
 
+<div id="rotating">
+    <p>🏳️‍🌈 Luana 🏳️‍🌈</p>
+</div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rotating Colorful Text</title>
-    <style>
-        :root {
-            --background-color: black;
-            --text-color: DarkSeaGreen;
-            --link-color: pink;
-        }
-        
-        body {
-            margin: 0;
-            background-color: var(--background-color);
-            color: var(--text-color);
-        }
-        
-        #main-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 50vh;
-            overflow: hidden;
-        }
-        
-        #rotating-text {
-            font-size: 4em;
-            font-family: Arial, sans-serif;
-            animation: rotate 5s linear infinite, color-change 10s linear infinite;
-        }
-        
-        @keyframes rotate {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
-        
-        @keyframes color-change {
-            0% {
-                color: red;
-            }
-            25% {
-                color: yellow;
-            }
-            50% {
-                color: green;
-            }
-            75% {
-                color: blue;
-            }
-            100% {
-                color: red;
-            }
-        }
-        
-        header, nav, footer {
-            color: var(--text-color);
-        }
-        
-        a {
-            color: var(--link-color);
-        }
-    </style>
-</head>
-<body>
-    <div id="main-content">
-        <div id="rotating-text">🏳️‍🌈 Luana 🏳️‍🌈</div>
-    </div>
-</body>
+Estudo Física Computacional aqui no IFSC-USP, sou lésbica, futura furry e sereia 🧜‍♀️
 
-Estudo Física Computacional aqui no IFSC-USP, sou lésbica, futura furry e sereia 🧜‍♀️  
-  
-Eu gosto muito de Linux, especialmente Linux não-GNU, do Fediverso e de coisas ✨open source✨ em geral!  
-  
-Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estudar a relação entre cozinha e ciência e open source).  
-  
-Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS).  
-  
+Eu gosto muito de Linux, especialmente Linux não-GNU, do Fediverso e de coisas ✨open source✨ em geral!
+
+Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estudar a relação entre cozinha e ciência e open source).
+
+Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS).
+
 Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!
