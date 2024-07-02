@@ -85,6 +85,6 @@ Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando ent√
 
 Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!
 
-<script src="% link assets/oneko.js/oneko.js %" data-cat="/assets/oneko.js/oneko.gif"></script>
+<script src="{% link assets/oneko.js/oneko.js %}" data-cat="/assets/oneko.js/oneko.gif"></script>
 
 
