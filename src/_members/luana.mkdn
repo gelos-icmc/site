@@ -84,3 +84,7 @@ Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e e
 Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS).
 
 Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!
+
+<script src="/assets/oneko.js/oneko.js" data-cat="/assets/oneko.js/oneko.gif"></script>
+
+
