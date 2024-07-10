@@ -8,7 +8,7 @@ Plantões para tirar dúvidas com Linux e outras ferramentas livres.
 
 Usa Linux e esbarrou em algum problema? Usa algum software open source e tem alguma dúvida? Estamos aqui para ajudar!
 
-Nos plantões, haverá ao menos um voluntário na sala do GELOS (3-155) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.  
+Nos plantões, haverá ao menos ume voluntárie na sala do GELOS (3-155) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.
 Caso tenha um problema ou precise de alguma ajuda, é só aparecer!
 
 *Veja também nosso [blog post](/2024/04/19/plantoes.html) de anúncio dos plantões*
@@ -17,10 +17,10 @@ Confira abaixo as próximas datas
 
 ## Próximos Horários
 
-| Data                | Horário                  | Voluntário(s)   |
+| Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-|           |             |            |
-| Toda quinta-feira   | Tarde e noite            | Gabriel         |  
+|                     |                          |                 |
+| Em breve!           |                          |                 |  
 
   
 *Para se voluntariar, basta [editar](https://github.com/gelos-icmc/site/blob/main/src/_projects/plantao.md) a tabela acima e adicionar os dias e horários que você estará na salinha para ajudar*
