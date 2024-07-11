@@ -11,7 +11,7 @@ Usa Linux e esbarrou em algum problema? Usa algum software open source e tem alg
 Nos plantões, haverá ao menos ume voluntárie na sala do GELOS (3-155) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.
 Caso tenha um problema ou precise de alguma ajuda, é só aparecer!
 
-*Veja também nosso [blog post](/2024/04/19/plantoes.html) de anúncio dos plantões*
+*Veja também nosso [blog post]({% link 2024/04/19/plantoes.html %}) de anúncio dos plantões*
 
 Confira abaixo as próximas datas
 
