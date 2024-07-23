@@ -12,4 +12,4 @@ implemented in a few different places
   - Spicetify: https://github.com/kyrie25/spicetify-oneko
 
 
-cloned from https://github.com/tylxr59/oneko.js
+cloned from https://github.com/LuNeder/oneko.js
