@@ -81,6 +81,8 @@ Eu gosto muito de Linux, especialmente Linux não-GNU, do Fediverso e de coisas 
 
 Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estudar a relação entre cozinha e ciência e open source).
 
+Sei programar (ou tento) em Rust, FORTRAN e Python. Os meus computadores configuro em Nix, visto que uso NixOS (graças à ajuda do Gabs GELOS).
+
 Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS).
 
 Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!
