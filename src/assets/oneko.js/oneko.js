@@ -105,11 +105,6 @@
 
     document.body.appendChild(nekoEl);
 
-    document.addEventListener("wheel", function (event) {
-      nekoPosY -= event.deltaY / 10;
-      updatePos();
-    });
-
     document.addEventListener("mousemove", function (event) {
       mousePosX = event.clientX;
       mousePosY = event.clientY;
@@ -129,8 +124,8 @@
       lastFrameTimestamp = timestamp;
     }
     if (timestamp - lastFrameTimestamp > 100) {
-      lastFrameTimestamp = timestamp;
-      frame();
+      lastFrameTimestamp = timestamp
+      frame()
     }
     window.requestAnimationFrame(onAnimationFrame);
   }
@@ -279,12 +274,8 @@
     nekoPosX = Math.min(Math.max(16, nekoPosX), window.innerWidth - 16);
     nekoPosY = Math.min(Math.max(16, nekoPosY), window.innerHeight - 16);
 
-    updatePos();
-  }
-
-  function updatePos() {
-      nekoEl.style.left = `${nekoPosX - 16}px`;
-      nekoEl.style.top = `${nekoPosY - 16}px`;
+    nekoEl.style.left = `${nekoPosX - 16}px`;
+    nekoEl.style.top = `${nekoPosY - 16}px`;
   }
 
   init();
