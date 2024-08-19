@@ -1,5 +1,5 @@
 ---
 title: Ryan Souza Sá Teles
-site: https://ryan.dev.br
+site: ryan.dev.br
 draft: true
 ---
