@@ -48,9 +48,9 @@ O GELOS busca adotar um modelo de gestão horizontal. Os atuais membros da coord
 
 Coordenadores eméritos:
 
-- [Ryan Souza Sá Teles](https://ryan.dev.br) *(2023-2024)*
-- Deandreson Alves de Souza *(2021-2024)*
-- [Aya Kuwahara](https://setembru.dev.br) *(2021-2023)*
+- [Ryan Souza Sá Teles](/membros/ryan) *(2023-2024)*
+- [Deandreson Alves de Souza](/membros/deandreson) *(2021-2024)*
+- [Aya Kuwahara](/membros/setembru) *(2021-2023)*
 - Lucas Caetano Procópio *(2021-2022)*
 
 Como mencionamos, o GELOS existe para apoiar projetos que os membros idealizam.
