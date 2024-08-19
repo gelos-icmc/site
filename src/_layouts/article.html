@@ -11,7 +11,19 @@ layout: default
         <p>Data: <strong>{{ page.date | date: "%d/%m/%y" }}</strong></p>
       {% endif %}
       {% if page.author %}
-        <p>Autor: <strong>{{ page.author }}</strong></p>
+        <p>Autor:
+          <strong>
+            {% include person.html name=page.author %}
+          </strong>
+        </p>
+      {% elsif page.authors %}
+        <ul>Autores:
+          {% for author in page.authors %}
+            <li>
+              {%- include person.html name=author -%}
+            </li>
+          {% endfor %}
+        </ul>
       {% endif %}
       {% if page.state %}
         <p>Status:
@@ -22,7 +34,9 @@ layout: default
       {% if page.attendees %}
       <ul>Presentes:
         {% for attendee in page.attendees %}
-          <li>{{ attendee }}</li>
+          <li>
+            {%- include person.html name=attendee -%}
+          </li>
         {% endfor %}
       </ul>
       {% endif %}

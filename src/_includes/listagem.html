@@ -13,7 +13,13 @@
       {% endif %}
 
       {% if post.author %}
-        | <strong>{{ post.author }}</strong>
+        | {% include person.html name=post.author %}
+      {% elsif post.authors %}
+        |
+        {% for author in post.authors %}
+          {% include person.html short=true name=author -%}
+          {%- unless forloop.last %}, {% endunless %}
+        {%- endfor -%}
       {% endif %}
     </p>
   </header>

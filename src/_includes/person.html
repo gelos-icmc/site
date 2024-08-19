@@ -1,0 +1,14 @@
+{% assign slug = include.name | slugify: "latin" %}
+{% assign member = site.members | find: "slug",slug %}
+
+{%- if member -%}
+  <a href="{{ member.url }}">
+    {%- if member.nickname -%}
+      {{- member.nickname -}}
+    {%- else -%}
+      {{- member.title -}}
+    {%- endif -%}
+  </a>
+{%- else -%}
+  {{- include.name -}}
+{%- endif -%}
