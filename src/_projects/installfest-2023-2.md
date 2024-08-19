@@ -1,6 +1,8 @@
 ---
 title: Installfest 2023/2
-author: Gabriel e Charles
+authors:
+    - Gabriel
+    - Charles
 lang: pt-BR
 state: completed
 ---
@@ -56,7 +58,7 @@ O comando te avisará, para cada ISO, se o hash bate ou não.
 | **Nome**               | **Email**                | **Horários** |
 |------------------------|--------------------------|--------------|
 | Gabriel Fontes         | g.fontes@usp.br          | 14-19h       |
-| Tarcísio L. Oliveira   | tarcisio.oliveira@usp.br | 14-19h       | 
+| Tarcísio L. Oliveira   | tarcisio.oliveira@usp.br | 14-19h       |
 | Silmar P. da Silva Jr. | silmar.junior@usp.br     | 14-19h       |
 |                        |                          |              |
 

@@ -1,8 +1,8 @@
 ---
 title: Apresentação BitTorrent
-author: Guilherme
+author: guip
 attendees:
-    - Guilherme
+    - guip
     - Gabriel
     - Tomieiro
     - Deandreson

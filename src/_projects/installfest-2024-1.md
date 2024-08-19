@@ -1,6 +1,8 @@
 ---
 title: Installfest 2024/1
-author: Gabriel e Charles
+authors:
+    - Gabriel
+    - Charles
 lang: pt-BR
 state: completed
 ---

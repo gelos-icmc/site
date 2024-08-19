@@ -1,6 +1,6 @@
 ---
 title: Open Source Shows
-author: Guilherme
+author: guip
 lang: pt-BR
 state: current
 ---
