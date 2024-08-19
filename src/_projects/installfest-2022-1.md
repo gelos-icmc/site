@@ -2,7 +2,7 @@
 title: Installfest 2022/1
 author: Gabriel
 lang: pt-BR
-state: completed
+state: finished
 ---
 
 Evento de instalação de Linux, a ser realizado no dia 25/03 das 9h às 15h, no vão da biblioteca do ICMC. O evento foi organizado numa parceria com o grupo [Zenith Aerospace](https://zenith.eesc.usp.br/en), da EESC.

@@ -2,7 +2,7 @@
 title: Grupos de Estudo
 author: Gabriel
 lang: pt-BR
-state: current
+state: permanent
 ---
 
 Grupos de estudo para diferentes tópicos de software livre. Tópico no telegram + atividades síncronas (aulas, workshops, etc).

@@ -4,7 +4,7 @@ authors:
     - Gabriel
     - Charles
 lang: pt-BR
-state: completed
+state: finished
 ---
 
 Evento de instalação de Linux, realizado no dia 31/08 das 14h às 19h, no vão da
