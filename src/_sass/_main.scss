@@ -227,3 +227,7 @@ ul ul,
 {
   margin-bottom: 0;
 }
+
+:target {
+  background: var(--color-bg-alt);
+}

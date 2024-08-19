@@ -1,4 +1,4 @@
-<article class="listing">
+<article class="listing" id="{{ post.slug }}">
   <header>
     <{{ include.element | default: "h2" }}>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
