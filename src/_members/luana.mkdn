@@ -88,9 +88,9 @@ Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando ent√
 Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!
 
 <script
-    src="https://cdn.jsdelivr.net/gh/adryd325/oneko.js@b323d71/oneko.js"
-    data-cat="https://cdn.jsdelivr.net/gh/adryd325/oneko.js@b323d71/oneko.gif"
-    integrity="sha384-j7T4YgaJr82nh4zGyb1Xja4Fr9q8/zBsuW+RZuT3uaYrROfMkxuv+kIz29KayScD"
+    src="https://cdn.jsdelivr.net/gh/tylxr59/oneko.js@479fd09/oneko.js"
+    data-cat="https://cdn.jsdelivr.net/gh/tylxr59/oneko.js@479fd09/oneko.gif"
+    integrity="sha384-N+DIaUacxTdR3zopUTYSfgj5E9vd3hyhNxs8fVpZm8TtsM93UGKZHTx9lb8KF089"
     crossorigin="anonymous"
 ></script>
 
