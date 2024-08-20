@@ -90,5 +90,6 @@ Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u
 <script
     src="https://raw.githubusercontent.com/adryd325/oneko.js/b323d71126726e4487c10f0d75fc47ac37ead11c/oneko.js"
     integrity="sha384-j7T4YgaJr82nh4zGyb1Xja4Fr9q8/zBsuW+RZuT3uaYrROfMkxuv+kIz29KayScD"
+    crossorigin="anonymous"
 ></script>
 
