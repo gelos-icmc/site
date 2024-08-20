@@ -7,6 +7,10 @@
 - name: GitHub
   url: https://github.com/gelos-icmc
 
+- name: Mastodon
+  url: https://floss.social/@gelos
+  rel: me # Verificação
+
 - name: Instagram
   url: https://instagram.com/gelos.icmc/
 
