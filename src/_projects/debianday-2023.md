@@ -1,6 +1,6 @@
 ---
 title: Debian Day 2023 - 30 Anos de Debian
-state: completed
+state: finished
 author: Charles
 lang: pt-BR
 ---

@@ -2,7 +2,7 @@
 title: Infraestrutura
 author: Gabriel
 lang: pt-BR
-state: current
+state: permanent
 ---
 
 Trabalhos de DevOps e SysOps no GELOS.

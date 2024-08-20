@@ -12,10 +12,13 @@ collection_src: projects
 <section id="atuais">
 <header>
   <h2><a href="#atuais">#</a> Atuais</h2>
-  <p>Projetos atuais e atividades recorrentes</p>
+  <p>Projetos em progresso e atividades permanentes</p>
 </header>
-{% assign current_projects = site.projects | where:"state","current" %}
-{% for post in current_projects %}{% include listagem.html element="h3" %}{% endfor %}
+{% assign permanent_projects = site.projects | where:"state","permanent" %}
+{% for post in permanent_projects %}{% include listagem.html element="h3" %}{% endfor %}
+
+{% assign in_progress_projects = site.projects | where:"state","in_progress" %}
+{% for post in in_progressos_projects %}{% include listagem.html element="h3" %}{% endfor %}
 </section>
 
 <section id="em-concepcao">
@@ -32,6 +35,15 @@ collection_src: projects
   <h2><a href="#concluidos">#</a> Concluídos</h2>
   <p>Projetos finalizados</p>
 </header>
-{% assign completed_projects = site.projects | where:"state","completed" %}
-{% for post in completed_projects %}{% include listagem.html element="h3" %}{% endfor %}
+{% assign finished_projects = site.projects | where:"state","finished" %}
+{% for post in finished_projects %}{% include listagem.html element="h3" %}{% endfor %}
+</section>
+
+<section id="suspended">
+<header>
+  <h2><a href="#suspensos">#</a> Suspensos</h2>
+  <p>Projetos interrompidos (em geral temporariamente)</p>
+</header>
+{% assign suspended_projects = site.projects | where:"state","suspended" %}
+{% for post in suspended_projects %}{% include listagem.html element="h3" %}{% endfor %}
 </section>

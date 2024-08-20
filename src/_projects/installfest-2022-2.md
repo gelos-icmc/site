@@ -2,7 +2,7 @@
 title: Installfest 2022/2
 author: Gabriel
 lang: pt-BR
-state: completed
+state: finished
 ---
 
 Evento de instalação de Linux, a ser realizado no dia 14/09 das 9h às 18h, no vão da biblioteca do ICMC.

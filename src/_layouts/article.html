@@ -8,22 +8,33 @@ layout: default
 
     <blockquote>
       {% if page.date and page.show_date %}
-        <p>Data: <strong>{{ page.date | date: "%d/%m/%y" }}</strong></p>
+        <p><strong>Data</strong>: {{ page.date | date: "%d/%m/%y" }}</p>
       {% endif %}
       {% if page.author %}
-        <p>Autor: <strong>{{ page.author }}</strong></p>
+        <p><strong>Autor</strong>:
+            {% include person.html name=page.author %}
+        </p>
+      {% elsif page.authors %}
+        <ul><strong>Autores</strong>:
+          {% for author in page.authors %}
+            <li>
+              {%- include person.html name=author -%}
+            </li>
+          {% endfor %}
+        </ul>
       {% endif %}
       {% if page.state %}
-        <p>Status:
-          <strong>{{ site.data.project_states[page.state] | default: "Desconhecido" }}</strong>
+        <p><strong>Status</strong>:
+          {{ site.data.project_states[page.state] | default: "Desconhecido" }}
         </p>
       {% endif %}
 
       {% if page.attendees %}
-      <ul class="attendance">
-        Presentes:
+      <ul><strong>Presentes</strong>:
         {% for attendee in page.attendees %}
-          <li>{{ attendee }}</li>
+          <li>
+            {%- include person.html name=attendee -%}
+          </li>
         {% endfor %}
       </ul>
       {% endif %}
@@ -35,3 +46,4 @@ layout: default
 
   {{ content }}
 </article>
+

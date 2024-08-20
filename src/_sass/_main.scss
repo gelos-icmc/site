@@ -141,8 +141,9 @@ label.required:before {
   color: red;
 }
 
-ul.attendance {
+header > blockquote ul {
   padding-left: 0;
+  margin-bottom: 0;
   // Tirar bolinhas
   list-style: none;
 
@@ -206,8 +207,9 @@ article.listing {
 }
 
 section {
-  margin-bottom: 4.5em;
-  margin-top: 3em;
+  padding-bottom: 0.5em;
+  padding-top: 0.1em;
+  margin-top: 2em;
   header {
     :first-child {
       margin-bottom: 0.5em;
@@ -225,4 +227,8 @@ ul li,
 ul ul,
 {
   margin-bottom: 0;
+}
+
+:target {
+  background: var(--color-bg-alt);
 }

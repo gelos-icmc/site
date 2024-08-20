@@ -1,6 +1,6 @@
 ---
 title: Debian Day 30 Anos - GELOS Sediará Evento no ICMC
-author: Guilherme Paixão
+author: guip
 ---
 
 

@@ -1,8 +1,8 @@
 ---
 title: Open Source Shows
-author: Guilherme
+author: guip
 lang: pt-BR
-state: current
+state: permanent
 ---
 
 O Open Source Show é um projeto que visa abrir um espaço para que todes -- incluindo não membres do grupo -- possam realizar
