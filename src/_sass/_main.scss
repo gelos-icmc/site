@@ -37,7 +37,7 @@ a {
 // Lista de páginas na navegação
 nav ul {
   padding-left: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5em;
   // Tira bolinhas
   list-style: none;
 
@@ -98,6 +98,7 @@ figure {
 
   nav {
     max-width: 15em;
+    margin-bottom: 1em;
   }
 
   footer {
@@ -160,9 +161,17 @@ header > blockquote ul {
   }
 }
 
+body > header {
+  margin-bottom: 2em;
+}
+
+nav.external {
+  font-size: 0.9em;
+}
+
 footer {
   margin-top: 5em;
-  font-size: 85%;
+  font-size: 0.85em;
   border-top: 1px solid var(--color-blossom);
   address, nav {
     padding-top: 1em;
@@ -178,7 +187,7 @@ table {
 }
 
 main {
-  border-top: 1px solid var(--color-bg-alt);
+  border-top: 1px solid var(--color-blossom);
 }
 
 main > article > header {
