@@ -2,7 +2,8 @@
 title: Luana Neder
 description: Meooooow! 🧜‍♀️🏳️‍🌈
 email: neder@usp.br
-site: luana.dev.br
+links:
+    Site: luana.dev.br
 nusp: 13836963
 extra_css: |
     :root {

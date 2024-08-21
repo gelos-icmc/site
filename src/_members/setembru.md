@@ -1,6 +1,7 @@
 ---
 title: Aya "Setembru" Kuwahara
 nickname: Setembru
-site: setembru.dev.br
+links:
+    Site: setembru.dev.br
 draft: true
 ---

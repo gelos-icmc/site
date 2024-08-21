@@ -1,7 +1,10 @@
 ---
 title: Gabriel Fontes
 email: g.fontes@usp.br
-site: m7.rs
+links:
+    Site: m7.rs
+    Mastodon: fosstodon.org/@misterio
+    GitHub: github.com/misterio77
 nusp: 10856803
 ---
 
