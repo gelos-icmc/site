@@ -4,6 +4,8 @@ description: Meooooow! 🧜‍♀️🏳️‍🌈
 email: neder@usp.br
 links:
     Site: luana.dev.br
+    Mastodon: tech.lgbt/@luana
+    GitHub: github.com/LuNeder
 nusp: 13836963
 extra_css: |
     :root {
