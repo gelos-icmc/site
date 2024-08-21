@@ -1,7 +1,8 @@
 ---
 title: Matheus "Furry" Borella
 email: mbrla@usp.br
-site: lobisomem.gay
+links:
+    Site: lobisomem.gay
 ---
 
 Awoooooo! 🐺🏳️‍🌈
@@ -15,4 +16,4 @@ mascote do GELOS, e puxador da frente de design e implementação de OS.
 
 Sistema Operacional não se resume a UNIX, Software Livre não se resume a Linux.
 
-Mais coisas, talvez, no [meu site](https://{{ page.site }}).
+Mais coisas, talvez, no [meu site](https://{{ page.links.Site }}).

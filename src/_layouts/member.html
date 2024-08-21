@@ -11,9 +11,9 @@ layout: default
       {% if page.email %}
         <p>Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
       {% endif %}
-      {% if page.site %}
-        <p>Site: <a href="https://{{ page.site }}">{{ page.site }}</a></p>
-      {% endif %}
+      {% for link in page.links %}
+        <p>{{ link[0] }}: <a href="https://{{ link[1] }}">{{ link[1] }}</a></p>
+      {% endfor %}
     </blockquote>
   </header>
 

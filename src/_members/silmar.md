@@ -1,5 +1,6 @@
 ---
 title: Silmar Pereira Junior
-site: silmarp.dev
+links:
+    Site: silmarp.dev
 draft: true
 ---

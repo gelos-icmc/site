@@ -1,6 +1,7 @@
 ---
 title: Guilherme Paixão
-site: guip.dev
+links:
+    Site: guip.dev
 email: me@guip.dev
 ---
 
