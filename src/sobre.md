@@ -11,6 +11,10 @@ Computação](https://icmc.usp.br) da [Universidade de São
 Paulo](https://usp.br). O grupo é vinculado e conta com o apoio do [Centro de
 Competência em Open Source (CCOS)](https://ccos.icmc.usp.br/).
 
+Estamos sempre buscando nos aproximar de outras comunidades de software livre.
+Mantemos uma [lista](https://gelos.club/comunidades) das comunidades que
+conhecemos.
+
 Alguns dos nossos objetivos:
 - Fazer uma ponte entre a USP e a comunidade FLOSS;
 - Utilizar de recursos da USP para contribuir com software livre;
