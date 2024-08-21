@@ -10,6 +10,10 @@ $font-family-heading: $font-family-base;
 
 @import "sakura";
 
+@view-transition {
+  navigation: auto;
+}
+
 // Breakpoints para a largura do body
 body {
   max-width: 38em;
