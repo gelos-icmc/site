@@ -86,7 +86,7 @@ Sei programar (ou tento) em Rust, FORTRAN e Python. Os meus computadores configu
 
 Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS).
 
-Talvez mais sobre mim no <a href="https://{{ page.site }}"><u>meu site e blog</u></a>!
+Talvez mais sobre mim no <a href="https://{{ page.links.Site }}"><u>meu site e blog</u></a>!
 
 <script
     src="https://cdn.jsdelivr.net/gh/tylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.js"
