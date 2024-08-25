@@ -20,7 +20,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-|                     |                          |                 |
 | 26/08/2024          |   15:10 ~ 17:40          | Luana e Yuri    |
 | 16/09/2024          |   15:10 ~ 17:40          | Luana e Yuri    |
 | Mais datas em breve!|                          |                 |
