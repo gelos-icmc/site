@@ -19,8 +19,7 @@ Confira abaixo as próximas datas
 ## Próximos Horários
 
 | Data                | Horário                  | Voluntárie(s)   |
-|---------------------|--------------------------|-----------------|
-| 26/08/2024          |   15:10 ~ 17:40          | Luana e Yuri    |
+|---------------------|--------------------------|-----------------
 | 16/09/2024          |   15:10 ~ 17:40          | Luana e Yuri    |
 | Mais datas em breve!|                          |                 |
 
@@ -58,3 +57,9 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 - Distro: Arch, Fedora, openSUSE Tumbleweed
 - Descrição: A tela funcionava, no entanto a backlight parava assim que o sistema ou instalador bootava
 - Solução: Nenhuma durante o evento. Link potencialmente relacionado: https://hansdegoede.livejournal.com/26427.html
+
+## Plantões Passados
+
+| Data                | Horário                  | Atendidos              | Voluntárie(s)      |
+|---------------------|--------------------------|------------------------|--------------------|
+| 26/08/2024          |   15:10 ~ 18:40          | 1 (db-win10+kubuntu)   | Furry, Luana e Yuri|
