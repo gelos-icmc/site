@@ -62,5 +62,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos              | Voluntárie(s)      |
 |---------------------|--------------------------|------------------------|--------------------|
+| 25/09/2024          |   16:30 ~ 18:30          | 2 (troca hd+endeavour, troca teclado)    |        Luana  |     
+| 20/09/2024          |   15:00 ~ 18:00          | 1 (NixOS)            |        Luana       |
 | 16/09/2024          |   15:00 ~ 17:40          | 1 (pytorch)            | Furry, Luana e Yuri|
 | 26/08/2024          |   15:10 ~ 18:40          | 1 (db-win10+kubuntu)   | Furry, Luana e Yuri|
