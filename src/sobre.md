@@ -44,7 +44,8 @@ ser um membro pleno.
 
 O GELOS busca adotar um modelo de gestão horizontal. Todos os membros plenos
 têm o mesmo poder de decisão. Buscamos sempre o consenso e, quando nescessário,
-fazemos votações.
+fazemos votações. Nossos membros (ativos ou não) estão listados na [seção
+membros]({% link membros.html %}).
 
 O grupo se organiza em diferentes projetos, onde membros podem ser líderes,
 participantes, ou observadores. Os *líderes* de cada projeto organizam, de
