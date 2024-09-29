@@ -37,13 +37,13 @@ sobre os projetos em andamento e as nossas reuniões.
 
 Depois de participar ativamente por um semestre, você pode ser oficializado
 como um membro pleno (com direito à voto e possibilidade de liderar projetos).
-Não é nescessário ter vínculo com USP (ou com qualquer outra instituição) para
+Não é necessário ter vínculo com USP (ou com qualquer outra instituição) para
 ser um membro pleno.
 
 ## Membros e estrutura administrativa
 
 O GELOS busca adotar um modelo de gestão horizontal. Todos os membros plenos
-têm o mesmo poder de decisão. Buscamos sempre o consenso e, quando nescessário,
+têm o mesmo poder de decisão. Buscamos sempre o consenso e, quando necessário,
 fazemos votações. Nossos membros (ativos ou não) estão listados na [seção
 membros]({% link membros.html %}).
 
