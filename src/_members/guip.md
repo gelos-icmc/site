@@ -3,6 +3,7 @@ title: Guilherme Paixão
 links:
     Site: guip.dev
 email: me@guip.dev
+quickextra: Coordenador (2021 ~ presente)
 ---
 
 Nada a perder, a não ser nossos grilhões! ☭🚩

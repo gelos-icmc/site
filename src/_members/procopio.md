@@ -2,5 +2,5 @@
 title: Lucas Caetano Procópio
 draft: true
 ex: true
-description: Coordenador 2021 ~ 2022
+quickextra: Coordenador (2021 ~ 2022)
 ---

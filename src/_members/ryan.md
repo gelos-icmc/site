@@ -4,5 +4,5 @@ links:
     Site: ryan.dev.br
 draft: true
 ex: true
-description: Coordenador 2023 ~ 2024
+quickextra: Coordenador (2023 ~ 2024)
 ---
