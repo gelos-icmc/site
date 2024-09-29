@@ -11,10 +11,6 @@ Computação](https://icmc.usp.br) da [Universidade de São
 Paulo](https://usp.br). O grupo é vinculado e conta com o apoio do [Centro de
 Competência em Open Source (CCOS)](https://ccos.icmc.usp.br/).
 
-Estamos sempre buscando nos aproximar de outras comunidades de software livre.
-Mantemos uma [lista](https://gelos.club/comunidades) das comunidades que
-conhecemos.
-
 Alguns dos nossos objetivos:
 - Fazer uma ponte entre a USP e a comunidade FLOSS;
 - Utilizar de recursos da USP para contribuir com software livre;
@@ -24,43 +20,38 @@ Alguns dos nossos objetivos:
 O grupo engloba desde software e hardware livres, até Open Science e todos os
 aspectos sociais e políticos envolvidos.
 
-O GELOS tem como princípio ser um **agrupamento de entusiastas**. Onde trocamos
-conhecimento, e apoiamos (individual e institucionalmente) uns aos outros. Você
-pode, ao seu critério: desenvolver ou idealizar novos projetos, contribuir com
-projetos de outros membros, ou só socializar. Sendo assim, ser membro **não
-implica em obrigatoriedade de atividades**, e **não existe hierarquia que
-"escale membros"** para projetos.
+O GELOS existe para apoiar projetos que os membros idealizam, funcionando como
+um agrupamento de entusiastas. Trocamos conhecimento e apoiamos (individual e
+institucionalmente) uns aos outros. Você pode, ao seu critério: desenvolver ou
+idealizar novos projetos, contribuir com projetos de outros membros, ou só
+socializar.
+
+Sempre buscamos nos aproximar de outras comunidades de software livre. Mantemos
+uma [lista](https://gelos.club/comunidades) das comunidades que conhecemos.
 
 ## Como participar?
 
-No momento, não temos um processo seletivo formal. Basta entrar no nosso
-[telegram](https://t.me/gelos_geral) e dizer "oi" que explicaremos sobre os
-projetos em andamento e as nossas reuniões.
+Nossos espaços de comunicação e reunião são 100% abertos! Basta entrar, por
+exemplo, no nosso [telegram](https://t.me/gelos_geral) e conversar conosco
+sobre os projetos em andamento e as nossas reuniões.
 
-Para fins oficiais (horas extracurriculares, relatórios, etc), são listados os
-membros que participaram ativamente de algum projeto naquele dado semestre.
+Depois de participar ativamente por um semestre, você pode ser oficializado
+como um membro pleno (com direito à voto e possibilidade de liderar projetos).
+Não é nescessário ter vínculo com USP (ou com qualquer outra instituição) para
+ser um membro pleno.
 
-## Gerência
+## Membros e estrutura administrativa
 
-O GELOS busca adotar um modelo de gestão horizontal. Os atuais membros da coordenação são:
+O GELOS busca adotar um modelo de gestão horizontal. Todos os membros plenos
+têm o mesmo poder de decisão. Buscamos sempre o consenso e, quando nescessário,
+fazemos votações.
 
-- [Gabriel Fontes](/membros/gabriel) *(2021-presente)*
-- [Carlos Henrique Melara](/membros/charles) *(2021-presente)*
-- [Júlio Casemiro](/membros/julio) *(2022-presente)*
-- [Guilherme Ramos Costa Paixão](/membros/guip) *(2021-presente)*
-- [Silmar Pereira Junior](/membros/silmar) *(2021-presente)*
-
-Coordenadores eméritos:
-
-- [Ryan Souza Sá Teles](/membros/ryan) *(2023-2024)*
-- [Deandreson Alves de Souza](/membros/deandreson) *(2021-2024)*
-- [Aya Kuwahara](/membros/setembru) *(2021-2023)*
-- Lucas Caetano Procópio *(2021-2022)*
-
-Como mencionamos, o GELOS existe para apoiar projetos que os membros idealizam.
-Isso significa que qualquer um pode *propor e participar de projetos*, com o
-apoio do grupo. Os organizadores de um projeto são responsáveis por organizar
-as atividades, prazos, e liderar os outros participantes.
+O grupo se organiza em diferentes projetos, onde membros podem ser líderes,
+participantes, ou observadores. Os *líderes* de cada projeto organizam, de
+forma independente, atividades, prazos, e os outros participantes. Espera-se
+que os *participantes* dediquem algumas horas semanais aos projetos que
+integram oficialmente. Pessoas interessadas podem ser *observadores* para
+conhecer mais sem compromissos.
 
 ### GELOS e o CCOS
 
