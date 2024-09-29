@@ -32,8 +32,9 @@ uma [lista]({% link comunidades.md %}) das comunidades que conhecemos.
 ## Como participar?
 
 Nossos espaços de comunicação e reunião são 100% abertos! Basta entrar, por
-exemplo, no nosso [telegram](https://t.me/gelos_geral) e conversar conosco
-sobre os projetos em andamento e as nossas reuniões.
+exemplo, no nosso [telegram](https://t.me/gelos_geral) ou
+[matrix](https://matrix.to/#/#gelos:matrix.org) e conversar conosco sobre os
+projetos em andamento e as nossas reuniões.
 
 Depois de participar ativamente por um semestre, você pode ser oficializado
 como um membro pleno (com direito à voto e possibilidade de liderar projetos).
