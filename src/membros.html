@@ -17,9 +17,9 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
 <section>
   {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
-  {% if not post.previous %}
+  {% unless post.previous %}
   {% include listagem.html %}
-  {% endif %}
+  {% endunless %}
   {% endfor %}
 </section>
 
