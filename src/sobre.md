@@ -27,7 +27,7 @@ idealizar novos projetos, contribuir com projetos de outros membros, ou só
 socializar.
 
 Sempre buscamos nos aproximar de outras comunidades de software livre. Mantemos
-uma [lista](https://gelos.club/comunidades) das comunidades que conhecemos.
+uma [lista]({% link comunidades.md %}) das comunidades que conhecemos.
 
 ## Como participar?
 
