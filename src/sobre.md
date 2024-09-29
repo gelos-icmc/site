@@ -20,11 +20,11 @@ Alguns dos nossos objetivos:
 O grupo engloba desde software e hardware livres, até Open Science e todos os
 aspectos sociais e políticos envolvidos.
 
-O GELOS existe para apoiar projetos que os membros idealizam, funcionando como
-um agrupamento de entusiastas. Trocamos conhecimento e apoiamos (individual e
-institucionalmente) uns aos outros. Você pode, ao seu critério: desenvolver ou
-idealizar novos projetos, contribuir com projetos de outros membros, ou só
-socializar.
+O GELOS existe para apoiar projetos que os membros idealizam juntos,
+funcionando como um agrupamento de entusiastas. Trocamos conhecimento e
+apoiamos (individual e institucionalmente) uns aos outros. Você pode, ao seu
+critério: desenvolver ou idealizar novos projetos, contribuir com projetos de
+outros membros, ou só socializar.
 
 Sempre buscamos nos aproximar de outras comunidades de software livre. Mantemos
 uma [lista]({% link comunidades.md %}) das comunidades que conhecemos.
