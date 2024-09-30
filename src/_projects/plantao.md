@@ -20,7 +20,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-| 30/09/2024          |   15:10 ~ 17:40          | Luana e Yuri    |
+| 14/10/2024          |   15:10 ~ 17:00          | Luana e Yuri    |
 | Mais datas em breve!|                          |                 |
 
 
@@ -30,8 +30,15 @@ Confira abaixo as próximas datas
 
 Tendo em vista manter uma documentação para consulta futura, aqui são listados os problemas que encontramos nos plantões (ou nas installfests), bem como suas respectivas soluções.
 
+#### dpkg --configure -a congela em Pregenerating ConTeXtv MarkIV
+- Data do ocorrido: 30/09/2024 (plantào)
+- Voluntário: Luana, Furry
+- Distro: Mint
+- Descrição: dpkg --configure -a congela em Pregenerating ConTeXtv MarkIV
+- Solução: dpkg -r context-modules; dpkg -r texlive-full; dpkg -r context; rodar o  dpkg --configure -a novamente; atualizar o sistema
+
 #### "Operation system not found"
-- Data do ocorrido: 14/03/2424 (installfest)
+- Data do ocorrido: 14/03/2024 (installfest)
 - Voluntário: Luana
 - Distro: Fedora, openSUSE Tumbleweed
 - Descrição: A sequência de eventos foi a seguinte
@@ -52,7 +59,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
   - Agora fico curiosa para saber como que o Windows particionou o disco (talvez pudessemos usar isso como base para resolver o problema sem precisar instalar o windows), mas não me atentei em ver isso na hora.
 
 #### Backlight não funcional
-- Data do ocorrido: 14/03/2424 (installfest)
+- Data do ocorrido: 14/03/2024 (installfest)
 - Voluntário:
 - Distro: Arch, Fedora, openSUSE Tumbleweed
 - Descrição: A tela funcionava, no entanto a backlight parava assim que o sistema ou instalador bootava
@@ -60,9 +67,10 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 ## Plantões Passados
 
-| Data                | Horário                  | Atendidos              | Voluntárie(s)      |
-|---------------------|--------------------------|------------------------|--------------------|
-| 25/09/2024          |   16:30 ~ 18:30          | 2 (troca hd+endeavour, troca teclado)    |        Luana  |     
-| 20/09/2024          |   15:00 ~ 18:00          | 1 (NixOS)            |        Luana       |
-| 16/09/2024          |   15:00 ~ 17:40          | 1 (pytorch)            | Furry, Luana e Yuri|
-| 26/08/2024          |   15:10 ~ 18:40          | 1 (db-win10+kubuntu)   | Furry, Luana e Yuri|
+| Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
+|---------------------|--------------------------|----------------------------------------------|--------------------|
+| 30/09/2024          |   14:00 ~ 20:10          | 1 (atualizar R p/ inst GGally, Mint 21.1->22)| Furry, Luana e Niko|
+| 25/09/2024          |   16:30 ~ 18:30          | 2 (troca hd+endeavour, troca teclado)        |        Luana       |     
+| 20/09/2024          |   15:00 ~ 18:00          | 1 (NixOS)                                    |        Luana       |
+| 16/09/2024          |   15:00 ~ 17:40          | 1 (pytorch)                                  | Furry, Luana e Yuri|
+| 26/08/2024          |   15:10 ~ 18:40          | 1 (db-win10+kubuntu)                         | Furry, Luana e Yuri|
