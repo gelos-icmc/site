@@ -15,6 +15,10 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
 </p>
 
 <section>
+  <header>
+    <h2>Membros atuais</h2>
+  </header>
+  
   {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
   {% unless post.ex %}
@@ -23,12 +27,12 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
   {% endfor %}
 </section>
 
-<h1>Membros anteriores</h1>
-<p>
-  Membros inativos e fundadores/coordenadores eméritos.
-</p>
-
 <section>
+  <header>
+    <h2>Antigos membros</h2>
+    <p>Membros inativos e fundadores/coordenadores eméritos.</p>
+  </header>
+  
   {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
   {% if post.ex %}
