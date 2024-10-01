@@ -36,6 +36,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 - Distro: Mint
 - Descrição: dpkg --configure -a congela em Pregenerating ConTeXtv MarkIV
 - Solução: dpkg -r context-modules; dpkg -r texlive-full; dpkg -r context; rodar o  dpkg --configure -a novamente; atualizar o sistema
+  - Aparentemente uma outra possível solução é ficar segurando enter até destravar, mas isso não funcionou para a gente
 
 #### "Operation system not found"
 - Data do ocorrido: 14/03/2024 (installfest)
