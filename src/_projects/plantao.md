@@ -20,7 +20,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-| 14/10/2024          |   15:10 ~ 17:00          | Luana e Yuri    |
+| 28/10/2024          |   15:10 ~ 17:00          | Luana           |
 | Mais datas em breve!|                          |                 |
 
 
@@ -70,6 +70,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 14/10/2024          |   15:00 ~ 17:40          | 0 (atividades internas)| Luana |
 | 30/09/2024          |   14:00 ~ 20:10          | 1 (atualizar R p/ inst GGally, Mint 21.1->22)| Furry, Luana e Niko|
 | 25/09/2024          |   16:30 ~ 18:30          | 2 (troca hd+endeavour, troca teclado)        |        Luana       |     
 | 20/09/2024          |   15:00 ~ 18:00          | 1 (NixOS)                                    |        Luana       |
