@@ -6,6 +6,7 @@ links:
     Site: luana.dev.br
     Mastodon: tech.lgbt/@luana
     GitHub: github.com/LuNeder
+fediversecreator: luana@tech.lgbt
 nusp: 13836963
 extra_css: |
     :root {
