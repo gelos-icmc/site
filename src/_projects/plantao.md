@@ -20,6 +20,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
+| 08/11/2024          |   15:00 ~ 16:00          | Luana           |
 | Mais datas em breve!|                          |                 |
 
 
