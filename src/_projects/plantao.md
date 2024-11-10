@@ -20,8 +20,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-| 08/11/2024          |   15:00 ~ 16:00          | Luana           |
-| Mais datas em breve!|                          |                 |
+| Mais datas após a installfest!|                          |                 |
 
 
 *Para se voluntariar, basta [editar](https://github.com/gelos-icmc/site/blob/main/src/_projects/plantao.md) a tabela acima e adicionar os dias e horários que você estará na salinha para ajudar*
