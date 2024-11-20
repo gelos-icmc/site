@@ -20,7 +20,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-| 20/11/2024          |   15:30 ~ 17:30          | Luana           |
 | Mais datas em breve!|                          |                 |
 
 
@@ -70,6 +69,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 20/11/2024          |   15:00 ~ 19:00          | 2 (dual boot openSUSE+w10, troca hd)                     |Luana e Zé      |
 | 28/10/2024          |   15:10 ~ 17:40          | 0                      | Luana |
 | 14/10/2024          |   15:00 ~ 17:40          | 0 (atividades internas)| Luana |
 | 30/09/2024          |   14:00 ~ 20:10          | 1 (atualizar R p/ inst GGally, Mint 21.1->22)| Furry, Luana e Niko|
