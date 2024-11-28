@@ -5,7 +5,7 @@ lang: pt-BR
 state: permanent
 ---
 
-Grupos de estudo para diferentes tópicos de software livre. Tópico no telegram + atividades síncronas (aulas, workshops, etc).
+Grupos de estudo para diferentes tópicos de software livre. Tópico no telegram + atividades externas ao telegram (aulas, workshops, etc).
 
 No momento temos:
 - [Nix & Guix](https://t.me/gelos_geral/69543)
