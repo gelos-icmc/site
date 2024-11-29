@@ -3,7 +3,7 @@ title: Vinicius Santos
 email: vinicius.santos927@outlook.com
 links:
     Site: vinicius.qsl.br
-    Mastodon: social.vinicius.qsl.br
+    Fediverso: social.vinicius.qsl.br/@vinicius
     GitHub: github.com/ViniciusDMSantos
 nusp: 13748137
 ---
