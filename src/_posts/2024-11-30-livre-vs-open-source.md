@@ -40,8 +40,20 @@ De forma parecida aos softwares livres, os softwares open source são softwares 
 
 - A Licença Deverá ser Tecnologicamente Neutra: Nenhuma parte da licença deverá depender de qualquer tecnologia individual ou estilo de interface.
 
+Além disso, a Open Source Initiative define uma filosofia para o conceito de Open Source, denominada "[The Open Source Way](https://opensource.com/open-source-way)", que é definida pelos seguintes princípios:
+
+- Transparência
+
+- Colaboração
+
+- Lançamento de novas versões cedo e frequentemente
+
+- Meritocracia inclusiva
+
+- Comunidade
+
 ## Quais as semelhanças e diferenças entre software Livre e software Open Source?
 
 Embora ambas as definições sejam diferentes, ambas têm o intuito de proteger os direitos de uso, modificação e redistribuição dos softwares licenciados.
 
-Na prática, a maior parte das licenças reconhecidas como "livres" são reconhecidas como "open source" e vice-versa. O que diferencia os conceitos são as filosofias que os direcionam.
+Na prática, a maior parte das licenças reconhecidas como "livres" são reconhecidas como "open source" e vice-versa. O que diferencia os conceitos são as filosofias que os direcionam. O conceito de "Livre" do Projeto GNU tem como objetivo proteger o que o Projeto GNU considera que são liberdades do usuário do software, enquanto o conceito de "Open Source" tem como filosofia criar um modelo de desenvolvimento de software mais inclusivo e mais eficiente.
