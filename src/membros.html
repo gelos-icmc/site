@@ -6,7 +6,7 @@ collection_src: members
 
 <h1>{{ page.title }}</h1>
 <p>
-  {{ page.description }}. Inclui membros inativos e fundadores/coordenadores eméritos.
+  {{ page.description }}. 
 </p>
 <p>
 Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
@@ -15,8 +15,28 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
 </p>
 
 <section>
+  <header>
+    <h2>Membros Plenos</h2>
+  </header>
+  
   {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
+  {% unless post.memberrole == "previous" %}
   {% include listagem.html %}
+  {% endunless %}
+  {% endfor %}
+</section>
+
+<section>
+  <header>
+    <h2>Antigos Membros</h2>
+    <p>Membros anteriores e fundadores/coordenadores eméritos.</p>
+  </header>
+  
+  {% assign members = site.members | sort:"title" | sort:"draft"  %}
+  {% for post in members %}
+  {% if post.memberrole == "previous" %}
+  {% include listagem.html %}
+  {% endif %}
   {% endfor %}
 </section>
