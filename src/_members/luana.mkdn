@@ -85,7 +85,7 @@ Eu gosto muito de Linux, especialmente Linux não-GNU, do Fediverso e de coisas 
 
 Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estudar a relação entre cozinha e ciência e open source).
 
-Acredito que Linux não é só para nerds, e é nosso dever mostrar às pessoas o quão simples ele pode ser e dar nosso melhor para torna-lo uma experiência acessível à todos. O mesmo vale para o Fediverso e para ter um site pessoal. Privacidade é um direito humano.
+Acredito que Linux não é só para nerds, e é nosso dever mostrar às pessoas o quão simples ele pode ser e dar nosso melhor para torná-lo uma experiência acessível a todos. O mesmo vale para o Fediverso e para ter um site pessoal. Privacidade é um direito humano.
 
 Sei programar (ou tento) em Godot (gdscript), Rust, FORTRAN e Python. Os meus computadores configuro em Nix, visto que uso NixOS (graças à ajuda do Gabs GELOS).
 
