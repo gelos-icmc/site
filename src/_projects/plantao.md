@@ -20,7 +20,8 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-| Mais datas em breve!|                          |                 |
+| 11/12/2024          |  15:10 ~ 18:10           | Luana           |
+| Mais datas ano que vem!|                          |                 |
 
 
 *Para se voluntariar, basta [editar](https://github.com/gelos-icmc/site/blob/main/src/_projects/plantao.md) a tabela acima e adicionar os dias e horários que você estará na salinha para ajudar*
