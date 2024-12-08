@@ -4,9 +4,9 @@ description: Meooooow! 🧜‍♀️🏳️‍🌈
 email: neder@usp.br
 links:
     Site: luana.dev.br
-    Mastodon: tech.lgbt/@luana
+    Mastodon: wetdry.world/@luana
     GitHub: github.com/LuNeder
-fediversecreator: luana@tech.lgbt
+fediversecreator: luana@wetdry.world
 nusp: 13836963
 extra_css: |
     :root {
@@ -85,11 +85,15 @@ Eu gosto muito de Linux, especialmente Linux não-GNU, do Fediverso e de coisas 
 
 Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estudar a relação entre cozinha e ciência e open source).
 
+Acredito que Linux não é só para nerds, e é nosso dever mostrar às pessoas o quão simples ele pode ser e dar nosso melhor para torna-lo uma experiência acessível à todos. O mesmo vale para o Fediverso e para ter um site pessoal. Privacidade é um direito humano.
+
 Sei programar (ou tento) em Godot (gdscript), Rust, FORTRAN e Python. Os meus computadores configuro em Nix, visto que uso NixOS (graças à ajuda do Gabs GELOS).
 
 Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS).
 
 Talvez mais sobre mim no <a href="https://{{ page.links.Site }}"><u>meu site e blog</u></a>!
+
+Ah, e me segue no <a href="https://{{ page.links.Mastodon }}"><u>Mastodon</u></a>! (dê também uma olhada na nossa [página sobre Mastodon e Fediverso](https://gelos.club/fedi))
 
 <script
     src="https://cdn.jsdelivr.net/gh/tylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.js"
