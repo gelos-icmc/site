@@ -20,7 +20,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-| 11/12/2024          |  15:10 ~ 18:10           | Luana           |
 | Mais datas ano que vem!|                          |                 |
 
 
@@ -70,6 +69,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 11/12/2024          |   15:00 ~ 18:15          | 1 (ajuda com nix flakes)                     | Luana, Vinicius e Niko      |
 | 20/11/2024          |   15:00 ~ 19:00          | 2 (dual boot openSUSE+w10, troca hd)                     |Luana e Zé      |
 | 28/10/2024          |   15:10 ~ 17:40          | 0                      | Luana |
 | 14/10/2024          |   15:00 ~ 17:40          | 0 (atividades internas)| Luana |
