@@ -4,7 +4,7 @@ links:
     site: lagartao.gay
     github: github.com/Nikk0o
     bluesky: bsky.app/profile/lagartao.gay
-draft: true
+draft: false
 ---
 
 Hisss! 🦎🏳️‍🌈
