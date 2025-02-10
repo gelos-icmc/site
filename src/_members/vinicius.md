@@ -6,6 +6,7 @@ links:
     Fediverso: social.vinicius.qsl.br/@vinicius
     GitHub: github.com/ViniciusDMSantos
 nusp: 13748137
+role: "active"
 ---
 
 Meu nome é Vinicius, e sou estudante de Engenharia Aeronáutica da EESC/USP, da turma de 2022.

@@ -12,14 +12,6 @@
         {{ post.date | date: "%d/%m/%y" }}
       {% endif %}
 
-      {% if post.quickextra %}
-        {% if (post.date and post.show_date) or post.state %}
-          | {{ post.quickextra }}
-        {% else %}
-          {{ post.quickextra }}
-        {% endif %}
-      {% endif %}
-
       {% if post.author %}
         | {% include person.html name=post.author %}
       {% elsif post.authors %}

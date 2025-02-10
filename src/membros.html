@@ -16,26 +16,42 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
 
 <section>
   <header>
-    <h2>Membros Plenos</h2>
+    <h2>Membros Plenos Ativos</h2>
   </header>
-  
   {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
-  {% unless post.memberrole == "previous" %}
+  {% unless post.role == "alumni" %}
+  {% unless post.role == "inactive" %}
   {% include listagem.html %}
+  {% endunless %}
   {% endunless %}
   {% endfor %}
 </section>
 
 <section>
   <header>
-    <h2>Antigos Membros</h2>
-    <p>Membros anteriores e fundadores/coordenadores eméritos.</p>
+    <h2>Membros Plenos Inativos</h2>
+    <p>Membros que estiveram inativos no último semestre, mas ainda fazem parte do GELOS.</p>
   </header>
   
   {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
-  {% if post.memberrole == "previous" %}
+  {% if post.role == "inactive" %}
+  {% include listagem.html %}
+  {% endif %}
+  {% endfor %}
+</section>
+
+
+<section>
+  <header>
+    <h2>Alumni</h2>
+    <p>Membros que deixaram o GELOS ou estão há muito tempo inativos e fundadores eméritos.</p>
+  </header>
+  
+  {% assign members = site.members | sort:"title" | sort:"draft"  %}
+  {% for post in members %}
+  {% if post.role == "alumni" %}
   {% include listagem.html %}
   {% endif %}
   {% endfor %}

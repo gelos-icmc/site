@@ -8,6 +8,7 @@ links:
     GitHub: github.com/LuNeder
 fediversecreator: luana@wetdry.world
 nusp: 13836963
+role: "active"
 extra_css: |
     :root {
         --background-color: black;
@@ -72,6 +73,7 @@ extra_css: |
     }
 ---
 
+Meooooow! 🧜‍♀️🏳️‍🌈
 
 🏳️‍🌈 Oiieeee! 🏳️‍🌈 Eu sou a
 

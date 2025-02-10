@@ -5,6 +5,7 @@ links:
     github: github.com/Nikk0o
     bluesky: bsky.app/profile/lagartao.gay
 draft: false
+role: "active"
 ---
 
 Hisss! 🦎🏳️‍🌈

@@ -4,5 +4,5 @@ nickname: Setembru
 links:
     Site: setembru.dev.br
 draft: true
-memberrole: "previous"
+role: "alumni"
 ---

@@ -1,5 +1,5 @@
 ---
 title: Deandreson Alves
 draft: true
-memberrole: "previous"
+role: "alumni"
 ---

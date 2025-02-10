@@ -2,6 +2,7 @@
 title: Arthur Grillo Queiroz Cabral
 nickanme: Grillo
 email: arthur.grillo01@gmail.com
+role: "inactive"
 ---
 
 Oi tudo bem?
