@@ -3,6 +3,7 @@ title: Felipi Yuri
 description: O Éter cura minha dor (the ether heals my pain)
 email: felipiyuri.santos@usp.br
 nusp: 11917292
+role: "inactive"
 ---
 
 Novo integrante do GELOS! Comecei a me interessar por Software Aberto e Cultura Livre em 2023 e me juntei ao GELOS para aprender mais. 
