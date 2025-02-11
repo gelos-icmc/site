@@ -2,6 +2,7 @@
 title: Gus "Abin" B
 description: A Lamb's psychedelic breakfast
 email: gustavobloisrr@usp.br
+role: "active"
 ---
 
 Prazer, eu sou o Abin.
