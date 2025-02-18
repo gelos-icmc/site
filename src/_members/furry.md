@@ -3,6 +3,7 @@ title: Matheus "Furry" Borella
 email: mbrla@usp.br
 links:
     Site: lobisomem.gay
+role: "active"
 ---
 
 Awoooooo! 🐺🏳️‍🌈
