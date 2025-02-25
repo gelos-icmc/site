@@ -2,7 +2,7 @@
   description = "Site institucional do GELOS/USP";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
     gelos-beamer.url = "github:gelos-icmc/beamer-theme";
     gelos-beamer.inputs.nixpkgs.follows = "nixpkgs";
     utils.url = "github:numtide/flake-utils";

@@ -38,10 +38,11 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    liquid (4.0.3)
+    liquid (4.0.4)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.6.6)
     mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -64,6 +65,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  liquid (~> 4.0.4)
+  logger
 
 BUNDLED WITH
-   2.1.4
+   2.5.22
