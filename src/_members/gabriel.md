@@ -6,6 +6,7 @@ links:
     Mastodon: fosstodon.org/@misterio
     GitHub: github.com/misterio77
 nusp: 10856803
+role: "active"
 ---
 
 Já conhece o GELOS? ❄️
