@@ -20,7 +20,8 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-| Mais datas em 2025|                          |                 |
+|  17/03/2025         |   16:20 ~ 18:00     | Luana           |
+| Mais datas em breve!|                          |                 |
 
 
 *Para se voluntariar, basta [editar](https://github.com/gelos-icmc/site/blob/main/src/_projects/plantao.md) a tabela acima e adicionar os dias e horários que você estará na salinha para ajudar*
@@ -69,6 +70,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 11/03/2025          |   14:20 ~ 16:00          | 1 (NixOS Wayland screenshare Discord (atualizar NixOS))                     | Luana                           |
 | 11/12/2024          |   15:00 ~ 18:15          | 1 (ajuda com nix flakes)                     | Luana, Vinicius e Niko      |
 | 20/11/2024          |   15:00 ~ 19:00          | 2 (dual boot openSUSE+w10, troca hd)                     |Luana e Zé      |
 | 28/10/2024          |   15:10 ~ 17:40          | 0                      | Luana |
