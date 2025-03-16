@@ -29,6 +29,11 @@ collections:
     output: true
     permalink: /projetos/:title:output_ext
     name: Projetos
+  # Conteúdo perene de knowledge base
+  wiki:
+    output: true
+    permalink: /wiki/:title:output_ext
+    name: Wiki
   # Páginas pessoais dos membros
   members:
     output: true
@@ -57,6 +62,12 @@ defaults:
     values:
       layout: article
       parent: /projetos/
+  -
+    scope:
+      type: wiki
+    values:
+      layout: article
+      parent: /wiki/
   -
     scope:
       type: members
