@@ -30,6 +30,12 @@ Confira abaixo as próximas datas
 
 Tendo em vista manter uma documentação para consulta futura, aqui são listados os problemas que encontramos nos plantões (ou nas installfests), bem como suas respectivas soluções.
 
+##### Como instalar drivers da NVidia no Fedora
+- [Artigo bom](https://www.blogopcaolinux.com.br/2025/02/Instalando-o-driver-da-NVIDIA-no-Fedora.html) ([arquivado](http://web.archive.org/web/20250318222628/https://www.blogopcaolinux.com.br/2025/02/Instalando-o-driver-da-NVIDIA-no-Fedora.html))
+
+#### Como instalar snapper no Fedora
+- [Artigo bom](https://www.andotech.net/installing-snapper-on-fedora-a-comprehensive-guide/) ([arquivado](http://web.archive.org/web/20250318222639/https://www.andotech.net/installing-snapper-on-fedora-a-comprehensive-guide/))
+
 #### dpkg --configure -a congela em Pregenerating ConTeXtv MarkIV
 - Data do ocorrido: 30/09/2024 (plantào)
 - Voluntário: Luana, Furry
