@@ -1,6 +1,7 @@
 ---
 title: Carlos Henrique Craveiro Aquino Veras
-draft: true
+draft: false
+role: "inactive"
 ---
 
 Github: @CarlosCraveiro
