@@ -20,7 +20,8 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-|  07/04/2025         |   16:20 ~ 18:00          | Yuri           |
+|  21/03/2025         |   16:20 ~ 18:20          | Luana           |
+|  07/04/2025         |   16:20 ~ 18:00          | Yuri            |
 | Mais datas em breve!|                          |                 |
 
 
