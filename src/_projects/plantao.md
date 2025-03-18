@@ -20,7 +20,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-|  17/03/2025         |   16:20 ~ 18:00     | Luana           |
+|  07/04/2025         |   16:20 ~ 18:00          | Yuri           |
 | Mais datas em breve!|                          |                 |
 
 
@@ -70,6 +70,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 17/03/2025          |   14:20 ~ 16:00          | 1 (Instalação do Fedora e drivers Nvidia via USB flash)                     | Luana e Yuri                           |
 | 11/03/2025          |   14:20 ~ 16:00          | 1 (NixOS Wayland screenshare Discord (atualizar NixOS))                     | Luana                           |
 | 11/12/2024          |   15:00 ~ 18:15          | 1 (ajuda com nix flakes)                     | Luana, Vinicius e Niko      |
 | 20/11/2024          |   15:00 ~ 19:00          | 2 (dual boot openSUSE+w10, troca hd)                     |Luana e Zé      |
