@@ -30,6 +30,11 @@ Confira abaixo as próximas datas
 
 Tendo em vista manter uma documentação para consulta futura, aqui são listados os problemas que encontramos nos plantões (ou nas installfests), bem como suas respectivas soluções.
 
+### Como converter Windows Legacy para UEFI, para dual boot
+- [Artigo Bom](https://answers.microsoft.com/en-us/windows/forum/all/convert-an-existing-windows-10-installation-from/aa8c2de3-460b-4a8c-b30b-641405f800d7) ([arquivado (telegram)](https://t.me/gelos_geral/34212/382318))
+- Erro sobre WinRE pode ser ignorado caso a operação tenha dado certo.
+
+
 ##### Como instalar drivers da NVidia no Fedora
 - [Artigo bom](https://www.blogopcaolinux.com.br/2025/02/Instalando-o-driver-da-NVIDIA-no-Fedora.html) ([arquivado](http://web.archive.org/web/20250318222628/https://www.blogopcaolinux.com.br/2025/02/Instalando-o-driver-da-NVIDIA-no-Fedora.html))
 
