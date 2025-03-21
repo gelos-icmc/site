@@ -20,7 +20,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-|  21/03/2025         |   16:20 ~ 18:20          | Luana           |
 |  07/04/2025         |   16:20 ~ 18:00          | Yuri            |
 | Mais datas em breve!|                          |                 |
 
@@ -77,12 +76,13 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
-| 17/03/2025          |   16:00 ~ 18:20          | 1 (Instalação do Fedora (dual boot win11), drivers Nvidia e snapper)                     | Luana e Yuri                           |
-| 11/03/2025          |   14:20 ~ 16:00          | 1 (NixOS Wayland screenshare Discord (atualizar NixOS))                     | Luana                           |
-| 11/12/2024          |   15:00 ~ 18:15          | 1 (ajuda com nix flakes)                     | Luana, Vinicius e Niko      |
-| 20/11/2024          |   15:00 ~ 19:00          | 2 (dual boot openSUSE+w10, troca hd)                     |Luana e Zé      |
-| 28/10/2024          |   15:10 ~ 17:40          | 0                      | Luana |
-| 14/10/2024          |   15:00 ~ 17:40          | 0 (atividades internas)| Luana |
+| 21/03/2025          |   14:50 ~ 19:05          | 2 (dual boot openSUSE+w10, troubleshoot btrfs corruption)| Luana e Kauê |
+| 17/03/2025          |   16:00 ~ 18:20          | 1 (Instalação do Fedora (dual boot win11), drivers Nvidia e snapper)| Luana e Yuri |
+| 11/03/2025          |   14:20 ~ 16:00          | 1 (NixOS Wayland screenshare Discord (atualizar NixOS))| Luana |
+| 11/12/2024          |   15:00 ~ 18:15          | 1 (ajuda com nix flakes)                     |Luana, Vinicius e Niko|
+| 20/11/2024          |   15:00 ~ 19:00          | 2 (dual boot openSUSE+w10, troca hd)         |Luana e Zé          |
+| 28/10/2024          |   15:10 ~ 17:40          | 0                                            | Luana              |
+| 14/10/2024          |   15:00 ~ 17:40          | 0 (atividades internas)                      | Luana              |
 | 30/09/2024          |   14:00 ~ 20:10          | 1 (atualizar R p/ inst GGally, Mint 21.1->22)| Furry, Luana e Niko|
 | 25/09/2024          |   16:30 ~ 18:30          | 2 (troca hd+endeavour, troca teclado)        |        Luana       |     
 | 20/09/2024          |   15:00 ~ 18:00          | 1 (NixOS)                                    |        Luana       |
