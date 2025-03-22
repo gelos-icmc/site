@@ -1,0 +1,78 @@
+  
+- name: Fedora KDE 41-1.4 (x86_64)
+  size: 2.31GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-41-1.4.iso
+  filename: Fedora-KDE-Live-x86_64-41-1.4.iso
+  sha256: 9a4dc999cb2b8345b4970f7ff6480a0f7589ef2e74f753aa04a54932c4946ec3
+
+- name: Fedora KDE 41-1.4 (aarch64)
+  size: 2.31GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/aarch64/iso/Fedora-KDE-Live-aarch64-41-1.4.iso
+  filename: Fedora-KDE-Live-aarch64-41-1.4.iso
+  sha256: 83407f03d4ff351d869f4706bf513e07bb7c735f38b5e7733c20e841a45ea4ab
+
+- name: Fedora Xfce 41-1.4 
+  size: 1.59GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-41-1.4.iso
+  filename: Fedora-Xfce-Live-x86_64-41-1.4.iso
+  sha256: 627babeab82b37fea2a1392f9fa4b7ed4e180b1d93d000dcc49666cdd7c4e92f
+
+- name: Fedora Workstation 41-1.4
+  size: 1.98GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-41-1.4.iso
+  filename: Fedora-Workstation-Live-x86_64-41-1.4.iso
+  sha256: a2dd3caf3224b8f3a640d9e31b1016d2a4e98a6d7cb435a1e2030235976d6da2
+
+- name: openSUSE Tumbleweed 20240311 (x86_64)
+  size: 4.35GB
+  link: https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
+  filename: atualizar mais pra frente (isos ficam salvas por pouco tempo, fazer um mirror temporário?)
+  sha256: TODO_REPLACE_ME
+
+- name: openSUSE Tumbleweed 20240311 (aarch64)
+  size: 4.35GB
+  link: https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso
+  filename: atualizar mais pra frente (isos ficam salvas por pouco tempo, fazer um mirror temporário?)
+  sha256: TODO_REPLACE_ME
+
+- name: NixOS 23.11.4976 (Minimal)
+  size: 0.97GB
+  link: https://releases.nixos.org/nixos/23.11/nixos-23.11.4976.79baff8812a0/nixos-minimal-23.11.4976.79baff8812a0-x86_64-linux.iso
+  filename: nixos-minimal-23.11.4976.79baff8812a0-x86_64-linux.iso
+  sha256: 4494fd9dd7f3b181b7fb3ae94e2403d4d20777197b8a94f670561c1e19c1e184
+
+- name: Linux Mint 21.3 (Cinnamon)
+  size: 2.86GB
+  link: https://mirror.ufscar.br/mint-cd/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso
+  filename: linuxmint-21.3-cinnamon-64bit.iso
+  sha256: 5aa24abbc616807ab754a6a3b586f24460b0c213b6cacb0bf8b9a80b65013ecc
+
+- name: EndeavourOS Galileo 2024.01.25
+  size: 2.69GB
+  link: https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Galileo-Neo-2024.01.25.iso
+  filename: EndeavourOS_Galileo-Neo-2024.01.25.iso
+  sha256: 897f24bdb4c0e297406668c9e4d7ab637fe081b0f54ade5d4f2a276a009bcd91
+
+- name: Debian 12.5.0
+  size: 3.72GB
+  link: https://cdimage.debian.org/debian-cd/12.5.0/amd64/iso-dvd/debian-12.5.0-amd64-DVD-1.iso
+  filename: debian-12.5.0-amd64-DVD-1.iso
+  sha256: 1e8037d1d208b4d6a2f4ff54cacc8df8f6e51ec326be8598661a1d9988839158
+
+- name: PopOS 22.04_38
+  size: 2.47GB
+  link: https://iso.pop-os.org/22.04/amd64/intel/38/pop-os_22.04_amd64_intel_38.iso
+  filename: pop-os_22.04_amd64_intel_38.iso
+  sha256: 7ba5093966a1b7c1abc7ba9f8b95ca976cd99b04768da70f0a8fcd2cda31a857
+
+- name: Arch Linux 2024.03.01
+  size: 0.94GB
+  link: https://mirror.ufscar.br/archlinux/iso/2024.03.01/archlinux-2024.03.01-x86_64.iso
+  filename: archlinux-2024.03.01-x86_64.iso
+  sha256: 0062e39e57d492672712467fdb14371fca4e3a5c57fed06791be95da8d4a60e3
+
+- name: Ubuntu 23.10.1
+  size: 4.82GB
+  link: https://releases.ubuntu.com/23.10.1/ubuntu-23.10.1-desktop-amd64.iso
+  filename: ubuntu-23.10.1-desktop-amd64.iso
+  sha256: 3b6c5275366d02160554fa5703add462da3b8ce9be1749f8806e8dbbffaa2b5a
