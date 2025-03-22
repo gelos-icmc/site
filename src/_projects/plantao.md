@@ -30,13 +30,14 @@ Confira abaixo as próximas datas
 
 Tendo em vista manter uma documentação para consulta futura, aqui são listados os problemas que encontramos nos plantões (ou nas installfests), bem como suas respectivas soluções.
 
-### Como converter Windows Legacy para UEFI, para dual boot
+#### Como converter Windows Legacy para UEFI, para dual boot
 - [Artigo Bom](https://answers.microsoft.com/en-us/windows/forum/all/convert-an-existing-windows-10-installation-from/aa8c2de3-460b-4a8c-b30b-641405f800d7) ([arquivado (telegram)](https://t.me/gelos_geral/34212/382318))
 - Erro sobre WinRE pode ser ignorado caso a operação tenha dado certo.
 
 
 ##### Como instalar drivers da NVidia no Fedora
 - [Artigo bom](https://www.blogopcaolinux.com.br/2025/02/Instalando-o-driver-da-NVIDIA-no-Fedora.html) ([arquivado](http://web.archive.org/web/20250318222628/https://www.blogopcaolinux.com.br/2025/02/Instalando-o-driver-da-NVIDIA-no-Fedora.html))
+- Em outras distros o processo pode ser mais fácil (como no openSUSE), mas a parte do MOK management é necessária em todas as distros com um kernel relativamente recente quando o secure boot está ativo. Atenção para não perder o timing do "Press any key to perform MOK management". O MOK Management é necessário em atualizações também, então pode ser interessante ter uma tópico mais detalhado sobre isso aqui na pag de problemas no futuro, ensinar o dono do dispositivo a fazer ou, na pior das hipóteses, quando possível, desativar o secure boot (esse último é melhor evitar, e além disso desativar o secure boot não é uma opção em casos de dual boot com o windows 11)
 
 #### Como instalar snapper no Fedora
 - [Artigo bom](https://www.andotech.net/installing-snapper-on-fedora-a-comprehensive-guide/) ([arquivado](http://web.archive.org/web/20250318222639/https://www.andotech.net/installing-snapper-on-fedora-a-comprehensive-guide/))
