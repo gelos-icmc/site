@@ -42,6 +42,11 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 #### Como instalar snapper no Fedora
 - [Artigo bom](https://www.andotech.net/installing-snapper-on-fedora-a-comprehensive-guide/) ([arquivado](http://web.archive.org/web/20250318222639/https://www.andotech.net/installing-snapper-on-fedora-a-comprehensive-guide/))
 
+#### Jogos via proton/wine não abrindo devido ao SELinux
+- Fix: `sudo setsebool -P selinuxuser_execmod 1`
+- Alternativa: Desativar o SELinux.
+- [Mais informações e outros problemas com o SELinux](https://en.opensuse.org/Portal:SELinux/Common_issues#Steam_Proton,_Bottles,_WINE,_Lutris,_not_working) ((arquivado)[https://web.archive.org/web/20250322122844/https://en.opensuse.org/Portal:SELinux/Common_issues#Steam_Proton,_Bottles,_WINE,_Lutris,_not_working])
+
 #### dpkg --configure -a congela em Pregenerating ConTeXtv MarkIV
 - Data do ocorrido: 30/09/2024 (plantào)
 - Voluntário: Luana, Furry
