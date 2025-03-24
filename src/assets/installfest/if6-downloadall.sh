@@ -24,7 +24,7 @@ done
 echo ✅ Downloads terminados! \($((a - 1)) isos baixadas\)
 
 echo Conferindo checksums
-sha256sum -c <(curl https://127.0.0.1:4000/assets/installfest/if6-checksums.sha256)
+sha256sum -c <(curl https://gelos.club/assets/installfest/if6-checksums.sha256)
 
 echo ℹ️ Agore é hora de copiar as isos para o pendrive com Ventoy ou grava-las diretamente no pendrive.
 echo ⚠️ IMPORTANTE: Após a cópia estiver concluída, use o comando \'sync\' \(ou ejete seguramente pela sua DE\)!
