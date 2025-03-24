@@ -52,8 +52,10 @@ caso queiram.
 
 {% include planilha-isos.html data=site.data.if6.if6-isos %}
 
+Caso queira, você pode usar [este script](/assets/installfest/if6-downloadall.sh) para baixar todas as isos para seu diretótio atual.
+
 Lembre-se de ejetar o pendrive de forma 
-segura (rode o comando `sync` ou ejete pela sua DE) e de conferir os checksums. 
+segura (rode o comando `sync` ou ejete pela sua DE) e de conferir os checksums! 
 Além de eles estarem na tabela acima, você pode
 baixar [este arquivo](/assets/installfest/if6-checksums.sha256) para checar as ISOs de
 forma super conveniente.
@@ -89,6 +91,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] IAU
 - [ ] ISOs
     - [ ] Terminar de atualizar tabela com links e checksums atuais
+    - [ ] Mirror das isos do openSUSE
     - [x] Criar arquivo com checksums
 - [ ] Levantar pessoas
     - [ ] Preencher tabela de voluntários
