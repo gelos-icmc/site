@@ -36,19 +36,19 @@
   sha256: 9843bb5f22a50ca728f3bdfe0a346c5059d381768352ed8667ae6a59a6b7357f
 
 - name: NixOS 24.11 (x86_64)
-  size: 0.97GB
+  size: 3.0GB
   link: https://releases.nixos.org/nixos/24.11/nixos-24.11.715908.7105ae395770/nixos-plasma6-24.11.715908.7105ae395770-x86_64-linux.iso
   filename: nixos-plasma6-24.11.715908.7105ae395770-x86_64-linux.iso
   sha256: 097abd28771e7ef0fb18ffb7718812a9ce28b5be723806935fbe2e824a5878a4
 
 - name: NixOS 24.11 (aarch64)
-  size: 0.97GB
+  size: 3.1GB
   link: https://releases.nixos.org/nixos/24.11/nixos-24.11.715908.7105ae395770/nixos-plasma6-24.11.715908.7105ae395770-aarch64-linux.iso
   filename: nixos-plasma6-24.11.715908.7105ae395770-aarch64-linux.iso
   sha256: 9db7f57c86e92d2dc40e132d35aa4cd26a061e54f6f947cd060a5c87212d4e86
 
 - name: Linux Mint 22.1 Cinnamon
-  size: 2.86GB
+  size: 2.8GB
   link: https://mirror.ufscar.br/mint-cd/stable/22.1/linuxmint-22.1-cinnamon-64bit.iso
   filename: linuxmint-22.1-cinnamon-64bit.iso
   sha256: ccf482436df954c0ad6d41123a49fde79352ca71f7a684a97d5e0a0c39d7f39f
@@ -60,25 +60,25 @@
   sha256: 79719b8de4c517edb54c8380cd65e4bae470eec701235fa718157c199c29ebba
 
 - name: Debian 12.10.0
-  size: 3.72GB
+  size: 3.7GB
   link: https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.10.0-amd64-DVD-1.iso
   filename: debian-12.10.0-amd64-DVD-1.iso
   sha256: eb5034ff88a20c176066a670268f22e3f681117189c03bdae964566995652181
 
 - name: PopOS 22.04_38
-  size: 2.47GB
+  size: 2.6GB
   link: https://iso.pop-os.org/22.04/amd64/intel/51/pop-os_22.04_amd64_intel_51.iso
   filename: pop-os_22.04_amd64_intel_51.iso
   sha256: 5621e7544a00c1e358d667ce36eb5ae0741fe63431c92cf68c17ff66630b5ded
 
 - name: ZorinOS 17.2
-  size: 2.47GB
+  size: 3.3GB
   link: https://mirrors.edge.kernel.org/zorinos-isos/17/Zorin-OS-17.2-Core-64-bit.iso
   filename: Zorin-OS-17.2-Core-64-bit.iso
   sha256: e68d49172964e4d0aa39ac1d77674d724b0b835658836a56fc1b318680deaed6
 
 - name: Arch Linux 2025.03.01
-  size: 0.94GB
+  size: 1.2GB
   link: https://mirror.ufscar.br/archlinux/iso/2025.03.01/archlinux-2025.03.01-x86_64.iso
   filename: archlinux-2025.03.01-x86_64.iso
   sha256: 8150e3c1a479de9134baa13cea4ff78856cca5ebeb9bdfa87ecfce2e47ac9b5b

@@ -52,7 +52,7 @@ caso queiram.
 
 {% include planilha-isos.html data=site.data.if6.if6-isos %}
 
-Caso queira, você pode usar [este script](/assets/installfest/if6-downloadall.sh) para baixar todas as isos para seu diretótio atual.
+Caso queira, você pode usar [este script](/assets/installfest/if6-downloadall.sh) para baixar todas as isos (aproximadamente 50 GB) para seu diretótio atual.
 
 Lembre-se de ejetar o pendrive de forma 
 segura (rode o comando `sync` ou ejete pela sua DE) e de conferir os checksums! 
