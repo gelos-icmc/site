@@ -10,7 +10,7 @@ state: in_progress
 Evento de instalação de Linux, será realizado no dia 10/04 das 14h às 19h, no vão da
 biblioteca do ICMC.
 
-[**Post de divulgação**](/2025/03/TODO_REPLACE_ME/installfest-2025-1.html)
+[**Post de divulgação**](/2025/03/2025/03/25/installfest-2025-1.html)
 
 ## Como participar
 
