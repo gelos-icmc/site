@@ -44,7 +44,7 @@ que iniciantes são prioridade no evento.
 Lembre-se de instalar os drivers necessários, além de configurar um sistema 
 de snapshots (Snapper, TimeShift, etc) caso não venha por padrão. Recursos para 
 essas instalações no Fedora estão disponíveis na 
-[página de problemas do GELOS](https://gelos.club/probremas).
+[página de problemas do GELOS](https://gelos.club/pobremas).
 
 Estamos disponibilizando todas ISOs para x86_64, bem como as
 principais para aarch64 (UEFI Arm). Voluntários podem levar ISOs extras,
