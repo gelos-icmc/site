@@ -30,6 +30,6 @@ Não é necessário inscrição prévia. Basta comparecer no dia e horário marc
 
 Esperamos por você!
 
-Verifique também próximos workshops na nossa [página de minicursos](/projetos/workshops)
+Verifique também próximos workshops na nossa [página de minicursos](/projetos/workshops.html)
 
 ![Flyer do evento, contendo as informações acima sobre um fundo azul degradê](/assets/static/workshops/AULA 1.png)
