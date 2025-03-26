@@ -1,0 +1,96 @@
+  
+- name: Fedora KDE 41-1.4 (x86_64)
+  size: 2.6GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-41-1.4.iso
+  filename: Fedora-KDE-Live-x86_64-41-1.4.iso
+  sha256: 9a4dc999cb2b8345b4970f7ff6480a0f7589ef2e74f753aa04a54932c4946ec3
+
+- name: Fedora KDE 41-1.4 (aarch64)
+  size: 2.6GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/aarch64/iso/Fedora-KDE-Live-aarch64-41-1.4.iso
+  filename: Fedora-KDE-Live-aarch64-41-1.4.iso
+  sha256: 83407f03d4ff351d869f4706bf513e07bb7c735f38b5e7733c20e841a45ea4ab
+
+- name: Fedora Xfce 41-1.4 
+  size: 1.8GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-41-1.4.iso
+  filename: Fedora-Xfce-Live-x86_64-41-1.4.iso
+  sha256: 627babeab82b37fea2a1392f9fa4b7ed4e180b1d93d000dcc49666cdd7c4e92f
+
+- name: Fedora Workstation 41-1.4
+  size: 2.3GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-41-1.4.iso
+  filename: Fedora-Workstation-Live-x86_64-41-1.4.iso
+  sha256: a2dd3caf3224b8f3a640d9e31b1016d2a4e98a6d7cb435a1e2030235976d6da2
+
+- name: openSUSE Tumbleweed 20250321 (x86_64)
+  size: 4.3GB
+  link: https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
+  filename: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20250321-Media.iso
+  sha256: 8d1ba9fd6d5af34965e5fc3b8f69399874a02c40285e2affb1b8eda4fcdc6f70
+
+- name: openSUSE Tumbleweed 20250317 (aarch64)
+  size: 3.6GB
+  link: https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso
+  filename: openSUSE-Tumbleweed-DVD-aarch64-Snapshot20250317-Media.iso
+  sha256: 9843bb5f22a50ca728f3bdfe0a346c5059d381768352ed8667ae6a59a6b7357f
+
+- name: NixOS 24.11 (x86_64)
+  size: 3.0GB
+  link: https://releases.nixos.org/nixos/24.11/nixos-24.11.715908.7105ae395770/nixos-plasma6-24.11.715908.7105ae395770-x86_64-linux.iso
+  filename: nixos-plasma6-24.11.715908.7105ae395770-x86_64-linux.iso
+  sha256: 097abd28771e7ef0fb18ffb7718812a9ce28b5be723806935fbe2e824a5878a4
+
+- name: NixOS 24.11 (aarch64)
+  size: 3.1GB
+  link: https://releases.nixos.org/nixos/24.11/nixos-24.11.715908.7105ae395770/nixos-plasma6-24.11.715908.7105ae395770-aarch64-linux.iso
+  filename: nixos-plasma6-24.11.715908.7105ae395770-aarch64-linux.iso
+  sha256: 9db7f57c86e92d2dc40e132d35aa4cd26a061e54f6f947cd060a5c87212d4e86
+
+- name: Linux Mint 22.1 Cinnamon
+  size: 2.8GB
+  link: https://mirror.ufscar.br/mint-cd/stable/22.1/linuxmint-22.1-cinnamon-64bit.iso
+  filename: linuxmint-22.1-cinnamon-64bit.iso
+  sha256: ccf482436df954c0ad6d41123a49fde79352ca71f7a684a97d5e0a0c39d7f39f
+
+- name: EndeavourOS Mercury Neo 2025.03.19
+  size: 2.9GB
+  link: https://mirror.leitecastro.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
+  filename: EndeavourOS_Mercury-Neo-2025.03.19.iso
+  sha256: 79719b8de4c517edb54c8380cd65e4bae470eec701235fa718157c199c29ebba
+
+- name: Debian 12.10.0
+  size: 3.7GB
+  link: https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.10.0-amd64-DVD-1.iso
+  filename: debian-12.10.0-amd64-DVD-1.iso
+  sha256: eb5034ff88a20c176066a670268f22e3f681117189c03bdae964566995652181
+
+- name: PopOS 22.04_38
+  size: 2.6GB
+  link: https://iso.pop-os.org/22.04/amd64/intel/51/pop-os_22.04_amd64_intel_51.iso
+  filename: pop-os_22.04_amd64_intel_51.iso
+  sha256: 5621e7544a00c1e358d667ce36eb5ae0741fe63431c92cf68c17ff66630b5ded
+
+- name: ZorinOS 17.2
+  size: 3.3GB
+  link: https://mirrors.edge.kernel.org/zorinos-isos/17/Zorin-OS-17.2-Core-64-bit.iso
+  filename: Zorin-OS-17.2-Core-64-bit.iso
+  sha256: e68d49172964e4d0aa39ac1d77674d724b0b835658836a56fc1b318680deaed6
+
+- name: Arch Linux 2025.03.01
+  size: 1.2GB
+  link: https://mirror.ufscar.br/archlinux/iso/2025.03.01/archlinux-2025.03.01-x86_64.iso
+  filename: archlinux-2025.03.01-x86_64.iso
+  sha256: 8150e3c1a479de9134baa13cea4ff78856cca5ebeb9bdfa87ecfce2e47ac9b5b
+
+- name: Alpine Linux 3.21.3
+  size: 0.25GB
+  link: https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-standard-3.21.3-x86_64.iso
+  filename: alpine-standard-3.21.3-x86_64.iso
+  sha256: e5a5b9f57e9c258b69f9e3eecf10a169f7186cb1520c14fc955115099bea2a50
+
+- name: Ubuntu 24.10
+  size: 5.3GB
+  link: https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso
+  filename: ubuntu-24.10-desktop-amd64.iso
+  sha256: 489079483487f92ad0d2f3d4b6c88a7b197969eb286b277534047920854a8b03

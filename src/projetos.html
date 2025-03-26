@@ -18,7 +18,7 @@ collection_src: projects
 {% for post in permanent_projects %}{% include listagem.html element="h3" %}{% endfor %}
 
 {% assign in_progress_projects = site.projects | where:"state","in_progress" %}
-{% for post in in_progressos_projects %}{% include listagem.html element="h3" %}{% endfor %}
+{% for post in in_progress_projects %}{% include listagem.html element="h3" %}{% endfor %}
 </section>
 
 <section id="em-concepcao">
