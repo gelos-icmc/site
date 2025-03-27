@@ -71,12 +71,6 @@
   filename: pop-os_22.04_amd64_intel_51.iso
   sha256: 5621e7544a00c1e358d667ce36eb5ae0741fe63431c92cf68c17ff66630b5ded
 
-- name: ZorinOS 17.2
-  size: 3.3GB
-  link: https://mirrors.edge.kernel.org/zorinos-isos/17/Zorin-OS-17.2-Core-64-bit.iso
-  filename: Zorin-OS-17.2-Core-64-bit.iso
-  sha256: e68d49172964e4d0aa39ac1d77674d724b0b835658836a56fc1b318680deaed6
-
 - name: Arch Linux 2025.03.01
   size: 1.2GB
   link: https://mirror.ufscar.br/archlinux/iso/2025.03.01/archlinux-2025.03.01-x86_64.iso
@@ -88,6 +82,12 @@
   link: https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-standard-3.21.3-x86_64.iso
   filename: alpine-standard-3.21.3-x86_64.iso
   sha256: e5a5b9f57e9c258b69f9e3eecf10a169f7186cb1520c14fc955115099bea2a50
+
+- name: Chimera Linux 17.2
+  size: 2.1GB
+  link: https://repo.chimera-linux.org/live/20250214/chimera-linux-x86_64-LIVE-20250214-plasma.iso
+  filename: chimera-linux-x86_64-LIVE-20250214-plasma.iso
+  sha256: 1d1e966e8ec4387edbafcb60a31394630b541ed484567c8eaf681576976a89bc
 
 - name: Ubuntu 24.10
   size: 5.3GB
