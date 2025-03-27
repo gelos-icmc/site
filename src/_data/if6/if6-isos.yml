@@ -49,7 +49,7 @@
 
 - name: Linux Mint 22.1 Cinnamon
   size: 2.8GB
-  link: https://mirror.ufscar.br/mint-cd/stable/22.1/linuxmint-22.1-cinnamon-64bit.iso
+  link: https://mint.c3sl.ufpr.br/stable/22.1/linuxmint-22.1-cinnamon-64bit.iso
   filename: linuxmint-22.1-cinnamon-64bit.iso
   sha256: ccf482436df954c0ad6d41123a49fde79352ca71f7a684a97d5e0a0c39d7f39f
 
@@ -73,7 +73,7 @@
 
 - name: Arch Linux 2025.03.01
   size: 1.2GB
-  link: https://mirror.ufscar.br/archlinux/iso/2025.03.01/archlinux-2025.03.01-x86_64.iso
+  link: https://mirrors.ic.unicamp.br/archlinux/iso/2025.03.01/archlinux-2025.03.01-x86_64.iso
   filename: archlinux-2025.03.01-x86_64.iso
   sha256: 8150e3c1a479de9134baa13cea4ff78856cca5ebeb9bdfa87ecfce2e47ac9b5b
 
