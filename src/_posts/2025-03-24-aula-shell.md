@@ -20,7 +20,7 @@ Nesta aula, exploraremos os fundamentos do shell, comandos essenciais e técnica
 
 Mapa:
 
-<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-47.900444269180305%2C-22.009175895145603%2C-47.8961044549942%2C-22.006980086765147&amp;layer=mapnik&amp;marker=-22.00807799520707%2C-47.89827436208725" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-22.008078&amp;mlon=-47.898274#map=19/-22.008078/-47.898274&amp;layers=N">Ver mapa ampliado</a></small>
+<iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-47.900444269180305%2C-22.009175895145603%2C-47.8961044549942%2C-22.006980086765147&amp;layer=mapnik&amp;marker=-22.00807799520707%2C-47.89827436208725" style="border: 1px solid black; width: 100%"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-22.008078&amp;mlon=-47.898274#map=19/-22.008078/-47.898274&amp;layers=N">Ver mapa ampliado</a></small>
 
 
 
