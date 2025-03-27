@@ -72,8 +72,8 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 ### Pré evento
 
 - [x] Reservar espaço
-- [ ] Post de divulgação
-    - [ ] Conferir data pra postar (jekyll n posta post com data futura)
+- [x] Post de divulgação
+    - [x] Conferir data pra postar (jekyll n posta post com data futura)
 - [ ] Flyer
     - [x] Preparar
     - [ ] Imprimir
