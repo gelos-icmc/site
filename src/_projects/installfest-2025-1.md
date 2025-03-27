@@ -72,8 +72,8 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 ### Pré evento
 
 - [x] Reservar espaço
-- [ ] Post de divulgação
-    - [ ] Conferir data pra postar (jekyll n posta post com data futura)
+- [x] Post de divulgação
+    - [x] Conferir data pra postar (jekyll n posta post com data futura)
 - [ ] Flyer
     - [x] Preparar
     - [ ] Imprimir
@@ -104,6 +104,16 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 ### Pós evento
 
 - [ ] Levantar números (instalações, pessoas presentes, etc)
+
+## Data e Local
+
+- 📅 Data: 10/04/2025
+- 🕒 Horário: 14h-19h
+- 📍 Local: Vão da Biblioteca (ICMC-USP)
+
+Mapa:
+
+<iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-47.89704591035843%2C-22.00876558246043%2C-47.89270609617233%2C-22.006569767724148&amp;layer=mapnik&amp;marker=-22.007668922727124%2C-47.89487600326538" style="border: 1px solid black; width: 100%"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-22.007669&amp;mlon=-47.894876#map=19/-22.007668/-47.894876&amp;layers=N">Ver mapa ampliado</a></small>
 
 ## Flyer
 
