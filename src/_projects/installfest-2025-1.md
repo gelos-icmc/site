@@ -83,7 +83,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 - [ ] Divulgar nas listas
     - IFSC
       - [x] Solicitar
-      - [ ] Done
+      - [x] Done
     - ICMC
       - [x] Solicitar
       - [ ] Done
