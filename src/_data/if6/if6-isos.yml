@@ -23,17 +23,11 @@
   filename: Fedora-Workstation-Live-x86_64-41-1.4.iso
   sha256: a2dd3caf3224b8f3a640d9e31b1016d2a4e98a6d7cb435a1e2030235976d6da2
 
-- name: openSUSE Tumbleweed 20250321 (x86_64)
+- name: openSUSE Tumbleweed 20250321
   size: 4.3GB
   link: https://s.natanbc.net/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20250325-Media.iso
   filename: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20250325-Media.iso
   sha256: 2924be5ffdec5e3dd959a97138eb3737c7cd27c538b153d952aedfce29a17236
-
-- name: openSUSE Tumbleweed 20250317 (aarch64)
-  size: 3.6GB
-  link: https://cvws.icloud-content.com/B/AdK_zhf8BaRXVHg4ZRQrn-fQSOV9AYNXBIEAhhX8EVAjxvJosVe4x3CR/openSUSE-Tumbleweed-DVD-aarch64-Snapshot20250324-Media.iso?o=AnCNSJYvCOvMVa6KxSCl4gXzpZqKM6i5ruXACcGae09g&v=1&x=3&a=CAog9K_p3d05b3rmWnJlHGI4LVq5YTHbYbeo9p387XUiT94SbRD5oObQ3TIY-f3B0t0yIgEAUgTQSOV9WgS4x3CRaiZUYAP1eKBs9Zzo0q4S4_kZ2QMYc8816jiRAiPzwxzdd8yXNzV_sHIm5ikMuaJ-BfOBDIwOP-0wfWhd_AygKuEXMzrptgh5Q4XJGimc3PA&e=1743124463&fl=&r=e39c56a3-4ba6-45e7-9b87-061250b0936d-1&k=Pg4JogjJc0FExxCwVT7VCg&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=182&s=zFiCQFBoqA3JNaXQLWngGAplyLM&+=f82cd29e-5569-40a6-a44f-93e2003ffc44
-  filename: openSUSE-Tumbleweed-DVD-aarch64-Snapshot20250324-Media.iso
-  sha256: 234f577e0415655e7d6c60a14807ec69b5496e2ad43613bda091c4f4d1ad3ef0
 
 - name: NixOS 24.11 (x86_64)
   size: 3.0GB
