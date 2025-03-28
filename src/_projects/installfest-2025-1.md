@@ -78,7 +78,8 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] Preparar
     - [ ] Imprimir
     - [ ] Colar
-- [ ] Fazer permalink /if6 para pag no blog
+- [x] Fazer permalink /if6 para pag no blog
+- [ ] Arrumar permalink /if6 para pag no blog
 - [ ] Divulgar nas listas
     - [ ] IFSC
     - [ ] ICMC
@@ -87,9 +88,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] ICMC
     - [ ] EESC
     - [ ] IAU
-- [ ] ISOs
-    - [ ] Terminar de atualizar tabela com links e checksums atuais
-    - [ ] Mirror das isos do openSUSE
+- [x] ISOs
+    - [x] Terminar de atualizar tabela com links e checksums atuais
+    - [x] Mirror das isos do openSUSE
     - [x] Criar arquivo com checksums
 - [ ] Levantar pessoas
     - [ ] Preencher tabela de voluntários
