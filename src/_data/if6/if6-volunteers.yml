@@ -16,4 +16,11 @@
     - descricao: SanDisk vermelho e preto
       tamanho: 16GB
       isos: Fedora (Gnome e KDE), Ubuntu, Mint
-      
+
+- nome: Silmar
+  email: silmar.junior@usp.br
+  horarios: 16:00 ~ 19:00
+  pendrives:
+    - descricao: SanDisk vermelho e preto
+      tamanho: 32GB
+      isos: Fedora workstation, openSUSE, Nixos (x86_64), EndeavorOS, Debian, PopOS, Ubuntu, Alpine
