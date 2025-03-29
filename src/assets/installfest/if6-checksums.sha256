@@ -1,5 +1,0 @@
----
----
-{%- for iso in site.data.if6.if6-isos -%}
-{{ iso["sha256"] }}  {{ iso["filename"] }}
-{% endfor -%}

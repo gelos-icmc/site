@@ -1,8 +1,0 @@
-name: Deploy
-on:
-  push:
-    branches: [main]
-jobs:
-  deploy:
-    uses: gelos-icmc/actions/.github/workflows/deploy.yml@main
-    secrets: inherit
